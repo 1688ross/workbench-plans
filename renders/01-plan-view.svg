@@ -1,0 +1,235 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 780' width='900' height='780' font-family='Inter, Helvetica, Arial, sans-serif'>
+<rect width='900' height='780' fill='#fafafa'/>
+<text x='20.0' y='34.0' font-size='16' fill='#222' text-anchor='start' font-weight='bold' >PLAN VIEW  -  station layout (looking down, north = up)</text>
+<text x='20.0' y='54.0' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >Island 96 x 48 in, miter wing 36 x 96 in, top 34 in = SawStop table height.  Scale: 1 in = 5 px</text>
+<rect x='140.0' y='280.0' width='220.0' height='240.0' rx='0' fill='#dbeafe' stroke='none' stroke-width='1' />
+<rect x='360.0' y='370.0' width='260.0' height='150.0' rx='0' fill='#fde68a' stroke='none' stroke-width='1' />
+<rect x='360.0' y='280.0' width='260.0' height='90.0' rx='0' fill='#dcfce7' stroke='none' stroke-width='1' />
+<rect x='620.0' y='280.0' width='180.0' height='240.0' rx='0' fill='#fce7f3' stroke='none' stroke-width='1' />
+<rect x='620.0' y='520.0' width='180.0' height='240.0' rx='0' fill='#ede9fe' stroke='none' stroke-width='1' />
+<rect x='140.0' y='280.0' width='480.0' height='240.0' rx='0' fill='none' stroke='#111' stroke-width='2' />
+<rect x='620.0' y='280.0' width='180.0' height='480.0' rx='0' fill='none' stroke='#111' stroke-width='2' />
+<line x1='620.0' y1='520.0' x2='620.0' y2='280.0' stroke='#111' stroke-width='0.6' stroke-dasharray='4 3'/>
+<rect x='190.0' y='140.0' width='345.0' height='135.0' rx='0' fill='#d4d7dc' stroke='#333' stroke-width='1.2' />
+<rect x='190.0' y='140.0' width='125.0' height='135.0' rx='0' fill='#e9ebee' stroke='#333' stroke-width='0.8' />
+<rect x='165.0' y='127.5' width='385.0' height='12.5' rx='0' fill='#777' stroke='none' stroke-width='1' />
+<rect x='165.0' y='267.5' width='385.0' height='12.5' rx='0' fill='#777' stroke='none' stroke-width='1' />
+<line x1='425.0' y1='235.0' x2='425.0' y2='180.0' stroke='#111' stroke-width='3' />
+<line x1='397.5' y1='275.0' x2='397.5' y2='140.0' stroke='#444' stroke-width='2' />
+<line x1='397.5' y1='280.0' x2='397.5' y2='380.0' stroke='#15803d' stroke-width='2' stroke-dasharray='5 3'/>
+<line x1='452.5' y1='275.0' x2='452.5' y2='140.0' stroke='#444' stroke-width='2' />
+<line x1='452.5' y1='280.0' x2='452.5' y2='380.0' stroke='#15803d' stroke-width='2' stroke-dasharray='5 3'/>
+<rect x='360.0' y='125.0' width='12.5' height='150.0' rx='0' fill='#fbbf24' stroke='#333' stroke-width='0.8' />
+<rect x='298.4' y='149.0' width='263.2' height='17.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='430.0' y='160.0' font-size='11' fill='#111' text-anchor='middle' font-weight='normal' >SawStop 10&quot; Contractor Saw + 36&quot; T-Glide</text>
+<rect x='196.4' y='236.0' width='107.2' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='250.0' y='245.0' font-size='9' fill='#444' text-anchor='middle' font-weight='normal' >36&quot; extension table</text>
+<rect x='354.3' y='102.5' width='141.4' height='16.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='425.0' y='112.5' font-size='10' fill='#15803d' text-anchor='middle' font-weight='normal' >OPERATOR feeds south  v</text>
+<rect x='457.9' y='236.0' width='34.1' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='475.0' y='245.0' font-size='9' fill='#444' text-anchor='middle' font-weight='normal' >blade</text>
+<circle cx='160.0' cy='500.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='160.0' cy='480.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='160.0' cy='460.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='160.0' cy='440.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='160.0' cy='420.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='160.0' cy='400.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='160.0' cy='380.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='160.0' cy='360.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='160.0' cy='340.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='160.0' cy='320.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='160.0' cy='300.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='180.0' cy='500.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='180.0' cy='480.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='180.0' cy='460.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='180.0' cy='440.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='180.0' cy='420.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='180.0' cy='400.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='180.0' cy='380.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='180.0' cy='360.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='180.0' cy='340.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='180.0' cy='320.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='180.0' cy='300.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='200.0' cy='500.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='200.0' cy='480.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='200.0' cy='460.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='200.0' cy='440.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='200.0' cy='420.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='200.0' cy='400.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='200.0' cy='380.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='200.0' cy='360.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='200.0' cy='340.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='200.0' cy='320.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='200.0' cy='300.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='220.0' cy='500.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='220.0' cy='480.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='220.0' cy='460.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='220.0' cy='440.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='220.0' cy='420.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='220.0' cy='400.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='220.0' cy='380.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='220.0' cy='360.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='220.0' cy='340.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='220.0' cy='320.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='220.0' cy='300.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='240.0' cy='500.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='240.0' cy='480.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='240.0' cy='460.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='240.0' cy='440.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='240.0' cy='420.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='240.0' cy='400.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='240.0' cy='380.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='240.0' cy='360.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='240.0' cy='340.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='240.0' cy='320.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='240.0' cy='300.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='260.0' cy='500.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='260.0' cy='480.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='260.0' cy='460.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='260.0' cy='440.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='260.0' cy='420.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='260.0' cy='400.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='260.0' cy='380.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='260.0' cy='360.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='260.0' cy='340.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='260.0' cy='320.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='260.0' cy='300.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='280.0' cy='500.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='280.0' cy='480.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='280.0' cy='460.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='280.0' cy='440.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='280.0' cy='420.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='280.0' cy='400.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='280.0' cy='380.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='280.0' cy='360.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='280.0' cy='340.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='280.0' cy='320.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='280.0' cy='300.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='300.0' cy='500.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='300.0' cy='480.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='300.0' cy='460.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='300.0' cy='440.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='300.0' cy='420.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='300.0' cy='400.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='300.0' cy='380.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='300.0' cy='360.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='300.0' cy='340.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='300.0' cy='320.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='300.0' cy='300.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='320.0' cy='500.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='320.0' cy='480.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='320.0' cy='460.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='320.0' cy='440.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='320.0' cy='420.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='320.0' cy='400.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='320.0' cy='380.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='320.0' cy='360.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='320.0' cy='340.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='320.0' cy='320.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='320.0' cy='300.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='340.0' cy='500.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='340.0' cy='480.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='340.0' cy='460.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='340.0' cy='440.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='340.0' cy='420.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='340.0' cy='400.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='340.0' cy='380.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='340.0' cy='360.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='340.0' cy='340.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='340.0' cy='320.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='340.0' cy='300.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='380.0' cy='505.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='420.0' cy='505.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='460.0' cy='505.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='500.0' cy='505.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='540.0' cy='505.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<circle cx='580.0' cy='505.0' r='2.48' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<rect x='145.0' y='487.5' width='40.0' height='25.0' rx='0' fill='#94a3b8' stroke='#333' stroke-width='1' />
+<rect x='250.0' y='520.0' width='50.0' height='12.5' rx='0' fill='#94a3b8' stroke='#333' stroke-width='1' />
+<rect x='247.5' y='541.0' width='55.0' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='275.0' y='550.0' font-size='9' fill='#444' text-anchor='middle' font-weight='normal' >face vise</text>
+<rect x='134.9' y='541.0' width='60.2' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='165.0' y='550.0' font-size='9' fill='#444' text-anchor='middle' font-weight='normal' >wagon vise</text>
+<rect x='440.6' y='421.9' width='58.8' height='46.2' rx='0' fill='#fff7ed' stroke='#b45309' stroke-width='1.5' />
+<circle cx='470.0' cy='445.0' r='8.00' fill='#fde68a' stroke='#b45309' stroke-width='1' />
+<line x1='370.0' y1='500.0' x2='570.0' y2='500.0' stroke='#b45309' stroke-width='3' />
+<line x1='370.0' y1='390.0' x2='570.0' y2='390.0' stroke='#b45309' stroke-width='3' />
+<line x1='370.0' y1='500.0' x2='370.0' y2='390.0' stroke='#b45309' stroke-width='3' />
+<line x1='570.0' y1='500.0' x2='570.0' y2='390.0' stroke='#b45309' stroke-width='3' />
+<rect x='421.6' y='401.0' width='96.7' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='470.0' y='410.0' font-size='9' fill='#7c2d12' text-anchor='middle' font-weight='normal' >router lift plate</text>
+<rect x='432.1' y='368.5' width='75.9' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='470.0' y='377.5' font-size='9' fill='#7c2d12' text-anchor='middle' font-weight='normal' >fence T-track</text>
+<rect x='625.0' y='565.0' width='135.0' height='150.0' rx='0' fill='#f5f3ff' stroke='#6d28d9' stroke-width='1.2' stroke-dasharray='4 2'/>
+<rect x='635.0' y='585.0' width='110.0' height='110.0' rx='0' fill='#c4b5fd' stroke='#4c1d95' stroke-width='1' />
+<line x1='700.0' y1='695.0' x2='700.0' y2='585.0' stroke='#4c1d95' stroke-width='2' />
+<line x1='645.0' y1='640.0' x2='745.0' y2='640.0' stroke='#4c1d95' stroke-width='3' />
+<rect x='760.0' y='555.0' width='40.0' height='170.0' rx='0' fill='#7c3aed' stroke='#4c1d95' stroke-width='1' />
+<rect x='579.0' y='741.0' width='222.0' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='690.0' y='750.0' font-size='9' fill='#3b0764' text-anchor='middle' font-weight='normal' >12&quot; miter saw in well, bed flush with top</text>
+<rect x='752.5' y='521.0' width='55.0' height='15.0' rx='3' fill='#6d28d9' stroke='none' stroke-width='1' />
+<text x='780.0' y='530.0' font-size='9' fill='#fff' text-anchor='middle' font-weight='normal' >dust hood</text>
+<rect x='630.0' y='760.0' width='160.0' height='180.0' rx='0' fill='none' stroke='#6d28d9' stroke-width='1' stroke-dasharray='6 3'/>
+<rect x='609.4' y='841.0' width='201.1' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='710.0' y='850.0' font-size='9' fill='#3b0764' text-anchor='middle' font-weight='normal' >telescoping extension  (36&quot; pull-out)</text>
+<rect x='614.6' y='361.0' width='190.7' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='710.0' y='370.0' font-size='9' fill='#3b0764' text-anchor='middle' font-weight='normal' >north end of wing = 87&quot; of built-in</text>
+<rect x='646.0' y='391.0' width='128.1' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='710.0' y='400.0' font-size='9' fill='#3b0764' text-anchor='middle' font-weight='normal' >left-side board support</text>
+<rect x='547.0' y='630.0' width='66.0' height='16.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='580.0' y='640.0' font-size='10' fill='#6d28d9' text-anchor='middle' font-weight='normal' >OPERATOR ></text>
+<circle cx='600.0' cy='280.0' r='15.00' fill='#f97316' stroke='#7c2d12' stroke-width='1.5' />
+<rect x='583.8' y='246.0' width='232.5' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='700.0' y='255.0' font-size='9' fill='#7c2d12' text-anchor='middle' font-weight='normal' >6&quot; dust port + power inlet (utility corner)</text>
+<rect x='141.6' y='280.0' width='216.8' height='16.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='250.0' y='290.0' font-size='10' fill='#1d4ed8' text-anchor='middle' font-weight='normal' >A  WORKBENCH / DOWNDRAFT (dog field)</text>
+<rect x='367.1' y='310.0' width='245.8' height='16.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='490.0' y='320.0' font-size='10' fill='#15803d' text-anchor='middle' font-weight='normal' >B  OUTFEED zone (grooves for miter gauge)</text>
+<rect x='436.7' y='467.5' width='106.6' height='16.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='490.0' y='477.5' font-size='10' fill='#b45309' text-anchor='middle' font-weight='normal' >C  ROUTER STATION</text>
+<rect x='645.1' y='470.0' width='129.8' height='16.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='710.0' y='480.0' font-size='10' fill='#be185d' text-anchor='middle' font-weight='normal' >D  GLUE-UP / ASSEMBLY</text>
+<rect x='659.6' y='575.0' width='100.8' height='16.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='710.0' y='585.0' font-size='10' fill='#6d28d9' text-anchor='middle' font-weight='normal' >E  MITER STATION</text>
+<rect x='229.3' y='579.0' width='301.5' height='17.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='380.0' y='590.0' font-size='11' fill='#334155' text-anchor='middle' font-weight='normal' >ALCOVE  (inside of the L, 96 x 48 in of floor)</text>
+<line x1='140.0' y1='565.0' x2='620.0' y2='565.0' stroke='#555' stroke-width='0.8' />
+<line x1='140.0' y1='561.0' x2='140.0' y2='569.0' stroke='#555' stroke-width='0.8' />
+<line x1='620.0' y1='561.0' x2='620.0' y2='569.0' stroke='#555' stroke-width='0.8' />
+<rect x='366.4' y='551.0' width='27.1' height='17.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='380.0' y='562.0' font-size='11' fill='#555' text-anchor='middle' font-weight='normal' >96&quot;</text>
+<line x1='620.0' y1='777.0' x2='800.0' y2='777.0' stroke='#555' stroke-width='0.8' />
+<line x1='620.0' y1='773.0' x2='620.0' y2='781.0' stroke='#555' stroke-width='0.8' />
+<line x1='800.0' y1='773.0' x2='800.0' y2='781.0' stroke='#555' stroke-width='0.8' />
+<rect x='696.4' y='763.0' width='27.1' height='17.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='710.0' y='774.0' font-size='11' fill='#555' text-anchor='middle' font-weight='normal' >36&quot;</text>
+<line x1='115.0' y1='280.0' x2='115.0' y2='520.0' stroke='#555' stroke-width='0.8' />
+<line x1='111.0' y1='280.0' x2='119.0' y2='280.0' stroke='#555' stroke-width='0.8' />
+<line x1='111.0' y1='520.0' x2='119.0' y2='520.0' stroke='#555' stroke-width='0.8' />
+<text x='111.0' y='400.0' font-size='11' fill='#555' text-anchor='middle' transform='rotate(-90 111.0 400.0)'>48"</text>
+<line x1='825.0' y1='280.0' x2='825.0' y2='760.0' stroke='#555' stroke-width='0.8' />
+<line x1='821.0' y1='280.0' x2='829.0' y2='280.0' stroke='#555' stroke-width='0.8' />
+<line x1='821.0' y1='760.0' x2='829.0' y2='760.0' stroke='#555' stroke-width='0.8' />
+<text x='821.0' y='520.0' font-size='11' fill='#555' text-anchor='middle' transform='rotate(-90 821.0 520.0)'>96"</text>
+<line x1='190.0' y1='85.0' x2='535.0' y2='85.0' stroke='#555' stroke-width='0.8' />
+<line x1='190.0' y1='81.0' x2='190.0' y2='89.0' stroke='#555' stroke-width='0.8' />
+<line x1='535.0' y1='81.0' x2='535.0' y2='89.0' stroke='#555' stroke-width='0.8' />
+<rect x='291.8' y='72.0' width='141.4' height='16.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='362.5' y='82.0' font-size='10' fill='#555' text-anchor='middle' font-weight='normal' >69-1/8&quot; saw + extension</text>
+<line x1='535.0' y1='225.0' x2='620.0' y2='225.0' stroke='#555' stroke-width='0.8' />
+<line x1='535.0' y1='221.0' x2='535.0' y2='229.0' stroke='#555' stroke-width='0.8' />
+<line x1='620.0' y1='221.0' x2='620.0' y2='229.0' stroke='#555' stroke-width='0.8' />
+<rect x='555.2' y='213.0' width='44.5' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='577.5' y='222.0' font-size='9' fill='#555' text-anchor='middle' font-weight='normal' >17&quot; gap</text>
+<text x='20.0' y='640.0' font-size='12' fill='#222' text-anchor='start' font-weight='bold' >Legend</text>
+<rect x='20.0' y='650.0' width='12.0' height='12.0' rx='0' fill='#1d4ed8' stroke='none' stroke-width='1' />
+<text x='38.0' y='660.0' font-size='11' fill='#333' text-anchor='start' font-weight='normal' >3/4&quot; dog holes (4&quot; grid) - field doubles as downdraft grid</text>
+<rect x='20.0' y='668.0' width='12.0' height='12.0' rx='0' fill='#b45309' stroke='none' stroke-width='1' />
+<text x='38.0' y='678.0' font-size='11' fill='#333' text-anchor='start' font-weight='normal' >T-track around router plate</text>
+<rect x='20.0' y='686.0' width='12.0' height='12.0' rx='0' fill='#15803d' stroke='none' stroke-width='1' />
+<text x='38.0' y='696.0' font-size='11' fill='#333' text-anchor='start' font-weight='normal' >outfeed grooves aligned to miter slots</text>
+<rect x='20.0' y='704.0' width='12.0' height='12.0' rx='0' fill='#6d28d9' stroke='none' stroke-width='1' />
+<text x='38.0' y='714.0' font-size='11' fill='#333' text-anchor='start' font-weight='normal' >miter saw well, hood and pull-out</text>
+<rect x='20.0' y='722.0' width='12.0' height='12.0' rx='0' fill='#f97316' stroke='none' stroke-width='1' />
+<text x='38.0' y='732.0' font-size='11' fill='#333' text-anchor='start' font-weight='normal' >single external dust-collector connection</text>
+</svg>

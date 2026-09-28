@@ -1,0 +1,71 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 420' width='900' height='420' font-family='Inter, Helvetica, Arial, sans-serif'>
+<rect width='900' height='420' fill='#fafafa'/>
+<text x='20.0' y='30.0' font-size='16' fill='#222' text-anchor='start' font-weight='bold' >SOUTH ELEVATION  -  island front (left) and miter wing south end (right)</text>
+<text x='20.0' y='48.0' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >Modern flat fronts with routed finger pulls, no exposed hardware. Top 2-1/4&quot; hard maple, 34&quot; finished height.</text>
+<rect x='75.0' y='310.0' width='450.0' height='20.0' rx='0' fill='#1a1b1e' stroke='none' stroke-width='1' />
+<rect x='60.0' y='171.2' width='480.0' height='138.8' rx='0' fill='#2f3136' stroke='#111' stroke-width='1' />
+<rect x='55.0' y='160.0' width='490.0' height='11.2' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
+<rect x='555.0' y='310.0' width='150.0' height='20.0' rx='0' fill='#1a1b1e' stroke='none' stroke-width='1' />
+<rect x='540.0' y='171.2' width='180.0' height='138.8' rx='0' fill='#2f3136' stroke='#111' stroke-width='1' />
+<rect x='535.0' y='160.0' width='190.0' height='11.2' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
+<rect x='66.2' y='173.8' width='207.5' height='26.2' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.6' />
+<rect x='66.2' y='203.8' width='207.5' height='32.5' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.6' />
+<line x1='75.0' y1='208.5' x2='265.0' y2='208.5' stroke='#9a9ea6' stroke-width='1.2' />
+<rect x='66.2' y='240.0' width='207.5' height='33.8' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.6' />
+<line x1='75.0' y1='244.8' x2='265.0' y2='244.8' stroke='#9a9ea6' stroke-width='1.2' />
+<rect x='66.2' y='277.5' width='207.5' height='30.0' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.6' />
+<line x1='75.0' y1='282.2' x2='265.0' y2='282.2' stroke='#9a9ea6' stroke-width='1.2' />
+<rect x='276.2' y='173.8' width='52.5' height='133.8' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.6' />
+<line x1='324.0' y1='298.8' x2='324.0' y2='182.5' stroke='#9a9ea6' stroke-width='1.2' />
+<rect x='331.2' y='173.8' width='117.5' height='75.0' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.6' />
+<rect x='331.2' y='252.5' width='117.5' height='55.0' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.6' />
+<line x1='340.0' y1='257.2' x2='440.0' y2='257.2' stroke='#9a9ea6' stroke-width='1.2' />
+<rect x='380.0' y='187.5' width='20.0' height='12.5' rx='3' fill='#dc2626' stroke='#7f1d1d' stroke-width='1' />
+<line x1='340.0' y1='179.0' x2='360.0' y2='179.0' stroke='#9a9ea6' stroke-width='1.2' />
+<rect x='451.2' y='173.8' width='82.5' height='30.0' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.6' />
+<line x1='460.0' y1='178.5' x2='525.0' y2='178.5' stroke='#9a9ea6' stroke-width='1.2' />
+<rect x='451.2' y='207.5' width='82.5' height='36.2' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.6' />
+<line x1='460.0' y1='212.2' x2='525.0' y2='212.2' stroke='#9a9ea6' stroke-width='1.2' />
+<rect x='451.2' y='247.5' width='82.5' height='60.0' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.6' />
+<line x1='460.0' y1='252.2' x2='525.0' y2='252.2' stroke='#9a9ea6' stroke-width='1.2' />
+<rect x='170.0' y='160.5' width='50.0' height='42.0' rx='0' fill='#b5c1d1' stroke='#334155' stroke-width='1' />
+<circle cx='195.0' cy='190.0' r='5.50' fill='#64748b' stroke='#1e293b' stroke-width='1' />
+<line x1='195.0' y1='190.0' x2='195.0' y2='225.0' stroke='#1e293b' stroke-width='2.5' />
+<rect x='541.2' y='173.8' width='177.5' height='22.5' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.6' />
+<text x='560.0' y='188.5' font-size='8.5' fill='#c8ccd2' text-anchor='start' font-weight='normal' >pull-out extension (stowed)</text>
+<rect x='541.2' y='200.0' width='177.5' height='107.5' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.6' />
+<polygon points='570.0,160.0 690.0,160.0 690.0,140.0 650.0,140.0 650.0,80.0 600.0,80.0 600.0,140.0 570.0,140.0' fill='#c4b5fd' stroke='#4c1d95' stroke-width='1' stroke-linejoin='round' />
+<rect x='680.0' y='80.0' width='40.0' height='80.0' rx='0' fill='#7c3aed' stroke='#4c1d95' stroke-width='1' />
+<text x='565.0' y='110.0' font-size='8.5' fill='#3b0764' text-anchor='start' font-weight='normal' >miter saw (bed flush)</text>
+<text x='170.0' y='290.0' font-size='9' fill='#d5d8dd' text-anchor='middle' font-weight='normal' >A  hand-tool drawers</text>
+<text x='110.0' y='187.0' font-size='9' fill='#d5d8dd' text-anchor='middle' font-weight='normal' >downdraft plenum</text>
+<text x='302.5' y='240.0' font-size='9' fill='#d5d8dd' text-anchor='middle' font-weight='normal' >B</text>
+<text x='390.0' y='210.0' font-size='9' fill='#d5d8dd' text-anchor='middle' font-weight='normal' >C  router lift cabinet</text>
+<text x='390.0' y='280.0' font-size='9' fill='#d5d8dd' text-anchor='middle' font-weight='normal' >fence + accessories</text>
+<text x='492.5' y='188.5' font-size='9' fill='#d5d8dd' text-anchor='middle' font-weight='normal' >charging drawer</text>
+<text x='492.5' y='225.0' font-size='9' fill='#d5d8dd' text-anchor='middle' font-weight='normal' >D  drawers</text>
+<text x='492.5' y='277.5' font-size='9' fill='#d5d8dd' text-anchor='middle' font-weight='normal' >offcut tilt bin</text>
+<text x='302.5' y='260.0' font-size='8' fill='#d5d8dd' text-anchor='middle' font-weight='normal' >bit</text>
+<text x='302.5' y='272.5' font-size='8' fill='#d5d8dd' text-anchor='middle' font-weight='normal' >pull-</text>
+<text x='302.5' y='285.0' font-size='8' fill='#d5d8dd' text-anchor='middle' font-weight='normal' >out</text>
+<text x='630.0' y='260.0' font-size='9' fill='#d5d8dd' text-anchor='middle' font-weight='normal' >wing storage</text>
+<line x1='60.0' y1='377.0' x2='540.0' y2='377.0' stroke='#555' stroke-width='0.8' />
+<line x1='60.0' y1='373.0' x2='60.0' y2='381.0' stroke='#555' stroke-width='0.8' />
+<line x1='540.0' y1='373.0' x2='540.0' y2='381.0' stroke='#555' stroke-width='0.8' />
+<rect x='286.4' y='363.0' width='27.1' height='17.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='300.0' y='374.0' font-size='11' fill='#555' text-anchor='middle' font-weight='normal' >96&quot;</text>
+<line x1='540.0' y1='377.0' x2='720.0' y2='377.0' stroke='#555' stroke-width='0.8' />
+<line x1='540.0' y1='373.0' x2='540.0' y2='381.0' stroke='#555' stroke-width='0.8' />
+<line x1='720.0' y1='373.0' x2='720.0' y2='381.0' stroke='#555' stroke-width='0.8' />
+<rect x='616.4' y='363.0' width='27.1' height='17.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='630.0' y='374.0' font-size='11' fill='#555' text-anchor='middle' font-weight='normal' >36&quot;</text>
+<line x1='20.0' y1='160.0' x2='20.0' y2='330.0' stroke='#555' stroke-width='0.8' />
+<line x1='16.0' y1='160.0' x2='24.0' y2='160.0' stroke='#555' stroke-width='0.8' />
+<line x1='16.0' y1='330.0' x2='24.0' y2='330.0' stroke='#555' stroke-width='0.8' />
+<text x='16.0' y='245.0' font-size='11' fill='#555' text-anchor='middle' transform='rotate(-90 16.0 245.0)'>34"</text>
+<line x1='760.0' y1='160.0' x2='760.0' y2='171.2' stroke='#555' stroke-width='0.8' />
+<line x1='756.0' y1='160.0' x2='764.0' y2='160.0' stroke='#555' stroke-width='0.8' />
+<line x1='756.0' y1='171.2' x2='764.0' y2='171.2' stroke='#555' stroke-width='0.8' />
+<text x='756.0' y='165.6' font-size='9' fill='#555' text-anchor='middle' transform='rotate(-90 756.0 165.6)'>2-1/4"</text>
+<line x1='10.0' y1='330.0' x2='760.0' y2='330.0' stroke='#999' stroke-width='1' />
+</svg>
