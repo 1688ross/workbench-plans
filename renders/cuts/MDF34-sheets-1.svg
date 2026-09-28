@@ -1,0 +1,23 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1006.4000000000001 351.6' width='1006.4000000000001' height='351.6' font-family='Inter, Helvetica, Arial, sans-serif'>
+<rect width='1006.4000000000001' height='351.6' fill='#fafafa'/>
+<text x='20.0' y='30.0' font-size='16' fill='#222' text-anchor='start' font-weight='bold' >CUT DIAGRAM  -  3/4&quot; MDF (4x8)  -  sheets 1 to 2 of 2</text>
+<text x='20.0' y='50.0' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >2 sheets of 3/4&quot; MDF (4x8) in total. 1/8&quot; kerf allowed. Part IDs match docs/03-cut-list.md. Grey = offcut.</text>
+<rect x='40.0' y='80.0' width='403.2' height='201.6' rx='0' fill='#e5e7eb' stroke='#111' stroke-width='1.5' />
+<rect x='40.0' y='80.0' width='403.2' height='201.6' rx='0' fill='#fde68a' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='241.6' y='178.8' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >TOP-L1</text>
+<text x='241.6' y='190.8' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >96 x 48</text>
+<text x='40.0' y='297.6' font-size='12' fill='#111' text-anchor='start' font-weight='bold' >Sheet 1</text>
+<text x='110.0' y='297.6' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >100% used</text>
+<rect x='503.2' y='80.0' width='403.2' height='201.6' rx='0' fill='#e5e7eb' stroke='#111' stroke-width='1.5' />
+<rect x='503.2' y='80.0' width='403.2' height='88.2' rx='0' fill='#fde68a' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='704.8' y='122.1' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >TOP-L2</text>
+<text x='704.8' y='134.1' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >96 x 21</text>
+<rect x='503.2' y='168.7' width='100.8' height='100.8' rx='0' fill='#fde68a' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='553.6' y='217.1' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >LEAF-M</text>
+<text x='553.6' y='229.1' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >24 x 24</text>
+<rect x='604.5' y='168.7' width='100.8' height='100.8' rx='0' fill='#fde68a' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='654.9' y='217.1' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >LEAF-M</text>
+<text x='654.9' y='229.1' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >24 x 24</text>
+<text x='503.2' y='297.6' font-size='12' fill='#111' text-anchor='start' font-weight='bold' >Sheet 2</text>
+<text x='573.2' y='297.6' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >69% used</text>
+</svg>

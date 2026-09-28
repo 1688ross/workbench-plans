@@ -1,0 +1,76 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 970.0 520' width='970.0' height='520' font-family='Inter, Helvetica, Arial, sans-serif'>
+<rect width='970.0' height='520' fill='#fbfbfa'/>
+<text x='20.0' y='30.0' font-size='16' fill='#222' text-anchor='start' font-weight='bold' >SHEET 8  -  SECTION C-C  (north-south at x = 52, through the spine duct, SE cabinet, router cabinet, duct leg and motor bay; looking east)</text>
+<text x='20.0' y='50.0' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >The 4&quot; main and 2-1/2&quot; vac trunks run side by side in the spine at floor level. Every drop is a 45-degree wye with a blast gate. The table saw hose exits into the motor bay.</text>
+<text x='950.0' y='508.0' font-size='9' fill='#999' text-anchor='end' font-weight='normal' >workbench-plans  |  generated from tools/model.py  |  inches</text>
+<rect x='88.0' y='412.0' width='532.0' height='28.0' rx='0' fill='#333' stroke='#111' stroke-width='1' />
+<rect x='67.0' y='207.2' width='315.0' height='232.8' rx='0' fill='#f5f3ff' stroke='#6d28d9' stroke-width='0.6' stroke-dasharray='4 3'/>
+<text x='221.0' y='300.0' font-size='8' fill='#4c1d95' text-anchor='middle' font-weight='normal' >lift bay (beyond)</text>
+<rect x='67.0' y='356.0' width='553.0' height='56.0' rx='0' fill='#ffedd5' stroke='#c2410c' stroke-width='1' />
+<rect x='74.0' y='380.5' width='539.0' height='28.0' rx='0' fill='#fdba74' stroke='#c2410c' stroke-width='1' />
+<text x='340.0' y='398.0' font-size='8' fill='#7c2d12' text-anchor='middle' font-weight='normal' >4&quot; main trunk</text>
+<rect x='74.0' y='359.5' width='539.0' height='17.5' rx='0' fill='#fed7aa' stroke='#c2410c' stroke-width='1' />
+<text x='340.0' y='372.1' font-size='7' fill='#7c2d12' text-anchor='middle' font-weight='normal' >2-1/2&quot; vac trunk</text>
+<rect x='67.0' y='207.2' width='315.0' height='143.5' rx='0' fill='#fff' stroke='#333' stroke-width='0.7' />
+<rect x='67.0' y='350.8' width='315.0' height='5.2' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<text x='224.5' y='272.0' font-size='10' fill='#666' text-anchor='middle' font-weight='normal' >SE</text>
+<rect x='382.0' y='207.2' width='210.0' height='143.5' rx='0' fill='#fff' stroke='#333' stroke-width='0.7' />
+<rect x='382.0' y='350.8' width='210.0' height='5.2' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<text x='487.0' y='272.0' font-size='10' fill='#666' text-anchor='middle' font-weight='normal' >E2</text>
+<rect x='424.0' y='207.2' width='140.0' height='143.5' rx='0' fill='#fff7ed' stroke='#b45309' stroke-width='0.8' stroke-dasharray='4 3'/>
+<text x='494.0' y='244.0' font-size='7.5' fill='#7c2d12' text-anchor='middle' font-weight='normal' >router box</text>
+<rect x='452.9' y='196.8' width='82.2' height='2.6' rx='0' fill='#d1d5db' stroke='#374151' stroke-width='1' />
+<rect x='53.0' y='350.8' width='28.0' height='29.8' rx='0' fill='#fdba74' stroke='#c2410c' stroke-width='0.8' />
+<rect x='58.6' y='340.2' width='16.8' height='10.5' rx='0' fill='#dc2626' stroke='#7f1d1d' stroke-width='1' />
+<text x='67.0' y='321.0' font-size='6.5' fill='#7c2d12' text-anchor='middle' font-weight='normal' >Floor sweep</text>
+<rect x='256.0' y='350.8' width='28.0' height='29.8' rx='0' fill='#fdba74' stroke='#c2410c' stroke-width='0.8' />
+<rect x='261.6' y='340.2' width='16.8' height='10.5' rx='0' fill='#dc2626' stroke='#7f1d1d' stroke-width='1' />
+<text x='270.0' y='321.0' font-size='6.5' fill='#7c2d12' text-anchor='middle' font-weight='normal' >Miter hood</text>
+<rect x='480.0' y='350.8' width='28.0' height='29.8' rx='0' fill='#fdba74' stroke='#c2410c' stroke-width='0.8' />
+<rect x='485.6' y='340.2' width='16.8' height='10.5' rx='0' fill='#dc2626' stroke='#7f1d1d' stroke-width='1' />
+<text x='494.0' y='321.0' font-size='6.5' fill='#7c2d12' text-anchor='middle' font-weight='normal' >Router box</text>
+<rect x='536.0' y='350.8' width='28.0' height='29.8' rx='0' fill='#fdba74' stroke='#c2410c' stroke-width='0.8' />
+<rect x='541.6' y='340.2' width='16.8' height='10.5' rx='0' fill='#dc2626' stroke='#7f1d1d' stroke-width='1' />
+<text x='550.0' y='321.0' font-size='6.5' fill='#7c2d12' text-anchor='middle' font-weight='normal' >Downdraft plenum riser</text>
+<rect x='606.0' y='350.8' width='28.0' height='29.8' rx='0' fill='#fdba74' stroke='#c2410c' stroke-width='0.8' />
+<rect x='611.6' y='340.2' width='16.8' height='10.5' rx='0' fill='#dc2626' stroke='#7f1d1d' stroke-width='1' />
+<text x='620.0' y='321.0' font-size='6.5' fill='#7c2d12' text-anchor='middle' font-weight='normal' >Table saw</text>
+<rect x='233.2' y='350.8' width='17.5' height='8.8' rx='0' fill='#fed7aa' stroke='#c2410c' stroke-width='0.8' />
+<rect x='233.6' y='340.2' width='16.8' height='10.5' rx='0' fill='#dc2626' stroke='#7f1d1d' stroke-width='1' />
+<text x='242.0' y='321.0' font-size='6.5' fill='#7c2d12' text-anchor='middle' font-weight='normal' >Miter saw chute</text>
+<rect x='592.0' y='356.0' width='28.0' height='56.0' rx='0' fill='#ffedd5' stroke='#c2410c' stroke-width='1' />
+<text x='606.0' y='398.0' font-size='7' fill='#7c2d12' text-anchor='middle' font-weight='normal' >leg</text>
+<rect x='592.0' y='207.2' width='28.0' height='148.8' rx='0' fill='#fefce8' stroke='#713f12' stroke-width='0.6' stroke-dasharray='4 3'/>
+<text x='606.0' y='286.0' font-size='6.5' fill='#713f12' text-anchor='middle' font-weight='normal' >utility</text>
+<text x='606.0' y='303.5' font-size='6.5' fill='#713f12' text-anchor='middle' font-weight='normal' >column</text>
+<rect x='620.0' y='207.2' width='5.2' height='204.8' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<rect x='620.0' y='207.2' width='105.0' height='232.8' rx='0' fill='#fee2e2' stroke='#b91c1c' stroke-width='0.6' stroke-dasharray='4 3'/>
+<rect x='641.0' y='272.0' width='98.0' height='84.0' rx='0' fill='#e5e7eb' stroke='#444' stroke-width='1' stroke-dasharray='4 3'/>
+<text x='676.0' y='321.0' font-size='7' fill='#444' text-anchor='middle' font-weight='normal' >CNS motor (ghost)</text>
+<line x1='623.5' y1='384.0' x2='704.0' y2='384.0' stroke='#c2410c' stroke-width='4' stroke-dasharray='3 2'/>
+<text x='676.0' y='408.5' font-size='6.5' fill='#7c2d12' text-anchor='middle' font-weight='normal' >4&quot; hose to saw port</text>
+<rect x='256.0' y='207.2' width='280.0' height='21.0' rx='0' fill='none' stroke='none' stroke-width='1' />
+<rect x='564.0' y='207.2' width='168.0' height='21.0' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
+<text x='676.0' y='221.6' font-size='7' fill='#4a3a1e' text-anchor='middle' font-weight='normal' >beam</text>
+<rect x='60.0' y='202.0' width='672.0' height='5.2' rx='0' fill='#d9c9a8' stroke='#333' stroke-width='1' />
+<rect x='60.0' y='196.8' width='672.0' height='5.2' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<rect x='49.5' y='196.8' width='10.5' height='10.5' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
+<rect x='732.0' y='196.8' width='21.0' height='3.5' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
+<text x='742.5' y='186.2' font-size='6.5' fill='#4a3a1e' text-anchor='middle' font-weight='normal' >lip</text>
+<rect x='634.0' y='196.8' width='98.0' height='2.6' rx='0' fill='#c9c2b2' stroke='#6b5330' stroke-width='0.5' />
+<rect x='739.0' y='196.8' width='189.0' height='10.5' rx='0' fill='#e5e7eb' stroke='#666' stroke-width='1' stroke-dasharray='4 3'/>
+<text x='830.0' y='182.8' font-size='8' fill='#444' text-anchor='middle' font-weight='normal' >SawStop table (ghost)</text>
+<rect x='732.0' y='203.8' width='17.5' height='12.2' rx='0' fill='#888' stroke='#444' stroke-width='1' />
+<line x1='18.0' y1='440.0' x2='956.0' y2='440.0' stroke='#999' stroke-width='1' />
+<text x='60.0' y='510.0' font-size='9' fill='#666' text-anchor='start' font-weight='normal' >&lt; SOUTH</text>
+<text x='928.0' y='510.0' font-size='9' fill='#666' text-anchor='end' font-weight='normal' >NORTH ></text>
+<line x1='60.0' y1='482.0' x2='732.0' y2='482.0' stroke='#555' stroke-width='0.8' />
+<line x1='60.0' y1='478.0' x2='60.0' y2='486.0' stroke='#555' stroke-width='0.8' />
+<line x1='732.0' y1='478.0' x2='732.0' y2='486.0' stroke='#555' stroke-width='0.8' />
+<rect x='383.3' y='469.0' width='25.4' height='16.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='396.0' y='479.0' font-size='10' fill='#555' text-anchor='middle' font-weight='normal' >96&quot;</text>
+<line x1='4.0' y1='356.0' x2='4.0' y2='440.0' stroke='#555' stroke-width='0.8' />
+<line x1='0.0' y1='356.0' x2='8.0' y2='356.0' stroke='#555' stroke-width='0.8' />
+<line x1='0.0' y1='440.0' x2='8.0' y2='440.0' stroke='#555' stroke-width='0.8' />
+<text x='0.0' y='398.0' font-size='8' fill='#555' text-anchor='middle' transform='rotate(-90 0.0 398.0)'>duct chase 12"</text>
+</svg>

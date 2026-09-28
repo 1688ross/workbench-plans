@@ -1,0 +1,86 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 792.0 460' width='792.0' height='460' font-family='Inter, Helvetica, Arial, sans-serif'>
+<rect width='792.0' height='460' fill='#fbfbfa'/>
+<text x='20.0' y='30.0' font-size='16' fill='#222' text-anchor='start' font-weight='bold' >SHEET 6  -  SECTION A-A  (east-west at y = 62, through the router lift; looking north)</text>
+<text x='20.0' y='50.0' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >Shows the top laminate, downdraft plenum, W1 drawers, service gap with the plenum riser, spine duct under the router cabinet, and the sealed router box.</text>
+<text x='772.0' y='448.0' font-size='9' fill='#999' text-anchor='end' font-weight='normal' >workbench-plans  |  generated from tools/model.py  |  inches</text>
+<rect x='112.0' y='368.0' width='488.0' height='32.0' rx='0' fill='#333' stroke='#111' stroke-width='1' />
+<rect x='88.0' y='362.0' width='320.0' height='6.0' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<rect x='88.0' y='188.0' width='320.0' height='6.0' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<rect x='88.0' y='188.0' width='2.0' height='180.0' rx='0' fill='#333' stroke='none' stroke-width='1' />
+<rect x='94.0' y='312.8' width='288.0' height='48.0' rx='0' fill='#fff7ed' stroke='#92400e' stroke-width='0.6' />
+<rect x='82.0' y='308.5' width='6.0' height='59.0' rx='0' fill='#2f3136' stroke='#111' stroke-width='0.5' />
+<rect x='94.0' y='252.8' width='288.0' height='48.0' rx='0' fill='#fff7ed' stroke='#92400e' stroke-width='0.6' />
+<rect x='82.0' y='248.5' width='6.0' height='59.0' rx='0' fill='#2f3136' stroke='#111' stroke-width='0.5' />
+<rect x='94.0' y='192.8' width='288.0' height='48.0' rx='0' fill='#fff7ed' stroke='#92400e' stroke-width='0.6' />
+<rect x='82.0' y='188.5' width='6.0' height='59.0' rx='0' fill='#2f3136' stroke='#111' stroke-width='0.5' />
+<text x='232.0' y='288.0' font-size='8' fill='#7c2d12' text-anchor='middle' font-weight='normal' >W1 drawers, 36&quot; boxes on full-extension slides</text>
+<rect x='88.0' y='182.0' width='320.0' height='6.0' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<rect x='88.0' y='140.0' width='6.0' height='48.0' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<rect x='402.0' y='140.0' width='6.0' height='48.0' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<rect x='88.0' y='134.0' width='320.0' height='6.0' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<text x='224.0' y='166.4' font-size='8' fill='#1d4ed8' text-anchor='middle' font-weight='normal' >DOWNDRAFT PLENUM  5-1/4&quot; void, sealed</text>
+<rect x='109.0' y='122.0' width='6.0' height='18.0' rx='0' fill='#fff' stroke='#1d4ed8' stroke-width='0.6' />
+<rect x='141.0' y='122.0' width='6.0' height='18.0' rx='0' fill='#fff' stroke='#1d4ed8' stroke-width='0.6' />
+<rect x='173.0' y='122.0' width='6.0' height='18.0' rx='0' fill='#fff' stroke='#1d4ed8' stroke-width='0.6' />
+<rect x='205.0' y='122.0' width='6.0' height='18.0' rx='0' fill='#fff' stroke='#1d4ed8' stroke-width='0.6' />
+<rect x='237.0' y='122.0' width='6.0' height='18.0' rx='0' fill='#fff' stroke='#1d4ed8' stroke-width='0.6' />
+<rect x='269.0' y='122.0' width='6.0' height='18.0' rx='0' fill='#fff' stroke='#1d4ed8' stroke-width='0.6' />
+<rect x='301.0' y='122.0' width='6.0' height='18.0' rx='0' fill='#fff' stroke='#1d4ed8' stroke-width='0.6' />
+<rect x='333.0' y='122.0' width='6.0' height='18.0' rx='0' fill='#fff' stroke='#1d4ed8' stroke-width='0.6' />
+<rect x='365.0' y='122.0' width='6.0' height='18.0' rx='0' fill='#fff' stroke='#1d4ed8' stroke-width='0.6' />
+<rect x='366.0' y='148.0' width='36.0' height='32.0' rx='0' fill='#ffedd5' stroke='#c2410c' stroke-width='1' />
+<text x='376.0' y='196.8' font-size='7' fill='#c2410c' text-anchor='middle' font-weight='normal' >4&quot; inlet</text>
+<rect x='408.0' y='134.0' width='40.0' height='234.0' rx='0' fill='#f8fafc' stroke='#999' stroke-width='0.6' stroke-dasharray='4 3'/>
+<rect x='412.0' y='148.0' width='32.0' height='220.0' rx='0' fill='#ffedd5' stroke='#c2410c' stroke-width='1' />
+<text x='428.0' y='272.0' font-size='8' fill='#c2410c' text-anchor='middle' font-weight='normal' >4&quot;</text>
+<text x='428.0' y='296.0' font-size='7' fill='#c2410c' text-anchor='middle' font-weight='normal' >riser</text>
+<rect x='480.0' y='304.0' width='40.0' height='64.0' rx='0' fill='#ffedd5' stroke='#c2410c' stroke-width='1' />
+<text x='500.0' y='342.4' font-size='7' fill='#c2410c' text-anchor='middle' font-weight='normal' >SPINE</text>
+<text x='500.0' y='361.6' font-size='6.5' fill='#c2410c' text-anchor='middle' font-weight='normal' >4&quot; + 2-1/2&quot;</text>
+<rect x='448.0' y='298.0' width='176.0' height='6.0' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<rect x='448.0' y='134.0' width='6.0' height='234.0' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<rect x='618.0' y='134.0' width='6.0' height='164.0' rx='0' fill='#2f3136' stroke='#111' stroke-width='1' />
+<rect x='520.0' y='304.0' width='6.0' height='64.0' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<rect x='624.0' y='304.0' width='6.0' height='64.0' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<text x='536.0' y='325.6' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >raised floor</text>
+<rect x='499.0' y='122.0' width='74.0' height='3.0' rx='0' fill='#d1d5db' stroke='#374151' stroke-width='1' />
+<rect x='508.0' y='141.0' width='56.0' height='77.0' rx='0' fill='#facc15' stroke='#713f12' stroke-width='1' />
+<rect x='500.0' y='125.0' width='72.0' height='20.0' rx='0' fill='#9ca3af' stroke='#374151' stroke-width='1' />
+<rect x='499.2' y='138.0' width='4.0' height='80.0' rx='0' fill='#374151' stroke='none' stroke-width='1' />
+<rect x='568.8' y='138.0' width='4.0' height='80.0' rx='0' fill='#374151' stroke='none' stroke-width='1' />
+<text x='536.0' y='178.0' font-size='7' fill='#111' text-anchor='middle' font-weight='normal' >DW618</text>
+<text x='536.0' y='104.4' font-size='7.5' fill='#374151' text-anchor='middle' font-weight='normal' >Rout-R-Lift II plate, flush</text>
+<rect x='480.0' y='134.0' width='6.0' height='164.0' rx='0' fill='#333' stroke='none' stroke-width='1' />
+<rect x='608.0' y='134.0' width='6.0' height='164.0' rx='0' fill='#333' stroke='none' stroke-width='1' />
+<text x='536.0' y='260.0' font-size='7.5' fill='#7c2d12' text-anchor='middle' font-weight='normal' >sealed router box</text>
+<text x='536.0' y='280.0' font-size='6.5' fill='#7c2d12' text-anchor='middle' font-weight='normal' >4&quot; to spine + make-up-air slot</text>
+<rect x='480.0' y='294.0' width='128.0' height='4.0' rx='0' fill='#ffedd5' stroke='#c2410c' stroke-width='1' />
+<line x1='500.0' y1='304.0' x2='500.0' y2='298.0' stroke='#c2410c' stroke-width='6' />
+<rect x='80.0' y='128.0' width='552.0' height='6.0' rx='0' fill='#d9c9a8' stroke='#333' stroke-width='1' />
+<rect x='80.0' y='122.0' width='552.0' height='6.0' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<rect x='68.0' y='122.0' width='12.0' height='12.0' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
+<rect x='632.0' y='122.0' width='12.0' height='12.0' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
+<text x='160.0' y='104.4' font-size='8' fill='#333' text-anchor='middle' font-weight='normal' >3/4 Baltic birch over 3/4 MDF, maple edge</text>
+<rect x='592.0' y='122.0' width='8.0' height='4.0' rx='0' fill='#4b5563' stroke='none' stroke-width='1' />
+<line x1='0.0' y1='122.0' x2='0.0' y2='400.0' stroke='#555' stroke-width='0.8' />
+<line x1='-4.0' y1='122.0' x2='4.0' y2='122.0' stroke='#555' stroke-width='0.8' />
+<line x1='-4.0' y1='400.0' x2='4.0' y2='400.0' stroke='#555' stroke-width='0.8' />
+<text x='-4.0' y='261.0' font-size='10' fill='#555' text-anchor='middle' transform='rotate(-90 -4.0 261.0)'>34-3/4"</text>
+<line x1='0.0' y1='140.0' x2='0.0' y2='188.0' stroke='#555' stroke-width='0.8' />
+<line x1='-4.0' y1='140.0' x2='4.0' y2='140.0' stroke='#555' stroke-width='0.8' />
+<line x1='-4.0' y1='188.0' x2='4.0' y2='188.0' stroke='#555' stroke-width='0.8' />
+<text x='-4.0' y='164.0' font-size='8' fill='#555' text-anchor='middle' transform='rotate(-90 -4.0 164.0)'>6"</text>
+<line x1='80.0' y1='448.0' x2='632.0' y2='448.0' stroke='#555' stroke-width='0.8' />
+<line x1='80.0' y1='444.0' x2='80.0' y2='452.0' stroke='#555' stroke-width='0.8' />
+<line x1='632.0' y1='444.0' x2='632.0' y2='452.0' stroke='#555' stroke-width='0.8' />
+<rect x='343.3' y='435.0' width='25.4' height='16.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='356.0' y='445.0' font-size='10' fill='#555' text-anchor='middle' font-weight='normal' >69&quot;</text>
+<line x1='480.0' y1='420.0' x2='520.0' y2='420.0' stroke='#555' stroke-width='0.8' />
+<line x1='480.0' y1='416.0' x2='480.0' y2='424.0' stroke='#555' stroke-width='0.8' />
+<line x1='520.0' y1='416.0' x2='520.0' y2='424.0' stroke='#555' stroke-width='0.8' />
+<rect x='491.4' y='409.0' width='17.3' height='14.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='500.0' y='417.0' font-size='8' fill='#555' text-anchor='middle' font-weight='normal' >5&quot;</text>
+<line x1='-32.0' y1='400.0' x2='752.0' y2='400.0' stroke='#999' stroke-width='1' />
+<text x='48.0' y='480.0' font-size='9' fill='#666' text-anchor='start' font-weight='normal' >&lt; WEST</text>
+<text x='664.0' y='480.0' font-size='9' fill='#666' text-anchor='start' font-weight='normal' >EAST ></text>
+</svg>

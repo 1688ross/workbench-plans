@@ -1,0 +1,66 @@
+# Owner's answers to the stage-1 questions (transcribed from the PDF)
+
+I am going to be supply some answers you wrote for me previously here below: Here is how I would split the visuals:
+● Dimensioned drawings. Plan, front, side, and section views drawn as SVG directly from the cut-list numbers. Every dimension on a drawing is the same number in the cut list, so they cannot drift apart. They print to scal
+e. 
+● Step-by-step assembly views. Isometric exploded views computed from the same part coordinates, one per build step, with that step's parts highlighted and labele
+d. 
+● Sheet-goods cut diagrams. Nested 4x8 layouts generated from the part list with kerf allowance, so the sheet count is real.
+● Final look. This is where Higgsfield fits. I would feed it an accurate line render of the finished model as a reference and ask for a photoreal render in a modern shop. It would be labeled as concept art, not a drawing.
+● Possible bonus. Higgsfield's 3D scene builder appears to accept Python scripting and export Blender and GLB files. If that works, I can build the bench as a true parametric 3D model and render it accurately. That can't be checked from a side question, so I would test it in the main conversation before promising it. What I need from you, because each of these changes the drawings:
+1. Shop. Floor space available, where the bench sits, ceiling height, and the narrowest door it must pass through. Fixed or on casters?
+a. Floor space: 12’x20’ but I do not want it to take up all of it. The width of if should be no wider that the width of the contractor’s saw with extended tabl
+e. 
+b. Bench can sit right in the middle of that.
+c. Ceiling height - 7.5’
+d. Not worried about the door. Planning on assembling within the space so I will not need it to fit throught the door.
+e. Fixe
+d. 
+2. SawStop. Measure table height from the floor as it sits now, including any mobile bas
+e. Confirm the fence is the 36" T-Glide and that the extension wing is on the right. The rear fence rail sets the outfeed notch. Overall Dimensions
+● Assembled Width: 69-1/8 inches
+● Assembled Depth: 45 inches (measured from the front of the fence miter gauge handles to the rear motor housing protruding from the back)
+● Assembled Height: 34-3/4 inches [ 1 ] Table & Footprint Space
+● Saw Body with Stand Footprint: 25-3/4 inches W x 27 inches D
+● Cast Iron Main Table: 20 inches W x 27 inches D
+● Table with Two Included Steel Wings: 44 inches W x 27 inches D
+● Extension Wood Table: 23-3/4 inches W x 27 inches D [ 1 ] Weight Profile
+● Assembled Total Weight: 310 lbs (includes saw body, stand, wings, 36" rails, and extension table)
+● Table Saw Body Only: 225 lbs
+● Shipping Weight: Approximately 350 lbs (shipped broken down across 4 separate boxes) [ 1, 2 ]
+3. Miter saw. Make and model. Sliding or fixe
+d. Deck height, footprint, and how far the rails travel behind the fence on a slider. Single or dual bevel.
+a. Dewalt DWS779 Let me know if you need anything els
+e. 
+4. Router lift. Make and model of the lift and the router, such as JessEm, Incra, Woodpeck, or Kreg. I will match the plate to your lift. Do you already own a router fence you want to keep?
+a. Model DW618 with 3.5” diameter. 2.25hp
+b. I have a router fenc
+e. 
+c. I need a new router lift but right now I have a JessEm Rout-R-Lift 3.5XT. Its broken so I may not use it but lets go with that for now. I believe it is this one at woodcraft and will buy again anyways.
+5. Dust collector. Make and model, rated CFM, inlet size, single-stage or cyclone, and where it will sit relative to the bench. This decides duct diameters and how many blast gates can be open at onc
+e. 
+a. For my other workbench like this it was designed attaching my Dewalt 10hp shopvac to it with a cyclone dust separator before going into the shopvac and filter. Worked great. That requires 2 ½” duct work.I might do the sam
+e. However, I have installed, with duct work, a custom upgraded Harbor Freight dust collection system on that side of my workshop too. That I need for large amounts of wood chips like then im using my planer. That requires at least 4” duct work though. I guess it would be good to use the 4” duct work at least in some places so I can attach both dust collection sources. The shop vac should work okay if have reducing attachments to fit that 1 ¾” shop vac hos
+e. I’m not sure though.
+6. Electrical. What circuits are available, whether the saw is 120V or 240V, and where power arrives from: wall, floor, or ceiling drop. I have 120V availabl
+e. I might try to upgrade to some higher amperage but I think max right now I have 20amp. For my other work bench I have installed a large heavy duty power strip and cord inside the bench that then has other heavy duty powerstrips attached within for the built in machines and installed flush on the exterior for other devices and tools to be plugged in. Those have USB-A and USB-C outlets too.
+7. Dog holes. 3/4" or 20mm. Which dogs and clamps you already own.
+a. ¾”
+b. Rockler varieties
+8. Vis
+e. Face vise, tail vise, Moxon, or non
+e. If yes, which one you would buy.
+a. vise
+9. Item
+11. Your message cut off at "Clamp". Clamp storage rack, or a clamping station?
+a. Clamping station but a clamp rack sounds good too.
+10. Heights. Your height, and whether the hand-work area should sit at outfeed height or a step higher. The saw fixes the outfeed height. The rest can differ.
+a. I would want the flat surface the bench to all be able to become would be the height of the saw So the outfeed is flush.
+11. Top and materials. Hard maple lamination, Baltic birch with a replaceable hardboard skin, phenolic ply, or laminat
+e. A rough budget and what lumber you can get locally.
+a. Im curious to hear what you would recommend and how much it would cost. I dont want something to costly if possible but if there is an ideal stock for something like this then I am all ears. My current bench ¾” mdf. It works okay. Not great to drill into but also not a material that I worry about either. I painted it too which helped its longevity I felt.
+12. Style references. Any benches or shops you like the look of. Photos of your shop, saw, and miter saw also help the final render match reality.
+a. This is the first one I built: https://shopnationstore.com/products/the-mega-table-saw-workbench-digital-plan s?srsltid=AU7gw4W0w-u1Xl68ryjga3c1E94TG62UiOLlxN0rj_8KrYQdfZrq0JqJ
+b. And to behonest I haven’t seen one cooler. However I want something different than this, i wouldn’t mind more character or design features or ways to elevate the tech even mor
+e. So I open to ideas you think would be cool to add to this as well.
+c. I have my laser engraver by my desk upstairs. Would be cool to have that at least storeable in this. Its Creality’s A1 Falcon 10W Laser Engraver. For me to do round objects I have to drop the bottom out by raising the laster on these small pegs. If I could drop the floor the house the rotator when in use instead that would be much cooler if there was like a 15 x 22 area that could lower or could be taken away for projects like that. So I can just rest the laser on top. https://www.crealityfalcon.com/products/falcon-a1-10w-enclosed-laser-engraver- and-cutter?variant=50545033445673?utm_source=google&utm_medium=cpc&ut m_campaign=googlepla&gad_source=1&gad_campaignid=24181740647&gbraid =0AAAAAqXZKF5BX8CyfYVl1QyZrtAwGUj--&gclid=CjwKCAjwoOjVBhArEiwAU wDakwIz2JJ3xYomnPSqAy4dCXn9Z0uGz7mK8_RllAGsP3yXMhjcClMIkxoCmSk QAvD_BwE

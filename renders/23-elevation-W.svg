@@ -1,0 +1,48 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 856.0 480' width='856.0' height='480' font-family='Inter, Helvetica, Arial, sans-serif'>
+<rect width='856.0' height='480' fill='#fbfbfa'/>
+<text x='20.0' y='30.0' font-size='16' fill='#222' text-anchor='start' font-weight='bold' >SHEET 4  -  WEST ELEVATION  (hand-work face)</text>
+<text x='20.0' y='50.0' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >Base is 33-1/4 tall on a 4&quot; recessed plinth; top is 1-1/2 thick with 1-1/2 maple edge. Fronts: 3/4 Baltic birch, painted charcoal, routed finger pulls.</text>
+<text x='836.0' y='468.0' font-size='9' fill='#999' text-anchor='end' font-weight='normal' >workbench-plans  |  generated from tools/model.py  |  inches</text>
+<rect x='122.0' y='376.0' width='528.0' height='24.0' rx='0' fill='#111' stroke='none' stroke-width='1' />
+<rect x='104.0' y='200.5' width='564.0' height='175.5' rx='0' fill='#2f3136' stroke='#111' stroke-width='1' />
+<rect x='278.4' y='331.4' width='119.2' height='44.2' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.5' />
+<line x1='290.0' y1='338.2' x2='386.0' y2='338.2' stroke='#8f949c' stroke-width='1.2' />
+<text x='338.0' y='357.1' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >W1-D3</text>
+<rect x='278.4' y='286.4' width='119.2' height='44.2' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.5' />
+<line x1='290.0' y1='293.2' x2='386.0' y2='293.2' stroke='#8f949c' stroke-width='1.2' />
+<text x='338.0' y='312.1' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >W1-D2</text>
+<rect x='278.4' y='241.4' width='119.2' height='44.2' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.5' />
+<line x1='290.0' y1='248.2' x2='386.0' y2='248.2' stroke='#8f949c' stroke-width='1.2' />
+<text x='338.0' y='267.1' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >W1-D1 charging drawer</text>
+<rect x='104.4' y='310.4' width='173.2' height='65.2' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.5' />
+<line x1='116.0' y1='317.2' x2='266.0' y2='317.2' stroke='#8f949c' stroke-width='1.2' />
+<text x='191.0' y='346.6' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >W2-D2</text>
+<rect x='104.4' y='256.4' width='173.2' height='53.2' rx='0' fill='#2b2d31' stroke='#15161a' stroke-width='0.5' />
+<line x1='116.0' y1='263.2' x2='266.0' y2='263.2' stroke='#8f949c' stroke-width='1.2' />
+<text x='191.0' y='286.6' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >laser tray</text>
+<rect x='98.0' y='191.5' width='576.0' height='9.0' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
+<rect x='506.0' y='200.5' width='144.0' height='144.0' rx='0' fill='#3b3e44' stroke='#111' stroke-width='0.8' />
+<text x='578.0' y='280.0' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >drop-leaf (stowed, hangs on piano hinge)</text>
+<rect x='110.0' y='192.1' width='60.0' height='53.4' rx='0' fill='#b5c1d1' stroke='#334155' stroke-width='1' />
+<circle cx='140.0' cy='221.5' r='6.60' fill='#64748b' stroke='#1e293b' stroke-width='1' />
+<line x1='140.0' y1='221.5' x2='140.0' y2='263.5' stroke='#1e293b' stroke-width='2.5' />
+<text x='140.0' y='281.5' font-size='8' fill='#334155' text-anchor='middle' font-weight='normal' >face vise</text>
+<rect x='326.0' y='206.5' width='48.0' height='10.5' rx='0' fill='#facc15' stroke='#713f12' stroke-width='1' />
+<text x='350.0' y='229.0' font-size='7' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >flush strip + USB</text>
+<line x1='56.0' y1='191.5' x2='56.0' y2='400.0' stroke='#555' stroke-width='0.8' />
+<line x1='52.0' y1='191.5' x2='60.0' y2='191.5' stroke='#555' stroke-width='0.8' />
+<line x1='52.0' y1='400.0' x2='60.0' y2='400.0' stroke='#555' stroke-width='0.8' />
+<text x='52.0' y='295.8' font-size='10' fill='#555' text-anchor='middle' transform='rotate(-90 52.0 295.8)'>34-3/4"</text>
+<line x1='98.0' y1='448.0' x2='674.0' y2='448.0' stroke='#555' stroke-width='0.8' />
+<line x1='98.0' y1='444.0' x2='98.0' y2='452.0' stroke='#555' stroke-width='0.8' />
+<line x1='674.0' y1='444.0' x2='674.0' y2='452.0' stroke='#555' stroke-width='0.8' />
+<rect x='373.3' y='435.0' width='25.4' height='16.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='386.0' y='445.0' font-size='10' fill='#555' text-anchor='middle' font-weight='normal' >96&quot;</text>
+<line x1='716.0' y1='191.5' x2='716.0' y2='200.5' stroke='#555' stroke-width='0.8' />
+<line x1='712.0' y1='191.5' x2='720.0' y2='191.5' stroke='#555' stroke-width='0.8' />
+<line x1='712.0' y1='200.5' x2='720.0' y2='200.5' stroke='#555' stroke-width='0.8' />
+<text x='712.0' y='196.0' font-size='8' fill='#555' text-anchor='middle' transform='rotate(-90 712.0 196.0)'>1-1/2"</text>
+<line x1='32.0' y1='400.0' x2='740.0' y2='400.0' stroke='#999' stroke-width='1' />
+<text x='104.0' y='472.0' font-size='9' fill='#666' text-anchor='start' font-weight='normal' >&lt; NORTH</text>
+<text x='668.0' y='472.0' font-size='9' fill='#666' text-anchor='end' font-weight='normal' >SOUTH ></text>
+</svg>

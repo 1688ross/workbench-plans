@@ -1,0 +1,239 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1006.4000000000001 874.8000000000001' width='1006.4000000000001' height='874.8000000000001' font-family='Inter, Helvetica, Arial, sans-serif'>
+<rect width='1006.4000000000001' height='874.8000000000001' fill='#fafafa'/>
+<text x='20.0' y='30.0' font-size='16' fill='#222' text-anchor='start' font-weight='bold' >CUT DIAGRAM  -  3/4&quot; Baltic birch (4x8)  -  sheets 7 to 12 of 12</text>
+<text x='20.0' y='50.0' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >12 sheets of 3/4&quot; Baltic birch (4x8) in total. 1/8&quot; kerf allowed. Part IDs match docs/03-cut-list.md. Grey = offcut.</text>
+<rect x='40.0' y='80.0' width='403.2' height='201.6' rx='0' fill='#e5e7eb' stroke='#111' stroke-width='1.5' />
+<rect x='40.0' y='80.0' width='122.9' height='126.0' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='101.4' y='141.0' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >BAY-S</text>
+<text x='101.4' y='153.0' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >29.25 x 30</text>
+<rect x='163.4' y='80.0' width='121.8' height='126.0' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='224.3' y='141.0' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >LT-BASE</text>
+<text x='224.3' y='153.0' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >29 x 30</text>
+<rect x='285.7' y='80.0' width='77.7' height='168.0' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='324.6' y='162.0' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >W1-TB</text>
+<text x='324.6' y='174.0' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >18.5 x 40</text>
+<rect x='363.9' y='80.0' width='77.7' height='168.0' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='402.8' y='162.0' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >W1-TB</text>
+<text x='402.8' y='174.0' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >18.5 x 40</text>
+<rect x='40.0' y='206.5' width='117.6' height='71.4' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='98.8' y='240.2' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >CR-BASE</text>
+<text x='98.8' y='252.2' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >28 x 17</text>
+<rect x='163.4' y='206.5' width='117.6' height='71.4' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='222.2' y='240.2' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >CR-BASE</text>
+<text x='222.2' y='252.2' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >28 x 17</text>
+<rect x='285.7' y='248.5' width='58.8' height='25.2' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='315.1' y='259.1' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >HOOD-SD</text>
+<text x='315.1' y='271.1' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >14 x 6</text>
+<rect x='363.9' y='248.5' width='58.8' height='25.2' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='393.3' y='259.1' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >HOOD-SD</text>
+<text x='393.3' y='271.1' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >14 x 6</text>
+<text x='40.0' y='297.6' font-size='12' fill='#111' text-anchor='start' font-weight='bold' >Sheet 1</text>
+<text x='110.0' y='297.6' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >94% used</text>
+<rect x='503.2' y='80.0' width='403.2' height='201.6' rx='0' fill='#e5e7eb' stroke='#111' stroke-width='1.5' />
+<rect x='503.2' y='80.0' width='65.1' height='189.0' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='535.8' y='172.5' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >SW-TB</text>
+<text x='535.8' y='184.5' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >15.5 x 45</text>
+<rect x='568.8' y='80.0' width='65.1' height='189.0' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='601.4' y='172.5' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >SW-TB</text>
+<text x='601.4' y='184.5' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >15.5 x 45</text>
+<rect x='634.5' y='80.0' width='138.6' height='84.0' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='703.8' y='120.0' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >W2-S</text>
+<text x='703.8' y='132.0' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >33 x 20</text>
+<rect x='634.5' y='164.5' width='138.6' height='84.0' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='703.8' y='204.5' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >W2-S</text>
+<text x='703.8' y='216.5' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >33 x 20</text>
+<rect x='773.6' y='164.5' width='119.7' height='92.4' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='833.4' y='208.7' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >E2-TB</text>
+<text x='833.4' y='220.7' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >28.5 x 22</text>
+<rect x='773.6' y='80.0' width='122.9' height='63.0' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='835.0' y='109.5' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >BAY-E</text>
+<text x='835.0' y='121.5' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >29.25 x 15</text>
+<rect x='634.5' y='249.1' width='136.5' height='22.1' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='702.7' y='258.1' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PLN-WS</text>
+<text x='702.7' y='270.1' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >32.5 x 5.25</text>
+<rect x='773.6' y='143.5' width='126.0' height='16.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='836.6' y='149.9' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PL-N2</text>
+<text x='836.6' y='161.9' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >30 x 4</text>
+<rect x='773.6' y='257.5' width='126.0' height='16.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='836.6' y='263.9' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PL-bay3</text>
+<text x='836.6' y='275.9' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >30 x 4</text>
+<text x='503.2' y='297.6' font-size='12' fill='#111' text-anchor='start' font-weight='bold' >Sheet 2</text>
+<text x='573.2' y='297.6' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >91% used</text>
+<rect x='40.0' y='341.6' width='403.2' height='201.6' rx='0' fill='#e5e7eb' stroke='#111' stroke-width='1.5' />
+<rect x='40.0' y='341.6' width='331.8' height='33.6' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='205.9' y='356.4' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >SP-WALL</text>
+<text x='205.9' y='368.4' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >79 x 8</text>
+<rect x='40.0' y='375.7' width='92.4' height='119.7' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='86.2' y='433.6' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >E2-TB</text>
+<text x='86.2' y='445.6' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >22 x 28.5</text>
+<rect x='132.9' y='375.7' width='100.8' height='100.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='183.3' y='424.1' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >LEAF</text>
+<text x='183.3' y='436.1' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >24 x 24</text>
+<rect x='234.2' y='375.7' width='92.4' height='86.1' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='280.5' y='416.8' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >E2-S</text>
+<text x='280.5' y='428.8' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >22 x 20.5</text>
+<rect x='327.2' y='375.7' width='92.4' height='86.1' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='373.4' y='416.8' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >E2-S</text>
+<text x='373.4' y='428.8' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >22 x 20.5</text>
+<rect x='234.2' y='462.4' width='86.1' height='69.3' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='277.3' y='495.0' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >SE-rack/bit divider</text>
+<text x='277.3' y='507.0' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >20.5 x 16.5</text>
+<rect x='132.9' y='477.1' width='98.7' height='38.9' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='182.3' y='494.5' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >WELL-WL</text>
+<text x='182.3' y='506.5' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >23.5 x 9.25</text>
+<rect x='327.2' y='462.4' width='98.7' height='38.9' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='376.5' y='479.8' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >WELL-WL</text>
+<text x='376.5' y='491.8' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >23.5 x 9.25</text>
+<rect x='40.0' y='496.0' width='83.5' height='31.0' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='81.7' y='509.4' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >W1-D3-FR</text>
+<text x='81.7' y='521.4' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >19.875 x 7.375</text>
+<rect x='327.2' y='501.7' width='83.5' height='31.0' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='368.9' y='515.2' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >W1-D2-FR</text>
+<text x='368.9' y='527.2' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >19.875 x 7.375</text>
+<rect x='132.9' y='516.4' width='58.8' height='16.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='162.3' y='522.8' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >PL-S4</text>
+<text x='162.3' y='534.8' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >14 x 4</text>
+<text x='40.0' y='559.2' font-size='12' fill='#111' text-anchor='start' font-weight='bold' >Sheet 3</text>
+<text x='110.0' y='559.2' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >84% used</text>
+<rect x='503.2' y='341.6' width='403.2' height='201.6' rx='0' fill='#e5e7eb' stroke='#111' stroke-width='1.5' />
+<rect x='503.2' y='341.6' width='63.0' height='122.9' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='534.7' y='401.0' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >BAY-NE</text>
+<text x='534.7' y='413.0' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >15 x 29.25</text>
+<rect x='566.7' y='341.6' width='63.0' height='122.9' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='598.2' y='401.0' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >BAY-NE</text>
+<text x='598.2' y='413.0' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >15 x 29.25</text>
+<rect x='630.2' y='341.6' width='63.0' height='122.9' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='661.8' y='401.0' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >E-BACK</text>
+<text x='661.8' y='413.0' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >15 x 29.25</text>
+<rect x='693.8' y='341.6' width='86.1' height='89.2' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='736.8' y='384.2' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >E2-router-box partition</text>
+<text x='736.8' y='396.2' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >20.5 x 21.25</text>
+<rect x='693.8' y='431.4' width='86.1' height='89.2' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='736.8' y='474.0' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >E2-router-box partition</text>
+<text x='736.8' y='486.0' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >20.5 x 21.25</text>
+<rect x='780.4' y='341.6' width='117.6' height='58.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='839.2' y='369.0' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >HOOD-BK</text>
+<text x='839.2' y='381.0' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >28 x 14</text>
+<rect x='780.4' y='400.9' width='75.1' height='85.6' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='817.9' y='441.7' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >CR-FR</text>
+<text x='817.9' y='453.7' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >17.875 x 20.375</text>
+<rect x='856.0' y='400.9' width='38.9' height='121.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='875.4' y='459.8' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >W-BAND2</text>
+<text x='875.4' y='471.8' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >9.25 x 29</text>
+<rect x='780.4' y='487.0' width='73.5' height='50.4' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='817.2' y='510.2' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >BIT-UP</text>
+<text x='817.2' y='522.2' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >17.5 x 12</text>
+<rect x='503.2' y='465.0' width='50.4' height='73.5' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='528.4' y='499.7' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >BIT-UP</text>
+<text x='528.4' y='511.7' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >12 x 17.5</text>
+<rect x='566.7' y='465.0' width='50.4' height='73.5' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='591.9' y='499.7' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >BIT-BRD</text>
+<text x='591.9' y='511.7' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >12 x 17.5</text>
+<rect x='630.2' y='465.0' width='50.4' height='73.5' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='655.5' y='499.7' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >BIT-BRD</text>
+<text x='655.5' y='511.7' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >12 x 17.5</text>
+<rect x='895.4' y='400.9' width='10.5' height='138.6' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='900.6' y='468.2' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >PLN-SP</text>
+<text x='900.6' y='480.2' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >2.5 x 33</text>
+<text x='503.2' y='559.2' font-size='12' fill='#111' text-anchor='start' font-weight='bold' >Sheet 4</text>
+<text x='573.2' y='559.2' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >90% used</text>
+<rect x='40.0' y='603.2' width='403.2' height='201.6' rx='0' fill='#e5e7eb' stroke='#111' stroke-width='1.5' />
+<rect x='40.0' y='603.2' width='189.0' height='36.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='134.5' y='619.6' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >SP-LOW</text>
+<text x='134.5' y='631.6' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >45 x 8.75</text>
+<rect x='229.5' y='603.2' width='189.0' height='36.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='324.0' y='619.6' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >SP-LOW</text>
+<text x='324.0' y='631.6' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >45 x 8.75</text>
+<rect x='40.0' y='640.5' width='378.0' height='16.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='229.0' y='646.9' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PL-W0</text>
+<text x='229.0' y='658.9' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >90 x 4</text>
+<rect x='40.0' y='657.8' width='378.0' height='16.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='229.0' y='664.2' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PL-E1</text>
+<text x='229.0' y='676.2' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >90 x 4</text>
+<rect x='40.0' y='675.1' width='378.0' height='16.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='229.0' y='681.5' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PL-KICK</text>
+<text x='229.0' y='693.5' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >90 x 4</text>
+<rect x='40.0' y='692.5' width='378.0' height='16.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='229.0' y='698.9' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PL-KICK</text>
+<text x='229.0' y='710.9' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >90 x 4</text>
+<rect x='40.0' y='709.8' width='378.0' height='16.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='229.0' y='716.2' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PL-KICK</text>
+<text x='229.0' y='728.2' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >90 x 4</text>
+<rect x='40.0' y='727.1' width='121.3' height='45.7' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='100.6' y='747.9' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >W2-D2-FR</text>
+<text x='100.6' y='759.9' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >28.875 x 10.875</text>
+<rect x='161.8' y='727.1' width='121.3' height='37.3' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='222.4' y='743.7' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >LT-FR</text>
+<text x='222.4' y='755.7' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >28.875 x 8.875</text>
+<rect x='283.6' y='727.1' width='50.4' height='73.5' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='308.8' y='761.9' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >BIT-BRD</text>
+<text x='308.8' y='773.9' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >12 x 17.5</text>
+<rect x='334.5' y='727.1' width='50.4' height='58.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='359.7' y='754.5' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >BIT-BASE</text>
+<text x='359.7' y='766.5' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >12 x 14</text>
+<rect x='385.4' y='727.1' width='50.4' height='58.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='410.7' y='754.5' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >BIT-BASE</text>
+<text x='410.7' y='766.5' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >12 x 14</text>
+<rect x='40.0' y='773.3' width='83.5' height='31.0' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='81.7' y='786.8' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >W1-D1-FR</text>
+<text x='81.7' y='798.8' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >19.875 x 7.375</text>
+<rect x='161.8' y='764.9' width='63.0' height='38.9' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='193.3' y='782.3' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >WELL-WS</text>
+<text x='193.3' y='794.3' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >15 x 9.25</text>
+<rect x='225.3' y='764.9' width='56.2' height='39.4' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='253.4' y='782.6' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >SW-D3-FR</text>
+<text x='253.4' y='794.6' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >13.375 x 9.375</text>
+<text x='40.0' y='820.8' font-size='12' fill='#111' text-anchor='start' font-weight='bold' >Sheet 5</text>
+<text x='110.0' y='820.8' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >89% used</text>
+<rect x='503.2' y='603.2' width='403.2' height='201.6' rx='0' fill='#e5e7eb' stroke='#111' stroke-width='1.5' />
+<rect x='503.2' y='603.2' width='66.7' height='85.6' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='536.5' y='644.0' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >BIT-FR</text>
+<text x='536.5' y='656.0' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >15.875 x 20.375</text>
+<rect x='503.2' y='689.3' width='62.5' height='85.6' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='534.4' y='730.1' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >DOOR-L</text>
+<text x='534.4' y='742.1' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >14.875 x 20.375</text>
+<rect x='570.4' y='603.2' width='62.5' height='85.6' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='601.6' y='644.0' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >DOOR-R</text>
+<text x='601.6' y='656.0' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >14.875 x 20.375</text>
+<rect x='633.4' y='603.2' width='256.2' height='16.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='761.5' y='609.6' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PL-cross7</text>
+<text x='761.5' y='621.6' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >61 x 4</text>
+<rect x='633.4' y='620.5' width='256.2' height='16.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='761.5' y='626.9' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PL-cross9</text>
+<text x='761.5' y='638.9' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >61 x 4</text>
+<rect x='633.4' y='637.9' width='22.1' height='136.5' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='644.4' y='704.1' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >PLN-WS</text>
+<text x='644.4' y='716.1' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >5.25 x 32.5</text>
+<rect x='656.0' y='637.9' width='176.4' height='16.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='744.2' y='644.2' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PL-lift6</text>
+<text x='744.2' y='656.2' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >42 x 4</text>
+<rect x='656.0' y='655.2' width='176.4' height='16.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='744.2' y='661.6' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PL-lift6</text>
+<text x='744.2' y='673.6' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >42 x 4</text>
+<rect x='570.4' y='689.3' width='54.6' height='50.4' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='597.7' y='712.5' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >VISE-PAD</text>
+<text x='597.7' y='724.5' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >13 x 12</text>
+<rect x='570.4' y='740.2' width='54.6' height='50.4' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='597.7' y='763.4' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >VISE-PAD</text>
+<text x='597.7' y='775.4' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >13 x 12</text>
+<rect x='656.0' y='672.5' width='50.4' height='54.6' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='681.2' y='697.8' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >VISE-PAD</text>
+<text x='681.2' y='709.8' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >12 x 13</text>
+<rect x='706.9' y='672.5' width='155.4' height='16.8' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='784.6' y='678.9' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PL-cross8</text>
+<text x='784.6' y='690.9' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >37 x 4</text>
+<rect x='706.9' y='689.8' width='56.2' height='41.5' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='735.0' y='708.6' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >SW-D1-FR</text>
+<text x='735.0' y='720.6' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >13.375 x 9.875</text>
+<rect x='706.9' y='731.8' width='56.2' height='40.4' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='735.0' y='750.0' font-size='8' fill='#111' text-anchor='middle' font-weight='normal' >SW-D2-FR</text>
+<text x='735.0' y='762.0' font-size='7' fill='#333' text-anchor='middle' font-weight='normal' >13.375 x 9.625</text>
+<rect x='763.6' y='689.8' width='138.6' height='10.5' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='832.9' y='693.1' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PLN-SP</text>
+<text x='832.9' y='705.1' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >33 x 2.5</text>
+<rect x='763.6' y='700.9' width='138.6' height='10.5' rx='0' fill='#dbeafe' stroke='#1e3a8a' stroke-width='0.8' />
+<text x='832.9' y='704.1' font-size='10' fill='#111' text-anchor='middle' font-weight='normal' >PLN-SP</text>
+<text x='832.9' y='716.1' font-size='9' fill='#333' text-anchor='middle' font-weight='normal' >33 x 2.5</text>
+<text x='503.2' y='820.8' font-size='12' fill='#111' text-anchor='start' font-weight='bold' >Sheet 6</text>
+<text x='573.2' y='820.8' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >64% used</text>
+</svg>
