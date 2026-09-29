@@ -22,11 +22,24 @@ Roll the saw against the bench so its rear-rail face touches the bridge lip. The
 
 ## Miter station (south)
 
-1. Lift the two hatch leaves out (finger holes at the outer ends) and slide them into the slot beside the lift bay; lift out the centre bar and drop it in with them.
-2. Pump the foot pedal until the sub-platform meets the stops. The saw's deck is now flush with the top and the hood is behind the blade.
-3. Raise the drop-leaves on both ends; the folding brackets lock. You now have 46" of support each side and 96" of flat top to the north.
-4. Open the miter hood gate (4") and the chute gate (2-1/2"); switch the saw on with the paddle on the front panel.
-5. Done: switch off, close gates, open the release valve on the lift (slow), the saw sinks below the top; refit the bar and leaves; drop the wings.
+The saw lives on a two-sided platform that pivots on a steel axle inside the base. One face carries the DWS779, the other a hollow birch-faced box the same height as the saw's deck, so whichever side is up sits flush with the top.
+
+**To bring the saw up**
+
+1. Open both bay doors fully. Check the 30" in front of the bench is clear.
+2. Release the two toggle clamps, then pull the two index plungers.
+3. With a hand on each side of the platform, rotate it half a turn: the saw comes up through the hatch as the box goes down. It is balanced by the steel in the box, so it moves at walking pace and stops where you leave it.
+4. Let the platform settle onto the four rest blocks; the plungers click in on their own. Close the toggle clamps.
+5. Push the 4" cuff onto the hood and the 2-1/2" hose onto the saw's chute; plug the saw in. The seat switch will not pass power until the platform is seated and clamped.
+6. Raise the drop-leaves on both ends (the brackets lock). Open the miter-hood and chute gates. Cut.
+
+**To stow it**
+
+1. Switch off at the paddle. Lock the saw's head down, lock the slide, lock the bevel, close the guard. Unplug and pull the two hoses.
+2. Drop the wings. Release the clamps, pull the plungers, rotate the platform back: the saw swings out through the open doors and under; the box comes up flush. Plungers click, clamps on.
+3. Close the doors. The top is flat.
+
+**What keeps it safe:** the load sits on the rest blocks, never on the pins; the plungers locate; the toggle clamps hold it down against vibration; the seat switch means the saw cannot run unless all of that is true; the counterweight means a released platform does not fall. Do not flip with the head unlocked.
 
 Long stock: the north half of the bench takes anything up to 8' to the left or right when you angle it across the top; for 12' stock use a roller stand beyond a drop-leaf.
 
@@ -41,8 +54,7 @@ Long stock: the north half of the bench takes anything up to 8' to the left or r
 | Face | Opening | Contents |
 |---|---|---|
 | South | SW-D1/D2/D3, 13-1/2" x 36" long drawers | straightedges, levels, your router fence, track-saw rail, long clamps |
-| South | leaf slot | the two hatch leaves and the centre bar |
-| South | lift-bay panel | the lift; pedal behind the flap |
+| South | flip-bay doors | the platform, saw stowed underneath; flip checklist on the door |
 | South | clamp rack pull-out | F-clamps and bar clamps on four bars |
 | East | bit pull-out | router bits, collets, wrenches |
 | East | router doors | the lift and router; push blocks and featherboards on the side compartments |

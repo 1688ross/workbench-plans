@@ -8,10 +8,12 @@ extension. Four faces, four stations:
   north  - outfeed for the table saw (motor bay recessed into the base)
   west   - hand-work face: front vise, 3/4" dog field over a downdraft plenum
   east   - router station (JessEm Rout-R-Lift II, DW618)
-  south  - miter station: DWS779 on a hydraulic scissor lift that rises
-           through a hatch; drop-leaf wings on both sides
+  south  - miter station: DWS779 on a flip-top platform that rotates through
+           a hatch (saw up / flush box up); drop-leaf wings on both sides
 plus a laser well (Creality Falcon A1) in the north-west of the top, a
 clamp-rack pull-out, and a vertical router-bit pull-out.
+Stage 2b: the miter saw sits on a two-sided FLIP-TOP platform instead of a
+scissor lift (owner's request).
 """
 from fractions import Fraction
 
@@ -54,17 +56,23 @@ ROUTER_TRACKS = dict(fence_y=(49.0, 75.0), fence_x=(42.0, 68.0),       # two E-W
 ROUTER_BOX = dict(x0=46.0, x1=68.0, y0=52.0, y1=72.0, z0=12.75, z1=TOP_UNDER)   # sealed dust box around the router
 ROUTER_FENCE_PORT = dict(x=68.0, y=62.0, z=31.0, dia=2.5)             # flip-lid vac port in the east apron
 
-# ---------------------------------------------------------------- south face: miter station on a scissor lift
-MITER_SAW = dict(model="DeWalt DWS779", w=24.5, d=32.0, h_locked=21.5, deck=4.5, weight=56)   # VERIFY h_locked/deck
-LIFT_BAY = dict(x0=18.0, x1=50.0, y0=1.0, y1=46.0)                   # open floor for the scissor lift
-LIFT_TABLE = dict(plat_w=27.5, plat_d=17.7, low=8.9, high=28.3, cap=500)   # 500 lb hydraulic scissor lift table (typical)
-SUB_PLATFORM = dict(x0=20.0, x1=48.0, y0=3.0, y1=44.0, t=2.0)         # 28 x 41 riser frame + deck on the lift
-HATCH = dict(x0=19.5, x1=48.5, y0=2.0, y1=44.5, ledge=1.0)            # 29 x 42.5 opening in the top; two leaves
-HATCH_LEAF = dict(w=28.75, d=21.0)                                     # each; sit on ledge + centre bar
-MITER_HOOD = dict(x0=20.0, x1=48.0, y0=38.0, y1=44.0, h=14.0)          # rides on the sub-platform behind the saw
+# ---------------------------------------------------------------- south face: miter station on a FLIP-TOP
+# A two-sided platform pivots on an E-W axle inside the lift bay. Saw on one face, a hollow
+# "flush box" on the other. Both stand the same 4-1/2" (the saw's deck height) off the core,
+# so whichever side is up, the working surface is flush with the top at 34-3/4".
+MITER_SAW = dict(model="DeWalt DWS779", w=24.5, d=32.0, base_d=22.0, h_locked=21.5, deck=4.5, weight=56)   # VERIFY h_locked/deck/base_d
+LIFT_BAY = dict(x0=18.0, x1=50.0, y0=1.0, y1=46.0)                     # open floor; doors on the south face
+FLIP = dict(axle_y=22.0,                                               # E-W axle, N-S position
+            axle_z=TOP_HEIGHT - 4.5 - 1.0,                             # 29.25: 5-1/2" below the top surface
+            core_len=24.0, core_w=28.0, core_t=2.0,                    # N-S x E-W x thick (two 3/4 BB skins on a 1/2 BB rib frame)
+            box_h=4.5, box_w=26.0,                                     # flush box on the underside; 1" narrower than the core each side for the rest blocks
+            rod=1.0, bearings=2, plungers=2, toggle_clamps=2, rest_blocks=4, counterweight_lb=70, seat_switch=True,
+            swing_radius=((24.0 / 2) ** 2 + (21.5 + 1.0) ** 2) ** 0.5)  # 25.5: saw's top corners
+HATCH = dict(x0=19.5, x1=48.5, y0=FLIP["axle_y"] - 12.25, y1=FLIP["axle_y"] + 12.25, chamfer=0.5)   # 29 x 24-1/2; 45-deg chamfer under the N/S edges
+MITER_HOOD = dict(x0=20.0, x1=48.0, y0=FLIP["axle_y"] + 6.0, y1=FLIP["axle_y"] + 12.0, h=14.0)      # on the core's north end; quick-connect hose
 DROP_LEAF = dict(y0=4.0, y1=28.0, len=24.0)                            # 24 x 24 leaves on E and W faces, south end
-LEAF_SLOT = dict(x0=14.5, x1=18.0, y0=2.0, y1=44.0)                    # hatch leaves store on edge here
-SAW_DECK_Z = TOP_HEIGHT - MITER_SAW["deck"]                            # 30.25: saw base sits here when raised
+SAW_DECK_Z = TOP_HEIGHT - MITER_SAW["deck"]                            # 30.25: core's upper face when the saw is up
+BAY_DOORS = dict(x0=18.0, x1=50.0, z0=4.0, z1=TOP_UNDER)               # two 16" doors; open them before flipping
 
 # ---------------------------------------------------------------- base cabinets  (x0,x1,y0,y1,z0,z1, opens toward)
 CABS = {
@@ -83,7 +91,7 @@ UTILITY = dict(face="E", y0=76.0, y1=80.0, port4_z=6.0, port25_z=10.0, inlet_z=1
 DUCT = dict(main=4.0, vac=2.5,
             drops=[  # name, gate location (x,y,z), size
                 ("Floor sweep (south toe kick)",        (52.5, 1.0,  8.0), 4.0),
-                ("Miter hood (flex to lift platform)",  (50.0, 30.0, 8.0), 4.0),
+                ("Miter hood (quick-connect flex)",      (50.0, 30.0, 8.0), 4.0),
                 ("Router box",                          (52.5, 62.0, 12.75), 4.0),
                 ("Downdraft plenum riser",              (43.5, 70.0, 12.0), 4.0),
                 ("Table saw (hose into motor bay)",     (49.0, 80.0, 8.0), 4.0),
@@ -95,11 +103,11 @@ DUCT = dict(main=4.0, vac=2.5,
 # each: face, x/y range along the face, z0, z1, kind
 FRONTS = [
     # south face
-    ("S", 1.0, 14.5, 4.0, 13.5, "drawer", "SW-D3 long drawer (bottom)"),
-    ("S", 1.0, 14.5, 13.5, 23.25, "drawer", "SW-D2 long drawer"),
-    ("S", 1.0, 14.5, 23.25, TOP_UNDER, "drawer", "SW-D1 long drawer (top)"),
-    ("S", 14.5, 18.0, 4.0, TOP_UNDER, "slot", "hatch-leaf slot"),
-    ("S", 18.0, 50.0, 4.0, TOP_UNDER, "panel", "lift bay panel (removable) + pedal flap"),
+    ("S", 1.0, 18.0, 4.0, 13.5, "drawer", "SW-D3 long drawer (bottom)"),
+    ("S", 1.0, 18.0, 13.5, 23.25, "drawer", "SW-D2 long drawer"),
+    ("S", 1.0, 18.0, 23.25, TOP_UNDER, "drawer", "SW-D1 long drawer (top)"),
+    ("S", 18.0, 34.0, 4.0, TOP_UNDER, "door", "flip-bay door L"),
+    ("S", 34.0, 50.0, 4.0, TOP_UNDER, "door", "flip-bay door R + paddle switch"),
     ("S", 50.0, 68.0, 12.75, TOP_UNDER, "pullout", "clamp rack pull-out"),
     # east face
     ("E", 30.0, 46.0, 12.75, TOP_UNDER, "pullout", "router-bit pull-out"),

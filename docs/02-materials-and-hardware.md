@@ -6,13 +6,12 @@ Prices are 2026 US ballpark figures for planning. The sheet counts come from the
 
 | Item | Qty | Use | Est. each | Est. total |
 |---|---|---|---|---|
-| 3/4" Baltic birch, 4x8 | 12 (+1 spare) | carcasses, top upper layer, doubler, plenum, fronts, pull-outs, hood, sub-platform deck | $95 | $1,235 |
+| 3/4" Baltic birch, 4x8 | 12 (+1 spare) | carcasses, top upper layer, doubler, plenum, fronts, pull-outs, hood, flip core skins, flush box | $95 | $1,235 |
 | 1/2" Baltic birch, 4x8 | 2 | drawer boxes, laser tray sides | $70 | $140 |
 | 1/4" Baltic birch, 4x8 | 2 | cabinet backs, drawer bottoms | $45 | $90 |
 | 3/4" MDF, 4x8 | 2 | top lower layer, drop-leaf cores | $45 | $90 |
-| 8/4 hard maple | ~32 bf | edging, outfeed beam, bridge lip, hatch ledge and bar, cleats, jaw liners, clamp bars, cradles, stop blocks | $9/bf | $290 |
-| 2x4 SPF, 8' | 2 | lift sub-platform frame | $6 | $12 |
-| **Subtotal** | | | | **$1,857** |
+| 8/4 hard maple | ~28 bf | edging, outfeed beam, bridge lip, cleats, jaw liners, clamp bars, cradles, rest blocks | $9/bf | $250 |
+| **Subtotal** | | | | **$1,805** |
 
 Cheaper option: cabinet-grade birch plywood ($60/sheet) for the carcasses saves about $400 but the edges won't look as good where they show (finger pulls, pull-out edges).
 
@@ -24,18 +23,24 @@ Cheaper option: cabinet-grade birch plywood ($60/sheet) for the carcasses saves 
 | Full-extension ball-bearing slides, 36", 100 lb | 6 pr | SW long drawers, W1 drawers | $190 |
 | Full-extension slides, 30", 100 lb | 1 pr | W2 drawer | $30 |
 | Heavy-duty full-extension slides, 30", 250 lb (e.g. Accuride 9301 class) | 3 pr | laser tray, clamp rack, bit pull-out | $210 |
-| Concealed hinges, 110 deg, full overlay, soft-close | 4 | router doors | $24 |
+| Concealed hinges, 110 deg, full overlay, soft-close | 8 | router doors, flip-bay doors | $48 |
 | Piano hinge, 24" x 1-1/2", stainless | 2 | drop-leaves | $30 |
 | Folding shelf brackets, 20", 300 lb pair | 2 pr | drop-leaf supports | $60 |
-| Hook-on panel clips / French cleat stock | - | lift-bay front panel, utility cover | $15 |
+| Hook-on panel clips / French cleat stock | - | band panels, utility cover | $10 |
 | Foam weatherstrip tape 3/8" | 1 roll | router doors, plenum clean-out | $8 |
 | Silicone sealant | 2 tubes | plenum, hood, router box | $12 |
-| Threaded inserts 1/4-20 + bolts | 8 | saw to sub-platform, hood | $15 |
-| 3/8" leveling bolts + nuts | 4 | sub-platform corners | $10 |
-| UHMW strip 1" x 1/4" | 4' | lift guides | $15 |
+| Threaded inserts 1/4-20 + bolts | 8 | saw to flip core, hood | $15 |
+| 1" cold-rolled steel rod, 36" | 1 | flip axle | $25 |
+| 1" 2-bolt flange bearings (UCFL205 class) | 2 | on the bay walls | $30 |
+| 1" shaft collars, set-screw | 4 | lock the core to the axle | $20 |
+| 1/2" spring index plungers (lock-out type) | 2 | locate the platform at 0 and 180 deg | $30 |
+| Hold-down toggle clamps, 500 lb | 2 | clamp the core to the rest blocks | $30 |
+| Plunger limit switch, 15 A rated (seat switch) | 1 | power interlock for the saw | $15 |
+| Steel plate or flat bar, ~70 lb | - | counterweight inside the flush box (scrap yard) | $60 |
+| 4" quick-connect hose cuff + coupler | 1 | hood hose | $20 |
 | Screws: #8 x 1-1/4, #8 x 2, #6 x 3/4; pocket screws 1-1/4 | - | | $60 |
 | Wood glue (Titebond III), 1 gal | 1 | top lamination | $35 |
-| **Subtotal** | | | **$774** |
+| **Subtotal** | | | **$983** |
 
 ## Stations
 
@@ -45,10 +50,9 @@ Cheaper option: cabinet-grade birch plywood ($60/sheet) for the carcasses saves 
 | T-track, 3/4" x 3/8" aluminium, 48" | 2 | cut to 2 x 26" fence tracks | $40 |
 | Combo T-track / miter-slot track, 36" | 1 | cut to 32" | $45 |
 | Quick-release front vise, 9" (Eclipse / Rockler / WoodRiver) | 1 | | $150 |
-| Hydraulic scissor lift table, 500 lb, ~8.9"-28.3" | 1 | see Sheet 10 for the spec | $300 |
 | Paddle safety switch, 120 V 15 A | 2 | router, miter | $50 |
 | Bench dog / holdfast / Rockler accessories | - | you own these | - |
-| **Subtotal** | | | **$845** |
+| **Subtotal** | | | **$545** |
 
 ## Dust
 
@@ -92,15 +96,15 @@ Cheaper option: cabinet-grade birch plywood ($60/sheet) for the carcasses saves 
 
 | | |
 |---|---|
-| Wood | $1,857 |
-| Hardware | $774 |
-| Stations (incl. router lift, vise, scissor lift) | $845 |
+| Wood | $1,805 |
+| Hardware (incl. flip-top axle, bearings, locks, counterweight) | $983 |
+| Stations (router lift, vise, tracks, switches) | $545 |
 | Dust | $400 |
 | Electrical | $360 |
 | Finish | $160 |
-| **Total** | **about $4,400** |
+| **Total** | **about $4,250** |
 
-Without the router lift and scissor lift (if you already have the lift table or buy it later): about $3,850. With cabinet-grade ply instead of Baltic birch: subtract about $400.
+Without the router lift (if the JessEm purchase waits): about $3,990. With cabinet-grade ply instead of Baltic birch: subtract about $400.
 
 ## Consumables and shop supplies
 

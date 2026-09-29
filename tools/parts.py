@@ -28,7 +28,7 @@ STEPS = {
     7: "Laminate and machine the top",
     8: "Fit the top, outfeed lip and edging",
     9: "Router station",
-    10: "Miter-saw lift station",
+    10: "Miter-saw flip-top station",
     11: "Laser well and tray",
     12: "Drawers, pull-outs and fronts",
     13: "Vise, dogs, lighting and finish",
@@ -60,13 +60,13 @@ def build():
     P = []
     # ---------------------------------------------------------------- 1 plinth
     ribs = [("W rail", 90.0), ("E rail", 90.0), ("N rail (W of bay)", 30.0), ("N rail (E of bay)", 1.0 + 0.0), ("bay S rail", 30.0),
-            ("S rail W", 14.0), ("S rail E", 15.0), ("lift bay side rails", 42.0), ("cross rib y46", 61.0), ("cross rib y66", 37.0), ("cross rib y80", 61.0)]
+            ("S rail W", 14.0), ("S rail E", 15.0), ("flip bay side rails", 42.0), ("cross rib y46", 61.0), ("cross rib y66", 37.0), ("cross rib y80", 61.0)]
     for n, L in ribs:
         if L < 2: continue
-        P.append(Part("PL-" + n.split()[0] + str(len(P)), f"plinth {n}", 1, "BB34", PLY, L, 4.0, 2 if "lift bay" in n else 1, "L", "4\" tall rib, glued and screwed; toe recess 3\""))
+        P.append(Part("PL-" + n.split()[0] + str(len(P)), f"plinth {n}", 1, "BB34", PLY, L, 4.0, 2 if "flip bay" in n else 1, "L", "4\" tall rib, glued and screwed; toe recess 3\""))
     P.append(Part("PL-KICK", "toe-kick face boards (W, S x2, E)", 1, "BB34", PLY, 90.0, 4.0, 3, "L", "paint black; one 90\" board is cut into the two south pieces"))
     # ---------------------------------------------------------------- 2 carcasses
-    carcass(P, "SW", CABS["SW"], "SW", [("leaf-slot divider", 45.0, TOP_UNDER - 4.0, 1)])
+    carcass(P, "SW", CABS["SW"], "SW")
     carcass(P, "SE", CABS["SE"], "SE", [("rack/bit divider", 18.0 - 2 * PLY, TOP_UNDER - 12.75, 1)])
     carcass(P, "W1", CABS["W1"], "W1")
     carcass(P, "W2", CABS["W2"], "W2")
@@ -79,7 +79,6 @@ def build():
     P.append(Part("BAY-NE", "north-east filler panels (x 64-68)", 2, "BB34", PLY, 15.0, TOP_UNDER - 4.0, 2, "A", "east and north faces of the 4\" column"))
     P.append(Part("GAP-W", "service-gap wall (x=41, y 66-80)", 2, "BB34", PLY, 14.0, 22.5, 1, "A", "supports the plenum floor"))
     P.append(Part("GAP-S", "service-gap closure (y=46, x 41-46)", 2, "BB34", PLY, 5.0, TOP_UNDER - 4.0, 1, "A"))
-    P.append(Part("LB-FRONT", "lift-bay front panel (removable)", 2, "BB34", PLY, 32.0, TOP_UNDER - 4.0, 1, "A", "hook-on panel; 10 x 8 pedal flap cut in at the bottom"))
     P.append(Part("W-BAND1", "west band panel over W1 (plenum face)", 2, "BB34", PLY, 20.0, TOP_UNDER - 26.5, 1, "A", "with 6 x 4 plenum clean-out hatch"))
     P.append(Part("W-BAND2", "west band panel over W2", 2, "BB34", PLY, 29.0, TOP_UNDER - 24.0, 1, "A"))
     P.append(Part("E-UTIL", "utility column cover (east face y 76-80)", 2, "BB34", PLY, 4.0, TOP_UNDER - 12.0, 1, "A", "removable; ports and inlet mount here"))
@@ -110,20 +109,23 @@ def build():
     P.append(Part("EDGE-N", "maple edge band, north (outfeed edge)", 8, "MAPLE", 1.5, 69.0, 1.5, 1, "L", "1/8 bevel on the top corner"))
     P.append(Part("LIP", "bridge lip over the rear fence rail", 8, "MAPLE", BRIDGE_LIP["t"], 69.0, BRIDGE_LIP["w"], 1, "L", "MEASURE the rail first"))
     P.append(Part("BEAM", "outfeed beam across the motor bay", 8, "MAPLE", 1.5, 40.0, 3.0, 1, "L", "glued + screwed under the top, x 28-68"))
-    P.append(Part("HATCH-LG", "hatch ledge strips", 7, "MAPLE", 1.0, 42.5, 1.5, 2, "L", "plus two at 27\" from the same stock"))
-    P.append(Part("HATCH-LG2", "hatch ledge strips (short)", 7, "MAPLE", 1.0, 27.0, 1.5, 2, "L"))
-    P.append(Part("HATCH-BAR", "hatch centre bar (removable)", 7, "MAPLE", 1.5, 29.0, 2.0, 1, "L", "sits in notches in the ledge"))
-    # ---------------------------------------------------------------- 10 miter lift
-    P.append(Part("LIFT-RL", "sub-platform rails", 10, "PINE2x4", 1.5, 41.0, 3.5, 2, "L", "2x4"))
-    P.append(Part("LIFT-RB", "sub-platform ribs", 10, "PINE2x4", 1.5, 25.0, 3.5, 3, "L", "2x4"))
-    P.append(Part("LIFT-DK", "sub-platform deck", 10, "BB34", PLY, 41.0, 28.0, 1, "A", "saw bolts through this"))
+    # ---------------------------------------------------------------- 10 miter flip-top
+    F = FLIP
+    P.append(Part("FLIP-SKIN", "flip core skins (top and bottom)", 10, "BB34", PLY, F["core_len"], F["core_w"], 2, "A", "saw bolts through the upper one"))
+    P.append(Part("FLIP-RIB", "flip core ribs (1/2\" between the skins)", 10, "BB12", PLY_HALF, F["core_w"] - 2 * PLY_HALF, F["core_t"] - 2 * PLY, 4, "A", "one is drilled for the 1\" axle sleeve; glue and screw"))
+    P.append(Part("FLIP-RIBL", "flip core long ribs", 10, "BB12", PLY_HALF, F["core_len"], F["core_t"] - 2 * PLY, 2, "A"))
+    P.append(Part("BOX-TOP", "flush box top (the visible face when stowed)", 10, "BB34", PLY, F["core_len"], F["box_w"], 1, "A", "cut from the hatch waste; birch face up"))
+    P.append(Part("BOX-SIDE", "flush box sides", 10, "BB34", PLY, F["core_len"], F["box_h"] - PLY, 2, "A"))
+    P.append(Part("BOX-END", "flush box ends", 10, "BB34", PLY, F["box_w"] - 2 * PLY, F["box_h"] - PLY, 2, "A", "one end has a lift-off lid for the counterweight"))
     P.append(Part("HOOD-BK", "hood back", 10, "BB34", PLY, 28.0, MITER_HOOD["h"], 1, "A"))
     P.append(Part("HOOD-SD", "hood sides", 10, "BB34", PLY, 6.0, MITER_HOOD["h"], 2, "A"))
-    P.append(Part("HOOD-FL", "hood sloped floor + top", 10, "BB34", PLY, 28.0, 6.5, 2, "A", "floor slopes to the 4\" port"))
+    P.append(Part("HOOD-FL", "hood sloped floor + top", 10, "BB34", PLY, 28.0, 6.5, 2, "A", "floor slopes to the 4\" quick-connect port"))
+    P.append(Part("BEAR-BLK", "bearing doubler blocks on the bay walls", 10, "BB34", PLY, 12.0, 8.0, 4, "A", "two per wall, laminated to 1-1/2, the flange bearings bolt through them"))
+    P.append(Part("REST", "rest blocks (platform seats on these, both ways up)", 10, "MAPLE", 1.5, 4.0, 2.5, 4, "L", "glued + screwed to the bay walls at 28-1/4\" from the floor; one carries the seat switch"))
     P.append(Part("LEAF", "drop-leaf wings (BB + MDF laminate)", 10, "BB34", PLY, 24.0, 24.0, 2, "A", "laminate to MDF LEAF-M; edge with maple"))
     P.append(Part("LEAF-M", "drop-leaf wings, MDF layer", 10, "MDF34", PLY, 24.0, 24.0, 2, "A"))
     P.append(Part("LEAF-EDGE", "drop-leaf edging", 10, "MAPLE", 1.5, 26.0, 1.5, 6, "L"))
-    P.append(Part("STOP", "lift stop blocks", 10, "MAPLE", 1.5, 4.0, 3.0, 4, "L", "with 3/8 leveling bolts"))
+    P.append(Part("DOOR-BAY", "flip-bay doors", 12, "BB34", PLY, 16.0 - 0.125, TOP_UNDER - 4.0 - 0.125, 2, "L", "full overlay; open both before flipping; right one carries the paddle switch"))
     # ---------------------------------------------------------------- 11 laser tray
     P.append(Part("LT-BASE", "laser tray base", 11, "BB34", PLY, 30.0, 29.0, 1, "A", "on 30\" 100 lb full-extension slides"))
     P.append(Part("LT-SIDE", "laser tray sides", 11, "BB12", PLY_HALF, 30.0, 2.0, 2, "L"))
@@ -136,6 +138,7 @@ def build():
             depth = 36.0 if face in ("S", "W") and w < 25 else 30.0
             drawer(P, label.split()[0], label, w, h, depth)
         elif kind == "door":
+            if "flip-bay" in label: continue   # DOOR-BAY listed with step 10 parts
             P.append(Part("DOOR-" + label.split()[3], label, 12, "BB34", PLY, w - 0.125, h - 0.125, 1, "L", "full overlay; foam-tape gasket on the carcass"))
         elif kind == "pullout":
             if "bit" in label:
@@ -149,7 +152,7 @@ def build():
                 P.append(Part("CR-BAR", "clamp bars", 12, "MAPLE", 1.5, w - 1.0 - 1.5, 1.5, 4, "L", "F-clamps and bar clamps hang here"))
                 P.append(Part("CR-FR", "clamp rack front", 12, "BB34", PLY, w - 0.125, h - 0.125, 1, "L"))
         elif kind == "panel":
-            pass  # LB-FRONT listed in step 2
+            pass
     # ---------------------------------------------------------------- 13 misc
     P.append(Part("CRADLE", "pipe-clamp cradles (dog-hole mounted)", 13, "MAPLE", 1.5, 6.0, 3.0, 6, "L", "3/4 dowel peg glued in; notch for 3/4 pipe"))
     return P

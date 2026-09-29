@@ -13,7 +13,7 @@ Everything is 120 V on a single 20 A circuit, exactly like your other bench, bui
 
 - **Main strip:** a metal 12-outlet, 15 A surge strip with a lit switch mounted inside the utility column. Its switch is the bench master.
 - **Raceway:** 1" surface raceway on top of the spine lid (never inside the dust chase) to the south end, and through the service gap to the west cabinets.
-- **Branch strips:** metal 6-outlet strips inside W1 (charging drawer, LED driver), in the lift bay (miter), and behind the east face (router box, east USB strip).
+- **Branch strips:** metal 6-outlet strips inside W1 (charging drawer, LED driver), in the flip bay (miter), and behind the east face (router box, east USB strip).
 
 ## Outlets and switches
 
@@ -21,8 +21,8 @@ Everything is 120 V on a single 20 A circuit, exactly like your other bench, bui
 |---|---|---|
 | Router box (inside, high on the north partition) | single outlet | router plugs in here; cord through a grommet |
 | Right-hand router door front | paddle safety switch | switches the router outlet |
-| Lift-bay east wall, 10" up | single outlet | miter saw; 30" service loop follows the lift |
-| Lift-bay front panel | paddle safety switch | switches the miter outlet |
+| Flip-bay east wall, 12" up | single outlet **through the seat switch** | miter saw; plug in after the platform is seated; no power unless seated and clamped |
+| Right-hand flip-bay door | paddle safety switch | switches the miter outlet (in series with the seat switch) |
 | W1 top drawer | switched outlet in the drawer back | charging drawer; 1" vent slots front and back |
 | W2 (inside, north wall) | single outlet | laser |
 | West face, y 50-58, under the overhang | flush strip, 2 outlets + USB-A/C | hand tools, phone |

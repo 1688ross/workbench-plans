@@ -19,12 +19,12 @@ So the bench carries **both trunks side by side** in the 5" x 8" spine chase at 
 | # | Drop | Trunk | Gate location | Notes |
 |---|---|---|---|---|
 | 1 | Floor sweep | 4" | south toe kick, behind a flap | sweep the shop floor straight into it |
-| 2 | Miter hood | 4" | lift-bay east wall | 6' of 4" flex to the hood on the sub-platform; rises with the saw |
+| 2 | Miter hood | 4" | flip-bay east wall | 4' of 4" flex with a quick-connect cuff; plug it onto the hood after each flip |
 | 3 | Router box | 4" | router-box floor | box is sealed; 1" x 4" make-up-air slot on the north partition |
 | 4 | Downdraft plenum | 4" | service gap (reach through the W-BAND1 clean-out) | 81 holes x 0.44 sq in = 36 sq in of open area; at 350 CFM that is ~1,400 fpm through the holes, plenty for sanding |
 | 5 | Table saw | 4" | motor-bay south wall | 4' of 4" flex to the CNS's own port |
 | 6 | Router fence | 2-1/2" | behind the flip-lid port in the east edge band | your fence's hose plugs into the face of the bench |
-| 7 | Miter saw chute | 2-1/2" | lift-bay east wall | 4' of 2-1/2" flex to the DWS779's port |
+| 7 | Miter saw chute | 2-1/2" | flip-bay east wall | 3' of 2-1/2" flex to the DWS779's port, connected after the flip |
 
 ## Rules that make it pull
 
@@ -38,7 +38,7 @@ So the bench carries **both trunks side by side** in the 5" x 8" spine chase at 
 
 ## The miter hood
 
-A 28" wide x 6" deep x 14" tall box on the sub-platform behind the saw, open toward the blade, with a floor sloped to a 4" port low at the back. Height 14" puts its top about 9-1/2" above the bench top when raised. It rides with the saw so the hose never has to be reconnected. Add a strip of 1/8" brush or rubber flap across the top edge if you want to catch the high spray from a slider.
+A 28" wide x 6" deep x 14" tall box on the flip core behind the saw, open toward the blade, with a floor sloped to a 4" port low at the back. Height 14" puts its top about 9-1/2" above the bench top when the saw is up. It flips with the saw; the hose has a quick-connect cuff that you push on after the platform is locked. Add a strip of 1/8" brush or rubber flap across the top edge if you want to catch the high spray from a slider.
 
 ## Optional automation
 

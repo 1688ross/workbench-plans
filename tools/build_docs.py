@@ -19,7 +19,6 @@ def main():
         L.append(f"| {MAT[m]} 4x8 | **{n}** | {files} |")
     maple_area = sum(p.length * p.width * p.qty for p in P if p.material == "MAPLE") / 144
     L.append(f"| hard maple 8/4 | about **{maple_area * 2 * 1.3:.0f} board feet** (incl. 30% waste); {summary['MAPLE_boards']} pieces of 3\" x 8' shown | [MAPLE-boards](../renders/cuts/MAPLE-boards.svg) |")
-    L.append("| 2x4 SPF | 2 pieces 8' | for the lift sub-platform frame |")
     L += ["", "Buy one extra sheet of 3/4\" Baltic birch: the nesting is tight (92-100% yield) and it leaves no room for a bad cut.", ""]
     # by step
     L += ["## Parts by build step", ""]

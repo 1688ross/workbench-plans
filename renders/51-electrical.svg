@@ -31,8 +31,8 @@
 <text x='468.0' y='463.0' font-size='8' fill='#713f12' text-anchor='middle' font-weight='normal' >router outlet + paddle switch</text>
 <line x1='465.0' y1='676.0' x2='360.0' y2='676.0' stroke='#1d4ed8' stroke-width='2.2' />
 <rect x='348.0' y='664.0' width='24.0' height='24.0' rx='0' fill='#fde68a' stroke='#713f12' stroke-width='1' />
-<rect x='170.3' y='668.0' width='235.4' height='14.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
-<text x='288.0' y='676.0' font-size='8' fill='#713f12' text-anchor='middle' font-weight='normal' >miter outlet (cord loop rises with lift) + paddle</text>
+<rect x='179.6' y='668.0' width='216.8' height='14.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='288.0' y='676.0' font-size='8' fill='#713f12' text-anchor='middle' font-weight='normal' >miter outlet + seat-switch interlock + paddle</text>
 <line x1='465.0' y1='376.0' x2='381.0' y2='376.0' stroke='#1d4ed8' stroke-width='2.2' />
 <line x1='381.0' y1='376.0' x2='381.0' y2='484.0' stroke='#1d4ed8' stroke-width='2.2' />
 <line x1='381.0' y1='484.0' x2='150.0' y2='484.0' stroke='#1d4ed8' stroke-width='2.2' />
@@ -72,7 +72,7 @@
 <text x='560.0' y='660.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >- Everything stays 120 V / 20 A. Never run the router and the miter saw at the same time (each ~15 A).</text>
 <text x='560.0' y='676.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >- Main strip has the red master switch; paddle switches at router and miter are the tool switches.</text>
 <text x='560.0' y='692.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >- Cords are strapped to the raceway, never loose in the dust chase; use 12 AWG for the feed, 14 AWG branch strips.</text>
-<text x='560.0' y='708.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >- The miter cord makes a service loop with 30&quot; of slack for the lift travel.</text>
+<text x='560.0' y='708.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >- The miter outlet runs through the seat switch: no power unless the platform is seated and clamped.</text>
 <text x='560.0' y='724.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >- Charging drawer: switched outlet, 1&quot; vent slots front and back.</text>
 <text x='560.0' y='740.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >- Metal strips and boxes; screw the strips to plywood, not to the duct.</text>
 </svg>

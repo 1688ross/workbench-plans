@@ -156,19 +156,21 @@
 <circle cx='537.0' cy='528.0' r='7.50' fill='#fff' stroke='#7c2d12' stroke-width='1' />
 <rect x='549.2' y='502.0' width='77.6' height='14.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
 <text x='588.0' y='510.0' font-size='8' fill='#7c2d12' text-anchor='middle' font-weight='normal' >2-1/2&quot; vac port</text>
-<rect x='237.0' y='633.0' width='174.0' height='255.0' rx='0' fill='#f5f3ff' stroke='#6d28d9' stroke-width='1.4' />
-<line x1='237.0' y1='760.5' x2='411.0' y2='760.5' stroke='#6d28d9' stroke-width='1' />
+<rect x='237.0' y='694.5' width='174.0' height='147.0' rx='0' fill='#f5f3ff' stroke='#6d28d9' stroke-width='1.4' />
+<line x1='237.0' y1='768.0' x2='411.0' y2='768.0' stroke='#6d28d9' stroke-width='1' />
 <rect x='228.0' y='624.0' width='192.0' height='270.0' rx='0' fill='none' stroke='#6d28d9' stroke-width='0.8' stroke-dasharray='4 3'/>
-<rect x='202.6' y='687.0' width='242.9' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
-<text x='324.0' y='696.0' font-size='9' fill='#4c1d95' text-anchor='middle' font-weight='normal' >MITER HATCH 29 x 42-1/2 (two lift-off leaves)</text>
-<rect x='241.7' y='819.0' width='164.6' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
-<text x='324.0' y='828.0' font-size='9' fill='#4c1d95' text-anchor='middle' font-weight='normal' >DWS779 rises on a scissor lift</text>
-<rect x='250.4' y='841.0' width='147.2' height='14.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
-<text x='324.0' y='849.0' font-size='8' fill='#4c1d95' text-anchor='middle' font-weight='normal' >fence line E-W, operator south</text>
-<rect x='240.0' y='636.0' width='168.0' height='36.0' rx='0' fill='none' stroke='#6d28d9' stroke-width='1' stroke-dasharray='4 3'/>
-<rect x='259.7' y='647.2' width='128.6' height='14.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
-<text x='324.0' y='655.2' font-size='8' fill='#4c1d95' text-anchor='middle' font-weight='normal' >hood (rides with the lift)</text>
-<rect x='207.0' y='636.0' width='21.0' height='252.0' rx='0' fill='#ede9fe' stroke='#6d28d9' stroke-width='0.6' stroke-dasharray='4 3'/>
+<rect x='262.6' y='711.0' width='122.8' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='324.0' y='720.0' font-size='9' fill='#4c1d95' text-anchor='middle' font-weight='normal' >FLIP HATCH 29 x 24-1/2</text>
+<rect x='215.6' y='733.0' width='216.8' height='14.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='324.0' y='741.0' font-size='8' fill='#4c1d95' text-anchor='middle' font-weight='normal' >two-sided platform on a 1&quot; E-W axle at y = 22</text>
+<line x1='225.0' y1='768.0' x2='423.0' y2='768.0' stroke='#4c1d95' stroke-width='1.2' stroke-dasharray='8 3 2 3'/>
+<rect x='257.4' y='807.0' width='133.3' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='324.0' y='816.0' font-size='9' fill='#4c1d95' text-anchor='middle' font-weight='normal' >DWS779 up / flush box up</text>
+<rect x='190.1' y='859.0' width='267.8' height='14.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='324.0' y='867.0' font-size='8' fill='#4c1d95' text-anchor='middle' font-weight='normal' >fence line E-W, operator south; doors below open to flip</text>
+<rect x='240.0' y='696.0' width='168.0' height='36.0' rx='0' fill='none' stroke='#6d28d9' stroke-width='1' stroke-dasharray='4 3'/>
+<rect x='197.0' y='673.0' width='253.9' height='14.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='324.0' y='681.0' font-size='8' fill='#4c1d95' text-anchor='middle' font-weight='normal' >hood on the platform's north end (quick-connect hose)</text>
 <rect x='-24.0' y='732.0' width='144.0' height='144.0' rx='0' fill='#f5f3ff' stroke='#6d28d9' stroke-width='0.8' stroke-dasharray='4 3'/>
 <rect x='534.0' y='732.0' width='144.0' height='144.0' rx='0' fill='#f5f3ff' stroke='#6d28d9' stroke-width='0.8' stroke-dasharray='4 3'/>
 <rect x='4.6' y='796.0' width='86.9' height='14.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
@@ -207,10 +209,10 @@
 <line x1='411.0' y1='914.0' x2='411.0' y2='922.0' stroke='#555' stroke-width='0.8' />
 <rect x='312.2' y='906.0' width='23.7' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
 <text x='324.0' y='915.0' font-size='9' fill='#555' text-anchor='middle' font-weight='normal' >29&quot;</text>
-<line x1='576.0' y1='633.0' x2='576.0' y2='888.0' stroke='#555' stroke-width='0.8' />
-<line x1='572.0' y1='633.0' x2='580.0' y2='633.0' stroke='#555' stroke-width='0.8' />
-<line x1='572.0' y1='888.0' x2='580.0' y2='888.0' stroke='#555' stroke-width='0.8' />
-<text x='572.0' y='760.5' font-size='9' fill='#555' text-anchor='middle' transform='rotate(-90 572.0 760.5)'>42-1/2"</text>
+<line x1='576.0' y1='694.5' x2='576.0' y2='841.5' stroke='#555' stroke-width='0.8' />
+<line x1='572.0' y1='694.5' x2='580.0' y2='694.5' stroke='#555' stroke-width='0.8' />
+<line x1='572.0' y1='841.5' x2='580.0' y2='841.5' stroke='#555' stroke-width='0.8' />
+<text x='572.0' y='768.0' font-size='9' fill='#555' text-anchor='middle' transform='rotate(-90 572.0 768.0)'>24-1/2"</text>
 <line x1='576.0' y1='330.0' x2='576.0' y2='420.0' stroke='#555' stroke-width='0.8' />
 <line x1='572.0' y1='330.0' x2='580.0' y2='330.0' stroke='#555' stroke-width='0.8' />
 <line x1='572.0' y1='420.0' x2='580.0' y2='420.0' stroke='#555' stroke-width='0.8' />

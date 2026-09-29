@@ -61,7 +61,6 @@ def build_scene(hero=False, saw_up=False, leaves_up=False, well_open=False, tray
         S.add(1, "steel", x - 0.9, x + 0.9, y - 0.9, y + 0.9, 0, 0.75)
     # 2 carcasses
     for key, c in CABS.items(): carcass_boxes(S, 2, key, c)
-    S.add(2, "ply", 14.5, 15.25, 1, 46, 4, TOP_UNDER)                  # leaf-slot divider
     S.add(2, "ply", 50, 68, 29.25, 30, 12.75, TOP_UNDER)                # SE divider
     S.add(2, "ply", 55, 55.75, 1, 80, 4, 12)                            # spine wall
     S.add(2, "ply", 50, 68, 76, 80, 12, 12.75)                          # leg lid
@@ -78,7 +77,7 @@ def build_scene(hero=False, saw_up=False, leaves_up=False, well_open=False, tray
     fb = FACE_VISE["block"]; S.add(3, "maple", fb["x0"], fb["x1"], fb["y0"], fb["y1"], fb["z0"], TOP_UNDER)
     # 4 assembly: band panels + lift-bay front + utility cover
     S.add(4, "dark", 1, 1.75, 46, 66, 26.5, TOP_UNDER); S.add(4, "dark", 1, 1.75, 66, 95, 24, TOP_UNDER)
-    S.add(4, "dark", 18, 50, 1, 1.75, 4, TOP_UNDER); S.add(4, "dark", 67.25, 68, 76, 80, 12, TOP_UNDER)
+    S.add(4, "dark", 67.25, 68, 76, 80, 12, TOP_UNDER)
     # 5 ducts
     S.add(5, "duct", 50.5, 54.5, 2, 78, 4.5, 8.5); S.add(5, "duct", 50.5, 68, 76, 80, 4.5, 8.5)
     S.add(5, "vac", 51.5, 53.5, 2, 79.5, 9, 11); S.add(5, "vac", 51.5, 68, 78.5, 80.5, 9, 11)
@@ -91,7 +90,7 @@ def build_scene(hero=False, saw_up=False, leaves_up=False, well_open=False, tray
     # 6 electrical
     S.add(6, "elec", 60, 66, 76.5, 79.5, 14, 16); S.add(6, "elec", 66.5, 68, 76.5, 79.5, 18, 22.5)
     S.add(6, "elec", 56.5, 58.5, 2, 78, 12.75, 13.75)                                             # raceway on spine lid
-    S.add(6, "elec", 60.5, 62, 63, 66, 26, 28); S.add(6, "elec", 38, 42, 22, 26, 10, 12)          # router + miter outlets
+    S.add(6, "elec", 60.5, 62, 63, 66, 26, 28); S.add(6, "elec", 49.2, 50, 36, 40, 12, 15)          # router + miter outlets
     S.add(6, "elec", 1.75, 2.5, 50, 58, 30.5, 32.25); S.add(6, "elec", 56, 64, 1.75, 2.5, 30.5, 32.25)   # flush strips
     S.add(6, "elec", 66.5, 68, 68, 74, 30.5, 32.25)
     # 7 top laminate + doubler
@@ -108,21 +107,23 @@ def build_scene(hero=False, saw_up=False, leaves_up=False, well_open=False, tray
     for yy in ROUTER_TRACKS["fence_y"]: S.add(9, "dark", ROUTER_TRACKS["fence_x"][0], ROUTER_TRACKS["fence_x"][1], yy - 0.375, yy + 0.375, TOP_HEIGHT - 0.05, TOP_HEIGHT + 0.05)
     S.add(9, "dark", ROUTER_TRACKS["combo_x"] - 0.5, ROUTER_TRACKS["combo_x"] + 0.5, ROUTER_TRACKS["combo_y"][0], ROUTER_TRACKS["combo_y"][1], TOP_HEIGHT - 0.05, TOP_HEIGHT + 0.05)
     S.add(9, "elec", 55, 60, 54, 70, 22, TOP_UNDER)                                                 # DW618 + lift (inside box)
-    # 10 miter lift
-    lt = LIFT_TABLE; sp = SUB_PLATFORM; ms = MITER_SAW
-    plat = lt["high"] if saw_up else lt["low"]
-    S.add(10, "steel", 22, 46, 12, 34, 0, 2.5); S.add(10, "steel", 22, 46, 12, 34, plat - 1.5, plat)
-    S.add(10, "steel", 33, 35, 12, 34, 2.5, plat - 1.5)
-    S.add(10, "ply", sp["x0"], sp["x1"], sp["y0"], sp["y1"], plat, plat + sp["t"])
-    saw0 = plat + sp["t"]
-    S.add(10, "saw", 22, 22 + ms["w"], 4, 4 + ms["d"], saw0, saw0 + ms["deck"])
-    S.add(10, "saw", 22, 46.5, 15, 17, saw0 + ms["deck"], saw0 + ms["deck"] + 5)
-    S.add(10, "saw", 28, 40, 8, 30, saw0 + ms["deck"] + 5, saw0 + ms["h_locked"])
-    S.add(10, "hood", MITER_HOOD["x0"], MITER_HOOD["x1"], MITER_HOOD["y0"], MITER_HOOD["y1"], saw0, saw0 + MITER_HOOD["h"])
-    if not saw_up:
-        S.add(10, "top", HATCH["x0"], HATCH["x1"], HATCH["y0"], HATCH["y1"], TOP_HEIGHT - 0.02, TOP_HEIGHT + 0.02)
-    else:
+    # 10 miter flip-top
+    F = FLIP; ms = MITER_SAW; ay, az = F["axle_y"], F["axle_z"]; hl = F["core_len"] / 2
+    S.add(10, "steel", 17.5, 50.5, ay - 0.5, ay + 0.5, az - 0.5, az + 0.5)                          # axle
+    for (x0, x1) in ((18, 19.5), (48.5, 50)):
+        for yy in (ay - 11, ay + 11): S.add(10, "maple", x0, x1, yy - 1.25, yy + 1.25, az - 2.5, az - 1)   # rest blocks
+    if saw_up:
+        S.add(10, "ply", 20, 48, ay - hl, ay + hl, az - 1, az + 1)                                    # core
+        S.add(10, "saw", 21, 21 + ms["w"], ay - hl + 1, ay - hl + 1 + ms["base_d"], az + 1, az + 1 + ms["deck"])
+        S.add(10, "saw", 21, 45.5, ay - hl + 9, ay - hl + 12, az + 1 + ms["deck"], az + 1 + ms["deck"] + 5)
+        S.add(10, "saw", 27, 39, ay - hl + 3, ay - hl + 19, az + 1 + ms["deck"] + 5, az + 1 + ms["h_locked"])
+        S.add(10, "hood", MITER_HOOD["x0"], MITER_HOOD["x1"], MITER_HOOD["y0"], MITER_HOOD["y1"], az + 1, az + 1 + MITER_HOOD["h"])
         S.add(10, "hole", HATCH["x0"], HATCH["x1"], HATCH["y0"], HATCH["y1"], TOP_HEIGHT - 0.03, TOP_HEIGHT + 0.03)
+    else:
+        S.add(10, "ply", 20, 48, ay - hl, ay + hl, az - 1, az + 1)                                    # core
+        S.add(10, "top", 21, 47, ay - hl, ay + hl, az + 1, TOP_HEIGHT)                                # flush box up
+        S.add(10, "saw", 21, 21 + ms["w"], ay - hl + 1, ay - hl + 1 + ms["base_d"], az - 1 - ms["deck"], az - 1)
+        S.add(10, "saw", 27, 39, ay - hl + 3, ay - hl + 19, az - 1 - ms["h_locked"], az - 1 - ms["deck"] - 5)
     for side in (-1, 1):
         if leaves_up:
             x0, x1 = (-1.5 - DROP_LEAF["len"], -1.5) if side < 0 else (70.5, 70.5 + DROP_LEAF["len"])
@@ -143,7 +144,7 @@ def build_scene(hero=False, saw_up=False, leaves_up=False, well_open=False, tray
         S.add(11, "laser", 3, 29, 68, 91, 15.5, 15.5 + LASER["h"])
     # 12 fronts
     for (f, a0, a1, z0, z1, kind, label) in FRONTS:
-        k = "front" if kind != "slot" else "toe"
+        k = "front"
         if f == "S": S.add(12, k, a0 + 0.06, a1 - 0.06, 0.25, 1.0, z0 + 0.06, z1 - 0.06)
         elif f == "W": S.add(12, k, 0.25, 1.0, a0 + 0.06, a1 - 0.06, z0 + 0.06, z1 - 0.06)
         elif f == "E": S.add(12, k, 68.0, 68.75, a0 + 0.06, a1 - 0.06, z0 + 0.06, z1 - 0.06)
@@ -209,13 +210,13 @@ def render(S, path, title, sub, highlight=None, upto=13, mirror=False, W=1200, H
 def hero_views():
     S = build_scene(hero=True)
     render(S, os.path.join(OUT, "10-final-look-sw.svg"), "FINAL LOOK  -  from the south-west, everything stowed",
-           "Charcoal Baltic-birch fronts with routed finger pulls, maple-edged 1-1/2\" top at 34-3/4\". Miter saw and laser are below the top; only the router plate, T-track, dog field and vise show.",
+           "Charcoal Baltic-birch fronts with routed finger pulls, maple-edged 1-1/2\" top at 34-3/4\". Miter saw hangs upside down under its flush box; only the router plate, T-track, dog field and vise show.",
            notes=["West face (left): face vise, dog field, hand-tool drawers, laser tray.  South face (right): long drawers, leaf slot, lift-bay panel with pedal flap, clamp-rack pull-out.",
                   "Drop-leaf wings hang flat against both ends. LED strip under the top overhang. The table saw sits against the far (north) edge."], hide_internal=True)
     S2 = build_scene(hero=True, saw_up=True, leaves_up=True, well_open=True)
-    render(S2, os.path.join(OUT, "11-final-look-in-use.svg"), "FINAL LOOK  -  in use: miter saw raised, drop-leaves up, laser well open",
-           "The scissor lift brings the DWS779 deck flush with the top; the hood rises with it. Drop-leaves add 24\" of support each side. The laser sits over the open well for rotary work.",
-           notes=["Hatch leaves are in the slot beside the lift bay. The 4\" flex hose and the saw's cord follow the platform up and down."], hide_internal=True)
+    render(S2, os.path.join(OUT, "11-final-look-in-use.svg"), "FINAL LOOK  -  in use: miter saw flipped up, drop-leaves up, laser well open",
+           "The platform flipped: DWS779 deck flush with the top, hood behind it. Drop-leaves add 24\" of support each side. The laser sits over the open well for rotary work.",
+           notes=["The flush box now hangs under the saw. Bay doors are closed again; the 4\" quick-connect and the plug are made inside the bay."], hide_internal=True)
     S3 = build_scene(hero=True)
     render(S3, os.path.join(OUT, "12-final-look-ne.svg"), "FINAL LOOK  -  from the north-east: router station face and outfeed edge",
            "Mirrored view. East face: router-bit pull-out, gasketed router doors with paddle switch, utility column with the 4\" and 2-1/2\" ports and the 20 A inlet. North edge: bridge lip over the saw's rear rail.",
@@ -223,18 +224,18 @@ def hero_views():
 
 def step_views():
     subs = {
-        1: "Ladder frame of 4\" x 3/4\" Baltic-birch ribs on ten 1,000 lb levelling feet; open under the lift bay (front centre). Recessed 3\" on the S, E, W faces.",
+        1: "Ladder frame of 4\" x 3/4\" Baltic-birch ribs on ten 1,000 lb levelling feet; open under the flip bay (front centre). Recessed 3\" on the S, E, W faces.",
         2: "Five frameless carcasses (SW, SE, W1, W2, E2), the spine duct wall, motor-bay walls, service-gap walls and router-box partitions. SE and E2 have raised floors over the spine.",
         3: "Sealed downdraft plenum on W1/W2 (blue), spacer frame, laser-well box and the laminated vise pad.",
-        4: "Carcasses set on the plinth and screwed together; band panels, lift-bay front panel and the utility cover close the faces.",
+        4: "Carcasses set on the plinth and screwed together; band panels and the utility cover close the faces.",
         5: "4\" main (orange) and 2-1/2\" vac (amber) trunks in the spine, the leg to the east ports, and the five 4\" drops with blast gates (red).",
-        6: "Inlet and main strip in the utility column, raceway along the spine lid, tool outlets in the router box and lift bay, flush strips on three faces.",
+        6: "Inlet and main strip in the utility column, raceway along the spine lid, tool outlets in the router box and flip bay (through the seat switch), flush strips on three faces.",
         7: "Two-layer top glued up (3/4 BB over 3/4 MDF, seams staggered) with the doubler under the dog field; hatch, well, plate and groove cut-outs made.",
         8: "Top set and screwed from below; maple edging, outfeed beam across the motor bay, bridge lip over the saw's rear rail.",
         9: "Router lift plate recess, two fence T-tracks, combo track, router installed in the sealed box, fence vac port.",
-        10: "Scissor lift on the floor of the bay, sub-platform with the saw and hood, stop blocks, hatch ledge + leaves, drop-leaf wings.",
+        10: "Flip-top platform on its 1\" axle: core, flush box, saw and hood; rest blocks, plungers, toggle clamps and the seat switch on the bay walls; drop-leaf wings.",
         11: "Laser well insert and movable floor; laser tray on 30\" heavy slides in W2.",
-        12: "Drawer boxes and all fronts: long drawers, clamp rack, bit pull-out, router doors, W1/W2 drawers, laser tray front, paddle switches.",
+        12: "Drawer boxes and all fronts: long drawers, flip-bay doors, clamp rack, bit pull-out, router doors, W1/W2 drawers, laser tray front, paddle switches.",
         13: "Face vise, dog-hole accessories, pipe-clamp cradles, LED strip and finish.",
     }
     for st in range(1, 14):

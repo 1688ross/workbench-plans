@@ -1,60 +1,62 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1150 640' width='1150' height='640' font-family='Inter, Helvetica, Arial, sans-serif'>
-<rect width='1150' height='640' fill='#fbfbfa'/>
-<text x='20.0' y='30.0' font-size='16' fill='#222' text-anchor='start' font-weight='bold' >SHEET 10  -  MITER HATCH AND SUB-PLATFORM (plan) and lift specification</text>
-<text x='20.0' y='50.0' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >The sub-platform is a 2x4 torsion frame with a 3/4 BB deck; the saw and the hood bolt to it. Four leveling bolts in its corners land on maple stop blocks so the deck returns to exactly 34-3/4 every time.</text>
-<text x='1130.0' y='628.0' font-size='9' fill='#999' text-anchor='end' font-weight='normal' >workbench-plans  |  generated from tools/model.py  |  inches</text>
-<rect x='150.0' y='108.0' width='432.0' height='432.0' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
-<rect x='222.0' y='126.0' width='288.0' height='405.0' rx='0' fill='none' stroke='#6d28d9' stroke-width='0.8' stroke-dasharray='4 3'/>
-<text x='514.5' y='139.5' font-size='7.5' fill='#4c1d95' text-anchor='start' font-weight='normal' >lift bay walls</text>
-<rect x='235.5' y='139.5' width='261.0' height='382.5' rx='0' fill='#f5f3ff' stroke='#6d28d9' stroke-width='1.4' />
-<rect x='244.5' y='148.5' width='243.0' height='364.5' rx='0' fill='none' stroke='#7a5c2e' stroke-width='0.8' />
-<text x='246.3' y='159.3' font-size='7' fill='#7a5c2e' text-anchor='start' font-weight='normal' >1&quot; maple ledge, 1&quot; below top</text>
-<rect x='235.5' y='321.8' width='261.0' height='18.0' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
-<text x='501.0' y='334.4' font-size='7.5' fill='#7a5c2e' text-anchor='start' font-weight='normal' >removable centre bar</text>
-<rect x='240.0' y='144.0' width='252.0' height='369.0' rx='0' fill='none' stroke='#111' stroke-width='1' stroke-dasharray='4 3'/>
-<text x='244.5' y='506.7' font-size='7.5' fill='#111' text-anchor='start' font-weight='normal' >sub-platform 28 x 41</text>
-<rect x='262.5' y='211.5' width='207.0' height='288.0' rx='0' fill='#e9d5ff' stroke='#6d28d9' stroke-width='1' />
-<text x='366.0' y='360.0' font-size='8.5' fill='#4c1d95' text-anchor='middle' font-weight='normal' >DWS779 footprint 24-1/2 x 32</text>
-<line x1='262.5' y1='396.0' x2='469.5' y2='396.0' stroke='#4c1d95' stroke-width='2' />
-<text x='366.0' y='387.0' font-size='7' fill='#4c1d95' text-anchor='middle' font-weight='normal' >fence line</text>
-<rect x='240.0' y='144.0' width='252.0' height='54.0' rx='0' fill='#7c3aed' stroke='#4c1d95' stroke-width='1' />
-<text x='366.0' y='175.5' font-size='7.5' fill='#fff' text-anchor='middle' font-weight='normal' >hood 28 x 6 x 14 tall, 4&quot; port low at the back</text>
-<rect x='244.5' y='270.0' width='243.0' height='162.0' rx='0' fill='none' stroke='#9aa0a8' stroke-width='1.2' stroke-dasharray='4 3'/>
-<text x='366.0' y='261.0' font-size='7' fill='#444' text-anchor='middle' font-weight='normal' >lift platform 27-1/2 x 17-3/4 (ghost)</text>
-<circle cx='249.0' cy='504.0' r='3.60' fill='#111' stroke='none' stroke-width='1' />
-<circle cx='483.0' cy='504.0' r='3.60' fill='#111' stroke='none' stroke-width='1' />
-<circle cx='249.0' cy='153.0' r='3.60' fill='#111' stroke='none' stroke-width='1' />
-<circle cx='483.0' cy='153.0' r='3.60' fill='#111' stroke='none' stroke-width='1' />
-<text x='496.5' y='509.4' font-size='7' fill='#111' text-anchor='start' font-weight='normal' >leveling bolt x4</text>
-<rect x='190.5' y='144.0' width='31.5' height='378.0' rx='0' fill='#ede9fe' stroke='#6d28d9' stroke-width='0.6' />
-<text x='186.0' y='360.0' font-size='7' fill='#4c1d95' text-anchor='end' font-weight='normal' >leaf slot 3-1/2 wide</text>
-<line x1='235.5' y1='567.0' x2='496.5' y2='567.0' stroke='#555' stroke-width='0.8' />
-<line x1='235.5' y1='563.0' x2='235.5' y2='571.0' stroke='#555' stroke-width='0.8' />
-<line x1='496.5' y1='563.0' x2='496.5' y2='571.0' stroke='#555' stroke-width='0.8' />
-<rect x='354.2' y='555.0' width='23.7' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
-<text x='366.0' y='564.0' font-size='9' fill='#555' text-anchor='middle' font-weight='normal' >29&quot;</text>
-<line x1='568.5' y1='139.5' x2='568.5' y2='522.0' stroke='#555' stroke-width='0.8' />
-<line x1='564.5' y1='139.5' x2='572.5' y2='139.5' stroke='#555' stroke-width='0.8' />
-<line x1='564.5' y1='522.0' x2='572.5' y2='522.0' stroke='#555' stroke-width='0.8' />
-<text x='564.5' y='330.8' font-size='9' fill='#555' text-anchor='middle' transform='rotate(-90 564.5 330.8)'>42-1/2"</text>
-<line x1='240.0' y1='598.5' x2='492.0' y2='598.5' stroke='#555' stroke-width='0.8' />
-<line x1='240.0' y1='594.5' x2='240.0' y2='602.5' stroke='#555' stroke-width='0.8' />
-<line x1='492.0' y1='594.5' x2='492.0' y2='602.5' stroke='#555' stroke-width='0.8' />
-<rect x='355.0' y='587.5' width='21.9' height='14.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
-<text x='366.0' y='595.5' font-size='8' fill='#555' text-anchor='middle' font-weight='normal' >28&quot;</text>
-<text x='640.0' y='110.0' font-size='12' fill='#222' text-anchor='start' font-weight='bold' >Scissor lift table requirements</text>
-<text x='640.0' y='132.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Capacity</text>
-<text x='750.0' y='132.0' font-size='10' fill='#333' text-anchor='start' font-weight='normal' >>= 500 lb (load is about 95 lb)</text>
-<text x='640.0' y='150.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Lowered height</text>
-<text x='750.0' y='150.0' font-size='10' fill='#333' text-anchor='start' font-weight='normal' >&lt;= 9-1/4&quot; so the locked saw clears the top</text>
-<text x='640.0' y='168.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Raised height</text>
-<text x='750.0' y='168.0' font-size='10' fill='#333' text-anchor='start' font-weight='normal' >>= 28-1/4&quot; (deck at 34-3/4 with a 2&quot; sub-platform)</text>
-<text x='640.0' y='186.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Platform</text>
-<text x='750.0' y='186.0' font-size='10' fill='#333' text-anchor='start' font-weight='normal' >>= 27 x 17 in.</text>
-<text x='640.0' y='204.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Type</text>
-<text x='750.0' y='204.0' font-size='10' fill='#333' text-anchor='start' font-weight='normal' >foot-pump hydraulic, stationary; remove wheels/handle</text>
-<text x='640.0' y='222.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Stop</text>
-<text x='750.0' y='222.0' font-size='10' fill='#333' text-anchor='start' font-weight='normal' >4 maple blocks + leveling bolts; UHMW guides</text>
-<text x='640.0' y='240.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Verify</text>
-<text x='750.0' y='240.0' font-size='10' fill='#333' text-anchor='start' font-weight='normal' >DWS779 locked height and deck height before buying</text>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1180 660' width='1180' height='660' font-family='Inter, Helvetica, Arial, sans-serif'>
+<rect width='1180' height='660' fill='#fbfbfa'/>
+<text x='20.0' y='30.0' font-size='16' fill='#222' text-anchor='start' font-weight='bold' >SHEET 10  -  FLIP-TOP PLATFORM (plan) and the safety system</text>
+<text x='20.0' y='50.0' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >Two-sided platform: 2&quot; core (two 3/4 BB skins on 1/2 BB ribs) with the saw bolted to one face and a 4-1/2&quot; hollow flush box on the other. A 1&quot; steel axle in flange bearings on the bay walls. Both faces sit the same distance from the axle, so either way up is flush.</text>
+<text x='1160.0' y='648.0' font-size='9' fill='#999' text-anchor='end' font-weight='normal' >workbench-plans  |  generated from tools/model.py  |  inches</text>
+<rect x='150.0' y='128.0' width='432.0' height='432.0' rx='0' fill='#f1e2c2' stroke='#333' stroke-width='1' />
+<rect x='222.0' y='146.0' width='288.0' height='405.0' rx='0' fill='none' stroke='#6d28d9' stroke-width='0.8' stroke-dasharray='4 3'/>
+<text x='514.5' y='159.5' font-size='7.5' fill='#4c1d95' text-anchor='start' font-weight='normal' >bay walls (bearing blocks here)</text>
+<rect x='235.5' y='251.8' width='261.0' height='220.5' rx='0' fill='#f5f3ff' stroke='#6d28d9' stroke-width='1.4' />
+<line x1='195.0' y1='362.0' x2='537.0' y2='362.0' stroke='#111' stroke-width='1.5' stroke-dasharray='8 3 2 3'/>
+<text x='541.5' y='365.6' font-size='7.5' fill='#111' text-anchor='start' font-weight='normal' >1&quot; axle, flange bearings x2</text>
+<rect x='240.0' y='254.0' width='252.0' height='216.0' rx='0' fill='none' stroke='#111' stroke-width='1' stroke-dasharray='4 3'/>
+<text x='244.5' y='465.5' font-size='7.5' fill='#111' text-anchor='start' font-weight='normal' >core 28 x 24</text>
+<rect x='255.8' y='263.0' width='220.5' height='198.0' rx='0' fill='#e9d5ff' stroke='#6d28d9' stroke-width='1' />
+<text x='366.0' y='398.0' font-size='8.5' fill='#4c1d95' text-anchor='middle' font-weight='normal' >DWS779 base 24-1/2 x 22</text>
+<line x1='258.0' y1='371.0' x2='474.0' y2='371.0' stroke='#4c1d95' stroke-width='2' />
+<text x='366.0' y='362.0' font-size='7' fill='#4c1d95' text-anchor='middle' font-weight='normal' >fence line</text>
+<rect x='276.0' y='182.0' width='180.0' height='81.0' rx='0' fill='none' stroke='#9aa0a8' stroke-width='1' stroke-dasharray='4 3'/>
+<text x='366.0' y='200.0' font-size='7' fill='#555' text-anchor='middle' font-weight='normal' >rails overhang the top (up) / point out the doors (stowed)</text>
+<rect x='240.0' y='254.0' width='252.0' height='54.0' rx='0' fill='#7c3aed' stroke='#4c1d95' stroke-width='1' />
+<text x='366.0' y='290.0' font-size='7.5' fill='#fff' text-anchor='middle' font-weight='normal' >hood 28 x 6 x 14, quick-connect 4&quot;</text>
+<rect x='222.0' y='443.0' width='22.5' height='36.0' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
+<rect x='487.5' y='443.0' width='22.5' height='36.0' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
+<rect x='222.0' y='245.0' width='22.5' height='36.0' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
+<rect x='487.5' y='245.0' width='22.5' height='36.0' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
+<text x='217.5' y='240.5' font-size='7.5' fill='#7a5c2e' text-anchor='end' font-weight='normal' >rest blocks x4</text>
+<circle cx='231.0' cy='416.0' r='5.40' fill='#dc2626' stroke='#7f1d1d' stroke-width='1' />
+<circle cx='501.0' cy='416.0' r='5.40' fill='#dc2626' stroke='#7f1d1d' stroke-width='1' />
+<rect x='217.5' y='299.0' width='27.0' height='18.0' rx='0' fill='#fbbf24' stroke='#713f12' stroke-width='1' />
+<rect x='487.5' y='299.0' width='27.0' height='18.0' rx='0' fill='#fbbf24' stroke='#713f12' stroke-width='1' />
+<text x='217.5' y='419.6' font-size='7.5' fill='#7f1d1d' text-anchor='end' font-weight='normal' >index plungers</text>
+<text x='217.5' y='311.6' font-size='7.5' fill='#713f12' text-anchor='end' font-weight='normal' >toggle clamps</text>
+<line x1='235.5' y1='587.0' x2='496.5' y2='587.0' stroke='#555' stroke-width='0.8' />
+<line x1='235.5' y1='583.0' x2='235.5' y2='591.0' stroke='#555' stroke-width='0.8' />
+<line x1='496.5' y1='583.0' x2='496.5' y2='591.0' stroke='#555' stroke-width='0.8' />
+<rect x='354.2' y='575.0' width='23.7' height='15.0' rx='3' fill='#ffffffcc' stroke='none' stroke-width='1' />
+<text x='366.0' y='584.0' font-size='9' fill='#555' text-anchor='middle' font-weight='normal' >29&quot;</text>
+<line x1='604.5' y1='251.8' x2='604.5' y2='472.2' stroke='#555' stroke-width='0.8' />
+<line x1='600.5' y1='251.8' x2='608.5' y2='251.8' stroke='#555' stroke-width='0.8' />
+<line x1='600.5' y1='472.2' x2='608.5' y2='472.2' stroke='#555' stroke-width='0.8' />
+<text x='600.5' y='362.0' font-size='9' fill='#555' text-anchor='middle' transform='rotate(-90 600.5 362.0)'>24-1/2"</text>
+<text x='640.0' y='100.0' font-size='12' fill='#222' text-anchor='start' font-weight='bold' >How it stays safe</text>
+<text x='640.0' y='122.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Load path</text>
+<text x='720.0' y='122.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >The platform seats on four maple rest blocks (both ways up); the axle only locates it.</text>
+<text x='640.0' y='144.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Locate</text>
+<text x='720.0' y='144.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >Two 1/2&quot; spring index plungers snap into the bay walls at 0 and 180 deg.</text>
+<text x='640.0' y='166.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Clamp</text>
+<text x='720.0' y='166.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >Two 500 lb hold-down toggle clamps pull the core onto the rest blocks. No rattle, no lift-off.</text>
+<text x='640.0' y='188.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Interlock</text>
+<text x='720.0' y='188.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >A plunger seat switch under one rest block is in series with the paddle: no power unless seated and clamped.</text>
+<text x='640.0' y='210.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Balance</text>
+<text x='720.0' y='210.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >~70 lb of steel plate in the flush box brings the saw side to within ~13 ft-lb of balance.</text>
+<text x='640.0' y='232.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Swing</text>
+<text x='720.0' y='232.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >Doors open first; the saw swings out through the front. Keep 30&quot; clear. Two hands on the platform edges.</text>
+<text x='640.0' y='254.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Saw</text>
+<text x='720.0' y='254.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >Head locked down, slide locked, bevel locked, blade guard closed before every flip. Checklist plate on the door.</text>
+<text x='640.0' y='276.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Axle</text>
+<text x='720.0' y='276.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >1&quot; cold-rolled rod, two 1&quot; flange bearings on 1-1/2&quot; doubler blocks, shaft collars with set screws.</text>
+<text x='640.0' y='298.0' font-size='10' fill='#333' text-anchor='start' font-weight='bold' >Hose / cord</text>
+<text x='720.0' y='298.0' font-size='9.5' fill='#333' text-anchor='start' font-weight='normal' >4&quot; quick-connect cuff and a plug on the bay wall; connect after the plungers click in.</text>
+<text x='640.0' y='328.0' font-size='9.5' fill='#b91c1c' text-anchor='start' font-weight='normal' >Verify before building: DWS779 locked-down height (21-1/2 assumed), deck height (4-1/2 assumed), base depth (22 assumed).</text>
 </svg>

@@ -1,7 +1,7 @@
 <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 820' width='1200' height='820' font-family='Inter, Helvetica, Arial, sans-serif'>
 <rect width='1200' height='820' fill='#f6f5f2'/>
 <text x='20.0' y='30.0' font-size='16' fill='#222' text-anchor='start' font-weight='bold' >BUILD STEP 4  -  Assemble the base</text>
-<text x='20.0' y='48.0' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >Carcasses set on the plinth and screwed together; band panels, lift-bay front panel and the utility cover close the faces.</text>
+<text x='20.0' y='48.0' font-size='11' fill='#555' text-anchor='start' font-weight='normal' >Carcasses set on the plinth and screwed together; band panels and the utility cover close the faces.</text>
 <polygon points='520.0,701.8 862.6,504.0 416.4,246.4 73.8,444.2' fill='#ebe9e4' stroke='none' stroke-width='0.8' stroke-linejoin='round' />
 <polygon points='399.5,148.1 415.4,138.9 412.4,137.2 396.5,146.4' fill='#e5e7eb' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
 <polygon points='399.5,282.6 415.4,273.4 415.4,138.9 399.5,148.1' fill='#d1d5db' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
@@ -171,18 +171,12 @@
 <polygon points='523.0,636.8 584.7,601.2 405.5,497.7 343.7,533.3' fill='#e5e7eb' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
 <polygon points='523.0,640.3 584.7,604.6 584.7,601.2 523.0,636.8' fill='#d1d5db' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
 <polygon points='523.0,640.3 343.7,536.8 343.7,533.3 523.0,636.8' fill='#b7bcc4' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
-<polygon points='573.8,476.4 576.8,474.7 397.5,371.2 394.5,372.9' fill='#e5e7eb' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
-<polygon points='573.8,611.0 576.8,609.2 576.8,474.7 573.8,476.4' fill='#d1d5db' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
-<polygon points='573.8,611.0 394.5,507.5 394.5,372.9 573.8,476.4' fill='#b7bcc4' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
 <polygon points='697.3,540.3 704.4,536.2 697.3,532.1 690.1,536.2' fill='#e5e7eb' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
 <polygon points='697.3,543.8 704.4,539.6 704.4,536.2 697.3,540.3' fill='#d1d5db' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
 <polygon points='697.3,543.8 690.1,539.6 690.1,536.2 697.3,540.3' fill='#b7bcc4' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
 <polygon points='356.7,548.4 363.8,544.2 356.7,540.1 349.5,544.2' fill='#e5e7eb' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
 <polygon points='356.7,551.8 363.8,547.7 363.8,544.2 356.7,548.4' fill='#d1d5db' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
 <polygon points='356.7,551.8 349.5,547.7 349.5,544.2 356.7,548.4' fill='#b7bcc4' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
-<polygon points='587.7,468.4 715.2,394.8 712.2,393.0 584.7,466.6' fill='#3a3d43' stroke='#333' stroke-width='0.6' stroke-linejoin='round' />
-<polygon points='587.7,602.9 715.2,529.3 715.2,394.8 587.7,468.4' fill='#2f3136' stroke='#333' stroke-width='0.6' stroke-linejoin='round' />
-<polygon points='587.7,602.9 584.7,601.2 584.7,466.6 587.7,468.4' fill='#25272b' stroke='#333' stroke-width='0.6' stroke-linejoin='round' />
 <polygon points='520.0,507.5 523.0,505.7 343.7,402.2 340.7,404.0' fill='#e5e7eb' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
 <polygon points='520.0,642.0 523.0,640.3 523.0,505.7 520.0,507.5' fill='#d1d5db' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />
 <polygon points='520.0,642.0 340.7,538.5 340.7,404.0 520.0,507.5' fill='#b7bcc4' stroke='#a1a1aa' stroke-width='0.6' stroke-linejoin='round' />

@@ -38,8 +38,9 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <p>This records what changed after your answers (transcribed in <code>answers-raw.txt</code>) and why. The stage-1 brief is kept as history in <code>00-design-brief.md</code>.</p>
 <h3>The one big change: no more L</h3>
 <p>You set a hard rule that the bench be no wider than the saw with its 36" extension (69-1/8"). That rule kills the stage-1 L-shape for a reason that isn't obvious until you draw the outfeed path: an 8' board being ripped travels the full length of the bench at table height. With only 69" of width, a rip between the blade and the fence occupies the middle of the top (x = 11" to 47" from the west edge), and any tool that stands above the top in that path gets hit. A miter saw in a wing beside the outfeed strip is exactly such a tool.</p>
-<p>So the miter saw has to <em>disappear</em> when it is not in use. The answer is a <strong>hydraulic scissor lift table</strong> on the shop floor inside the base. The DWS779 bolts to a sub-platform on the lift; pump the pedal and it rises through a 29" x 42-1/2" hatch in the south end of the top until its deck is flush at 34-3/4". Release the valve and it sinks below the top; two lift-off leaves close the hatch and the whole 69" x 96" top is flat again. The dust hood rides on the same platform, so its hose stays connected.</p>
-<p>This is also the answer to your request for "more tech": a saw that rises out of the bench on demand is the signature feature.</p>
+<p>So the miter saw has to <em>disappear</em> when it is not in use. Your choice for that is a <strong>flip-top platform</strong>, the mechanism used on flip carts: a two-sided platform on a steel axle inside the base. The DWS779 bolts to one face; a hollow "flush box" the same height as the saw's deck (4-1/2") sits on the other. Open the two doors on the south face, release the locks, and rotate the platform half a turn: the saw swings out through the doors and comes up through a 29" x 24-1/2" hatch in the top with its deck flush at 34-3/4"; the box hangs underneath. Flip it back and the box's birch face closes the hatch and the whole 69" x 96" top is flat. No hydraulics, no leaves to store, a ten-second change.</p>
+<p>The geometry that makes a tall slider like the DWS779 flip is in Sheet 7 and Sheet 10: the axle is 5-1/2" below the top so the stowed saw hangs to 6-3/4" off the floor, and the saw's top corners sweep a 25-1/2" radius that passes 3" in front of the bench's south edge, which is why the bay front is doors rather than a fixed panel. The safety system is four layers deep (rest blocks that carry the load, index plungers, toggle clamps, and a seat-switch interlock on the saw's power) plus about 70 lb of steel in the box to balance the saw; see <code>07-stations.md</code>.</p>
+<p>A hydraulic scissor lift is the alternative if you ever prefer a push-button rise over a flip; it needs the same bay and hatch length plus 42" of hatch, and the earlier sheets for it are in the repo history.</p>
 <h3>Concept: four faces, four stations</h3>
 <p>A 69" x 96" island, 34-3/4" tall, with the table saw docked against the north edge.</p>
 <table>
@@ -47,15 +48,15 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td>North</td><td>Outfeed</td><td>Flat 20" strip with two 14" grooves aligned to the miter slots; bridge lip over the saw's rear rail; a 30" x 15" recess in the base (the motor bay) for the CNS motor and its 4" dust hose.</td></tr>
 <tr><td>West</td><td>Hand work / clamping station</td><td>9" quick-release face vise at the north end; 81-hole 3/4" dog field on 4" centres over a sealed downdraft plenum; W1 hand-tool drawers incl. a switched charging drawer; W2 holds the laser on a pull-out tray.</td></tr>
 <tr><td>East</td><td>Router station</td><td>JessEm Rout-R-Lift II in a 9-1/4 x 11-3/4 plate recess, 12" from the edge; two fence T-tracks 26" apart; combo T-track/miter slot; sealed router box ducted to the spine; 2-1/2" vac port for the fence; vertical bit pull-out; two gasketed doors; paddle switch.</td></tr>
-<tr><td>South</td><td>Miter station</td><td>DWS779 on the scissor lift; hatch; drop-leaf wings 24" x 24" on both ends (46" of support each side with the bench); long-item drawers; clamp-rack pull-out; pedal flap.</td></tr>
+<tr><td>South</td><td>Miter station</td><td>DWS779 on the flip-top platform; hatch; two bay doors; drop-leaf wings 24" x 24" on both ends (46" of support each side with the bench); long-item drawers; clamp-rack pull-out.</td></tr>
 <tr><td>Top, NW</td><td>Laser well</td><td>22" x 15" opening with a flush insert. Remove the insert and drop the floor panel onto cleats at 2", 4-1/2" or 7" below the top; rest the Falcon A1 over the opening for rotary work.</td></tr>
 </table>
 <h3>Your answers, and what each one decided</h3>
 <table>
 <tr><th>Your answer</th><th>Decision</th></tr>
-<tr><td>Shop 12' x 20', bench no wider than the saw, fixed, ceiling 7.5'</td><td>69" x 96" island; ten 1,000 lb levelling feet, no casters. Total floor with the saw and walking room: about 6' x 16'. Raised saw tops out at 56-1/4", well under the ceiling.</td></tr>
+<tr><td>Shop 12' x 20', bench no wider than the saw, fixed, ceiling 7.5'</td><td>69" x 96" island; ten 1,000 lb levelling feet, no casters. Total floor with the saw and walking room: about 6' x 16'. Flipped-up saw tops out at 56-1/4", well under the ceiling. Keep 30" clear in front of the south face for the swing.</td></tr>
 <tr><td>SawStop CNS, 36" T-Glide, 34-3/4" assembled height</td><td>Top at 34-3/4"; levelers give +/- 3/4". Blade lands 47-1/8" from the west edge. <strong>Measure</strong> the rear-rail height and the motor's projection before cutting the bay.</td></tr>
-<tr><td>DeWalt DWS779</td><td>Sub-platform sized 28 x 41; hatch 29 x 42-1/2. Lift spec: lowered &lt;= 9-1/4", raised &gt;= 28-1/4", 500 lb. <strong>Verify</strong> the saw's locked-down height (design assumes 21-1/2") and deck height (4-1/2").</td></tr>
+<tr><td>DeWalt DWS779</td><td>Flip core 28 x 24; hatch 29 x 24-1/2; axle at 29-1/4" off the floor; flush box 4-1/2" tall to match the deck. <strong>Verify</strong> the saw's locked-down height (design assumes 21-1/2"), deck height (4-1/2") and base depth (22"). The box height must equal the deck height exactly.</td></tr>
 <tr><td>DW618 + JessEm Rout-R-Lift II (to be bought again)</td><td>Plate recess 9-1/4 x 11-3/4 x 3/8 with leveling screws; box 22 x 20 x 20-1/2 clears the lift. Your existing fence: check its clamp spacing against the 26" track spacing before cutting the dados.</td></tr>
 <tr><td>HF collector (4") <em>and</em> shop vac + cyclone (2-1/2")</td><td>Two trunks side by side in the spine: 4" main and 2-1/2" vac. Five 4" gates, two 2-1/2" gates. See <code>05-dust-collection.md</code>.</td></tr>
 <tr><td>120 V, 20 A max, likes the power-strip approach</td><td>Single 20 A feed to a flush inlet, metal main strip with master switch, branch strips, flush USB strips on W/S/E faces, paddle switches at router and miter. See <code>06-electrical.md</code>.</td></tr>
@@ -73,10 +74,11 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td>Top</td><td>69" x 96" x 1-1/2", edges 1-1/2" maple; overhang 1" on E, S, W; flush at N</td></tr>
 <tr><td>Height</td><td>34-3/4" finished; base 33-1/4" on a 4" plinth recessed 3"</td></tr>
 <tr><td>Cabinet depth</td><td>40" on the west face (36" drawers), 22" on the east, 45" on the south</td></tr>
-<tr><td>Hatch</td><td>29" x 42-1/2", two leaves 28-3/4" x 21", 1" maple ledge, removable centre bar</td></tr>
+<tr><td>Hatch</td><td>29" x 24-1/2", 1/2" chamfer under the north and south edges; filled by the flush box when stowed</td></tr>
 <tr><td>Motor bay</td><td>30" x 15" x full height, centred 49" from the west edge</td></tr>
 <tr><td>Plenum</td><td>40" x 34" x 6", sealed, one 4" inlet on its east wall</td></tr>
 <tr><td>Laser well</td><td>22" x 15", floor 2" / 4-1/2" / 7" below the top</td></tr>
+<tr><td>Flip platform</td><td>2" core 28" x 24", 1" steel axle 29-1/4" off the floor at y = 22", flush box 26" x 24" x 4-1/2", four maple rest blocks at 28-1/4"</td></tr>
 <tr><td>Spine duct</td><td>5" x 8" chase at floor level, 79" long, under the SE and E2 cabinets</td></tr>
 <tr><td>Router plate</td><td>centre 12" from the east edge, 62" from the south edge</td></tr>
 <tr><td>Drop-leaves</td><td>24" x 24", top-hinged, folding brackets</td></tr>
@@ -86,23 +88,22 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <li>Table height of the CNS on its mobile base, and the height of the top of the rear rail. Decides the leveler setting and the bridge lip.</li>
 <li>How far the motor housing projects behind the table at 0 and 45 degrees of tilt. The bay is 15" deep; deepen it if needed.</li>
 <li>Distance from the blade to each miter slot (design uses 5-1/2"). Sets the outfeed grooves.</li>
-<li>DWS779: overall height with the head locked down, deck height, and the rails' rearmost point. Sets the lift's lowered/raised limits and the hatch length.</li>
+<li>DWS779: overall height with the head locked down (sets the stowed clearance and the swing radius), deck height (sets the flush-box height exactly), base depth and the rails' rearmost point (sets where the rails end when stowed).</li>
 <li>Your router fence's clamp spacing. Sets the fence-track spacing (26" in the drawings).</li>
 <li>The Falcon A1's footprint and height. Sets the tray and the well.</li>
-<li>The lift table you buy: platform size, lowered and raised heights. Adjust <code>LIFT_TABLE</code> in <code>tools/model.py</code> and re-run <code>tools/build_all.py</code>; every drawing updates.</li>
+<li>If any of those differ, change <code>MITER_SAW</code> and <code>FLIP</code> in <code>tools/model.py</code> and re-run <code>tools/build_all.py</code>; every drawing, the swing-radius check and the cut list update.</li>
 </ol></section>
 <section id='materials'><h2>Materials & hardware</h2><h2>Materials and hardware</h2>
 <p>Prices are 2026 US ballpark figures for planning. The sheet counts come from the nested cut diagrams (<code>renders/cuts/</code>), not from guesswork.</p>
 <h3>Sheet goods and lumber</h3>
 <table>
 <tr><th>Item</th><th>Qty</th><th>Use</th><th>Est. each</th><th>Est. total</th></tr>
-<tr><td>3/4" Baltic birch, 4x8</td><td>12 (+1 spare)</td><td>carcasses, top upper layer, doubler, plenum, fronts, pull-outs, hood, sub-platform deck</td><td>$95</td><td>$1,235</td></tr>
+<tr><td>3/4" Baltic birch, 4x8</td><td>12 (+1 spare)</td><td>carcasses, top upper layer, doubler, plenum, fronts, pull-outs, hood, flip core skins, flush box</td><td>$95</td><td>$1,235</td></tr>
 <tr><td>1/2" Baltic birch, 4x8</td><td>2</td><td>drawer boxes, laser tray sides</td><td>$70</td><td>$140</td></tr>
 <tr><td>1/4" Baltic birch, 4x8</td><td>2</td><td>cabinet backs, drawer bottoms</td><td>$45</td><td>$90</td></tr>
 <tr><td>3/4" MDF, 4x8</td><td>2</td><td>top lower layer, drop-leaf cores</td><td>$45</td><td>$90</td></tr>
-<tr><td>8/4 hard maple</td><td>~32 bf</td><td>edging, outfeed beam, bridge lip, hatch ledge and bar, cleats, jaw liners, clamp bars, cradles, stop blocks</td><td>$9/bf</td><td>$290</td></tr>
-<tr><td>2x4 SPF, 8'</td><td>2</td><td>lift sub-platform frame</td><td>$6</td><td>$12</td></tr>
-<tr><td><strong>Subtotal</strong></td><td></td><td></td><td></td><td><strong>$1,857</strong></td></tr>
+<tr><td>8/4 hard maple</td><td>~28 bf</td><td>edging, outfeed beam, bridge lip, cleats, jaw liners, clamp bars, cradles, rest blocks</td><td>$9/bf</td><td>$250</td></tr>
+<tr><td><strong>Subtotal</strong></td><td></td><td></td><td></td><td><strong>$1,805</strong></td></tr>
 </table>
 <p>Cheaper option: cabinet-grade birch plywood ($60/sheet) for the carcasses saves about $400 but the edges won't look as good where they show (finger pulls, pull-out edges).</p>
 <h3>Hardware</h3>
@@ -112,18 +113,24 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td>Full-extension ball-bearing slides, 36", 100 lb</td><td>6 pr</td><td>SW long drawers, W1 drawers</td><td>$190</td></tr>
 <tr><td>Full-extension slides, 30", 100 lb</td><td>1 pr</td><td>W2 drawer</td><td>$30</td></tr>
 <tr><td>Heavy-duty full-extension slides, 30", 250 lb (e.g. Accuride 9301 class)</td><td>3 pr</td><td>laser tray, clamp rack, bit pull-out</td><td>$210</td></tr>
-<tr><td>Concealed hinges, 110 deg, full overlay, soft-close</td><td>4</td><td>router doors</td><td>$24</td></tr>
+<tr><td>Concealed hinges, 110 deg, full overlay, soft-close</td><td>8</td><td>router doors, flip-bay doors</td><td>$48</td></tr>
 <tr><td>Piano hinge, 24" x 1-1/2", stainless</td><td>2</td><td>drop-leaves</td><td>$30</td></tr>
 <tr><td>Folding shelf brackets, 20", 300 lb pair</td><td>2 pr</td><td>drop-leaf supports</td><td>$60</td></tr>
-<tr><td>Hook-on panel clips / French cleat stock</td><td>-</td><td>lift-bay front panel, utility cover</td><td>$15</td></tr>
+<tr><td>Hook-on panel clips / French cleat stock</td><td>-</td><td>band panels, utility cover</td><td>$10</td></tr>
 <tr><td>Foam weatherstrip tape 3/8"</td><td>1 roll</td><td>router doors, plenum clean-out</td><td>$8</td></tr>
 <tr><td>Silicone sealant</td><td>2 tubes</td><td>plenum, hood, router box</td><td>$12</td></tr>
-<tr><td>Threaded inserts 1/4-20 + bolts</td><td>8</td><td>saw to sub-platform, hood</td><td>$15</td></tr>
-<tr><td>3/8" leveling bolts + nuts</td><td>4</td><td>sub-platform corners</td><td>$10</td></tr>
-<tr><td>UHMW strip 1" x 1/4"</td><td>4'</td><td>lift guides</td><td>$15</td></tr>
+<tr><td>Threaded inserts 1/4-20 + bolts</td><td>8</td><td>saw to flip core, hood</td><td>$15</td></tr>
+<tr><td>1" cold-rolled steel rod, 36"</td><td>1</td><td>flip axle</td><td>$25</td></tr>
+<tr><td>1" 2-bolt flange bearings (UCFL205 class)</td><td>2</td><td>on the bay walls</td><td>$30</td></tr>
+<tr><td>1" shaft collars, set-screw</td><td>4</td><td>lock the core to the axle</td><td>$20</td></tr>
+<tr><td>1/2" spring index plungers (lock-out type)</td><td>2</td><td>locate the platform at 0 and 180 deg</td><td>$30</td></tr>
+<tr><td>Hold-down toggle clamps, 500 lb</td><td>2</td><td>clamp the core to the rest blocks</td><td>$30</td></tr>
+<tr><td>Plunger limit switch, 15 A rated (seat switch)</td><td>1</td><td>power interlock for the saw</td><td>$15</td></tr>
+<tr><td>Steel plate or flat bar, ~70 lb</td><td>-</td><td>counterweight inside the flush box (scrap yard)</td><td>$60</td></tr>
+<tr><td>4" quick-connect hose cuff + coupler</td><td>1</td><td>hood hose</td><td>$20</td></tr>
 <tr><td>Screws: #8 x 1-1/4, #8 x 2, #6 x 3/4; pocket screws 1-1/4</td><td>-</td><td></td><td>$60</td></tr>
 <tr><td>Wood glue (Titebond III), 1 gal</td><td>1</td><td>top lamination</td><td>$35</td></tr>
-<tr><td><strong>Subtotal</strong></td><td></td><td></td><td><strong>$774</strong></td></tr>
+<tr><td><strong>Subtotal</strong></td><td></td><td></td><td><strong>$983</strong></td></tr>
 </table>
 <h3>Stations</h3>
 <table>
@@ -132,10 +139,9 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td>T-track, 3/4" x 3/8" aluminium, 48"</td><td>2</td><td>cut to 2 x 26" fence tracks</td><td>$40</td></tr>
 <tr><td>Combo T-track / miter-slot track, 36"</td><td>1</td><td>cut to 32"</td><td>$45</td></tr>
 <tr><td>Quick-release front vise, 9" (Eclipse / Rockler / WoodRiver)</td><td>1</td><td></td><td>$150</td></tr>
-<tr><td>Hydraulic scissor lift table, 500 lb, ~8.9"-28.3"</td><td>1</td><td>see Sheet 10 for the spec</td><td>$300</td></tr>
 <tr><td>Paddle safety switch, 120 V 15 A</td><td>2</td><td>router, miter</td><td>$50</td></tr>
 <tr><td>Bench dog / holdfast / Rockler accessories</td><td>-</td><td>you own these</td><td>-</td></tr>
-<tr><td><strong>Subtotal</strong></td><td></td><td></td><td><strong>$845</strong></td></tr>
+<tr><td><strong>Subtotal</strong></td><td></td><td></td><td><strong>$545</strong></td></tr>
 </table>
 <h3>Dust</h3>
 <table>
@@ -175,15 +181,15 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <h3>Grand total</h3>
 <table>
 <tr><th></th><th></th></tr>
-<tr><td>Wood</td><td>$1,857</td></tr>
-<tr><td>Hardware</td><td>$774</td></tr>
-<tr><td>Stations (incl. router lift, vise, scissor lift)</td><td>$845</td></tr>
+<tr><td>Wood</td><td>$1,805</td></tr>
+<tr><td>Hardware (incl. flip-top axle, bearings, locks, counterweight)</td><td>$983</td></tr>
+<tr><td>Stations (router lift, vise, tracks, switches)</td><td>$545</td></tr>
 <tr><td>Dust</td><td>$400</td></tr>
 <tr><td>Electrical</td><td>$360</td></tr>
 <tr><td>Finish</td><td>$160</td></tr>
-<tr><td><strong>Total</strong></td><td><strong>about $4,400</strong></td></tr>
+<tr><td><strong>Total</strong></td><td><strong>about $4,250</strong></td></tr>
 </table>
-<p>Without the router lift and scissor lift (if you already have the lift table or buy it later): about $3,850. With cabinet-grade ply instead of Baltic birch: subtract about $400.</p>
+<p>Without the router lift (if the JessEm purchase waits): about $3,990. With cabinet-grade ply instead of Baltic birch: subtract about $400.</p>
 <h3>Consumables and shop supplies</h3>
 <p>Sandpaper 80/120/180, blue tape, painter's plastic, clamps (you have those), a 3/4" brad-point or Forstner bit and a 3/4" dog-hole jig (or a drill guide), 1/2" and 1/4" router bits for the bit boards, a 3/4" straight bit and a 3/8" straight bit for the T-track dados, a 1/2" spiral for the plate recess, a 45-deg chamfer bit for the finger pulls.</p></section>
 <section id='cutlist'><h2>Cut list</h2><h2>Cut list — every piece of wood</h2>
@@ -193,10 +199,9 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><th>Material</th><th>Sheets / boards</th><th>Cut diagram</th></tr>
 <tr><td>3/4" Baltic birch 4x8</td><td><strong>12</strong></td><td><a href="renders/cuts/BB34-sheets-1.svg">BB34-sheets-1</a>, <a href="renders/cuts/BB34-sheets-2.svg">BB34-sheets-2</a></td></tr>
 <tr><td>1/2" Baltic birch 4x8</td><td><strong>2</strong></td><td><a href="renders/cuts/BB12-sheets-1.svg">BB12-sheets-1</a></td></tr>
-<tr><td>1/4" Baltic birch 4x8</td><td><strong>2</strong></td><td><a href="renders/cuts/BB14-sheets-1.svg">BB14-sheets-1</a></td></tr>
+<tr><td>1/4" Baltic birch 4x8</td><td><strong>3</strong></td><td><a href="renders/cuts/BB14-sheets-1.svg">BB14-sheets-1</a></td></tr>
 <tr><td>3/4" MDF 4x8</td><td><strong>2</strong></td><td><a href="renders/cuts/MDF34-sheets-1.svg">MDF34-sheets-1</a></td></tr>
-<tr><td>hard maple 8/4</td><td>about <strong>32 board feet</strong> (incl. 30% waste); 12 pieces of 3" x 8' shown</td><td><a href="renders/cuts/MAPLE-boards.svg">MAPLE-boards</a></td></tr>
-<tr><td>2x4 SPF</td><td>2 pieces 8'</td><td>for the lift sub-platform frame</td></tr>
+<tr><td>hard maple 8/4</td><td>about <strong>28 board feet</strong> (incl. 30% waste); 10 pieces of 3" x 8' shown</td><td><a href="renders/cuts/MAPLE-boards.svg">MAPLE-boards</a></td></tr>
 </table>
 <p>Buy one extra sheet of 3/4" Baltic birch: the nesting is tight (92-100% yield) and it leaves no room for a bad cut.</p>
 <h3>Parts by build step</h3>
@@ -209,7 +214,7 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>PL-bay3</code></td><td>plinth bay S rail</td><td>1</td><td>30"</td><td>4"</td><td>3/4" Baltic birch</td><td>L</td><td>4" tall rib, glued and screwed; toe recess 3"</td></tr>
 <tr><td><code>PL-S4</code></td><td>plinth S rail W</td><td>1</td><td>14"</td><td>4"</td><td>3/4" Baltic birch</td><td>L</td><td>4" tall rib, glued and screwed; toe recess 3"</td></tr>
 <tr><td><code>PL-S5</code></td><td>plinth S rail E</td><td>1</td><td>15"</td><td>4"</td><td>3/4" Baltic birch</td><td>L</td><td>4" tall rib, glued and screwed; toe recess 3"</td></tr>
-<tr><td><code>PL-lift6</code></td><td>plinth lift bay side rails</td><td>2</td><td>42"</td><td>4"</td><td>3/4" Baltic birch</td><td>L</td><td>4" tall rib, glued and screwed; toe recess 3"</td></tr>
+<tr><td><code>PL-flip6</code></td><td>plinth flip bay side rails</td><td>2</td><td>42"</td><td>4"</td><td>3/4" Baltic birch</td><td>L</td><td>4" tall rib, glued and screwed; toe recess 3"</td></tr>
 <tr><td><code>PL-cross7</code></td><td>plinth cross rib y46</td><td>1</td><td>61"</td><td>4"</td><td>3/4" Baltic birch</td><td>L</td><td>4" tall rib, glued and screwed; toe recess 3"</td></tr>
 <tr><td><code>PL-cross8</code></td><td>plinth cross rib y66</td><td>1</td><td>37"</td><td>4"</td><td>3/4" Baltic birch</td><td>L</td><td>4" tall rib, glued and screwed; toe recess 3"</td></tr>
 <tr><td><code>PL-cross9</code></td><td>plinth cross rib y80</td><td>1</td><td>61"</td><td>4"</td><td>3/4" Baltic birch</td><td>L</td><td>4" tall rib, glued and screwed; toe recess 3"</td></tr>
@@ -221,7 +226,6 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>SW-S</code></td><td>SW side</td><td>2</td><td>45"</td><td>29-1/4"</td><td>3/4" Baltic birch</td><td>L</td><td>cabinet SW: Long-item drawers</td></tr>
 <tr><td><code>SW-TB</code></td><td>SW top/bottom</td><td>2</td><td>15-1/2"</td><td>45"</td><td>3/4" Baltic birch</td><td>A</td><td></td></tr>
 <tr><td><code>SW-BK</code></td><td>SW back</td><td>1</td><td>17"</td><td>29-1/4"</td><td>1/4" Baltic birch</td><td>A</td><td>overlay back, glued + screwed</td></tr>
-<tr><td><code>SW-leaf-slot divider</code></td><td>SW leaf-slot divider</td><td>1</td><td>45"</td><td>29-1/4"</td><td>3/4" Baltic birch</td><td>A</td><td></td></tr>
 <tr><td><code>SE-S</code></td><td>SE side</td><td>2</td><td>45"</td><td>20-1/2"</td><td>3/4" Baltic birch</td><td>L</td><td>cabinet SE: Clamp rack + bit pull-out</td></tr>
 <tr><td><code>SE-TB</code></td><td>SE top/bottom</td><td>2</td><td>16-1/2"</td><td>45"</td><td>3/4" Baltic birch</td><td>A</td><td></td></tr>
 <tr><td><code>SE-BK</code></td><td>SE back</td><td>1</td><td>18"</td><td>20-1/2"</td><td>1/4" Baltic birch</td><td>A</td><td>overlay back, glued + screwed</td></tr>
@@ -244,7 +248,6 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>BAY-NE</code></td><td>north-east filler panels (x 64-68)</td><td>2</td><td>15"</td><td>29-1/4"</td><td>3/4" Baltic birch</td><td>A</td><td>east and north faces of the 4" column</td></tr>
 <tr><td><code>GAP-W</code></td><td>service-gap wall (x=41, y 66-80)</td><td>1</td><td>14"</td><td>22-1/2"</td><td>3/4" Baltic birch</td><td>A</td><td>supports the plenum floor</td></tr>
 <tr><td><code>GAP-S</code></td><td>service-gap closure (y=46, x 41-46)</td><td>1</td><td>5"</td><td>29-1/4"</td><td>3/4" Baltic birch</td><td>A</td><td></td></tr>
-<tr><td><code>LB-FRONT</code></td><td>lift-bay front panel (removable)</td><td>1</td><td>32"</td><td>29-1/4"</td><td>3/4" Baltic birch</td><td>A</td><td>hook-on panel; 10 x 8 pedal flap cut in at the bottom</td></tr>
 <tr><td><code>W-BAND1</code></td><td>west band panel over W1 (plenum face)</td><td>1</td><td>20"</td><td>6-3/4"</td><td>3/4" Baltic birch</td><td>A</td><td>with 6 x 4 plenum clean-out hatch</td></tr>
 <tr><td><code>W-BAND2</code></td><td>west band panel over W2</td><td>1</td><td>29"</td><td>9-1/4"</td><td>3/4" Baltic birch</td><td>A</td><td></td></tr>
 <tr><td><code>E-UTIL</code></td><td>utility column cover (east face y 76-80)</td><td>1</td><td>4"</td><td>21-1/4"</td><td>3/4" Baltic birch</td><td>A</td><td>removable; ports and inlet mount here</td></tr>
@@ -273,9 +276,6 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>TOP-L1</code></td><td>top lower layer, west piece (x 0-48)</td><td>1</td><td>96"</td><td>48"</td><td>3/4" MDF</td><td>L</td><td></td></tr>
 <tr><td><code>TOP-L2</code></td><td>top lower layer, east piece (x 48-69)</td><td>1</td><td>96"</td><td>21"</td><td>3/4" MDF</td><td>L</td><td></td></tr>
 <tr><td><code>TOP-DBL</code></td><td>doubler / plenum lid under dog field</td><td>1</td><td>40"</td><td>34"</td><td>3/4" Baltic birch</td><td>A</td><td>drill the dog holes through it with the top</td></tr>
-<tr><td><code>HATCH-LG</code></td><td>hatch ledge strips</td><td>2</td><td>42-1/2"</td><td>1-1/2"</td><td>hard maple (8/4)</td><td>L</td><td>plus two at 27" from the same stock</td></tr>
-<tr><td><code>HATCH-LG2</code></td><td>hatch ledge strips (short)</td><td>2</td><td>27"</td><td>1-1/2"</td><td>hard maple (8/4)</td><td>L</td><td></td></tr>
-<tr><td><code>HATCH-BAR</code></td><td>hatch centre bar (removable)</td><td>1</td><td>29"</td><td>2"</td><td>hard maple (8/4)</td><td>L</td><td>sits in notches in the ledge</td></tr>
 </table>
 <h4>Step 8 — Fit the top, outfeed lip and edging</h4>
 <table>
@@ -287,19 +287,23 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>LIP</code></td><td>bridge lip over the rear fence rail</td><td>1</td><td>69"</td><td>3"</td><td>hard maple (8/4)</td><td>L</td><td>MEASURE the rail first</td></tr>
 <tr><td><code>BEAM</code></td><td>outfeed beam across the motor bay</td><td>1</td><td>40"</td><td>3"</td><td>hard maple (8/4)</td><td>L</td><td>glued + screwed under the top, x 28-68</td></tr>
 </table>
-<h4>Step 10 — Miter-saw lift station</h4>
+<h4>Step 10 — Miter-saw flip-top station</h4>
 <table>
 <tr><th>ID</th><th>Part</th><th>Qty</th><th>Length</th><th>Width</th><th>Material</th><th>Grain</th><th>Notes</th></tr>
-<tr><td><code>LIFT-RL</code></td><td>sub-platform rails</td><td>2</td><td>41"</td><td>3-1/2"</td><td>2x4 SPF</td><td>L</td><td>2x4</td></tr>
-<tr><td><code>LIFT-RB</code></td><td>sub-platform ribs</td><td>3</td><td>25"</td><td>3-1/2"</td><td>2x4 SPF</td><td>L</td><td>2x4</td></tr>
-<tr><td><code>LIFT-DK</code></td><td>sub-platform deck</td><td>1</td><td>41"</td><td>28"</td><td>3/4" Baltic birch</td><td>A</td><td>saw bolts through this</td></tr>
+<tr><td><code>FLIP-SKIN</code></td><td>flip core skins (top and bottom)</td><td>2</td><td>24"</td><td>28"</td><td>3/4" Baltic birch</td><td>A</td><td>saw bolts through the upper one</td></tr>
+<tr><td><code>FLIP-RIB</code></td><td>flip core ribs (1/2" between the skins)</td><td>4</td><td>27"</td><td>1/2"</td><td>1/2" Baltic birch</td><td>A</td><td>one is drilled for the 1" axle sleeve; glue and screw</td></tr>
+<tr><td><code>FLIP-RIBL</code></td><td>flip core long ribs</td><td>2</td><td>24"</td><td>1/2"</td><td>1/2" Baltic birch</td><td>A</td><td></td></tr>
+<tr><td><code>BOX-TOP</code></td><td>flush box top (the visible face when stowed)</td><td>1</td><td>24"</td><td>26"</td><td>3/4" Baltic birch</td><td>A</td><td>cut from the hatch waste; birch face up</td></tr>
+<tr><td><code>BOX-SIDE</code></td><td>flush box sides</td><td>2</td><td>24"</td><td>3-3/4"</td><td>3/4" Baltic birch</td><td>A</td><td></td></tr>
+<tr><td><code>BOX-END</code></td><td>flush box ends</td><td>2</td><td>24-1/2"</td><td>3-3/4"</td><td>3/4" Baltic birch</td><td>A</td><td>one end has a lift-off lid for the counterweight</td></tr>
 <tr><td><code>HOOD-BK</code></td><td>hood back</td><td>1</td><td>28"</td><td>14"</td><td>3/4" Baltic birch</td><td>A</td><td></td></tr>
 <tr><td><code>HOOD-SD</code></td><td>hood sides</td><td>2</td><td>6"</td><td>14"</td><td>3/4" Baltic birch</td><td>A</td><td></td></tr>
-<tr><td><code>HOOD-FL</code></td><td>hood sloped floor + top</td><td>2</td><td>28"</td><td>6-1/2"</td><td>3/4" Baltic birch</td><td>A</td><td>floor slopes to the 4" port</td></tr>
+<tr><td><code>HOOD-FL</code></td><td>hood sloped floor + top</td><td>2</td><td>28"</td><td>6-1/2"</td><td>3/4" Baltic birch</td><td>A</td><td>floor slopes to the 4" quick-connect port</td></tr>
+<tr><td><code>BEAR-BLK</code></td><td>bearing doubler blocks on the bay walls</td><td>4</td><td>12"</td><td>8"</td><td>3/4" Baltic birch</td><td>A</td><td>two per wall, laminated to 1-1/2, the flange bearings bolt through them</td></tr>
+<tr><td><code>REST</code></td><td>rest blocks (platform seats on these, both ways up)</td><td>4</td><td>4"</td><td>2-1/2"</td><td>hard maple (8/4)</td><td>L</td><td>glued + screwed to the bay walls at 28-1/4" from the floor; one carries the seat switch</td></tr>
 <tr><td><code>LEAF</code></td><td>drop-leaf wings (BB + MDF laminate)</td><td>2</td><td>24"</td><td>24"</td><td>3/4" Baltic birch</td><td>A</td><td>laminate to MDF LEAF-M; edge with maple</td></tr>
 <tr><td><code>LEAF-M</code></td><td>drop-leaf wings, MDF layer</td><td>2</td><td>24"</td><td>24"</td><td>3/4" MDF</td><td>A</td><td></td></tr>
 <tr><td><code>LEAF-EDGE</code></td><td>drop-leaf edging</td><td>6</td><td>26"</td><td>1-1/2"</td><td>hard maple (8/4)</td><td>L</td><td></td></tr>
-<tr><td><code>STOP</code></td><td>lift stop blocks</td><td>4</td><td>4"</td><td>3"</td><td>hard maple (8/4)</td><td>L</td><td>with 3/8 leveling bolts</td></tr>
 </table>
 <h4>Step 11 — Laser well and tray</h4>
 <table>
@@ -311,19 +315,20 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <h4>Step 12 — Drawers, pull-outs and fronts</h4>
 <table>
 <tr><th>ID</th><th>Part</th><th>Qty</th><th>Length</th><th>Width</th><th>Material</th><th>Grain</th><th>Notes</th></tr>
+<tr><td><code>DOOR-BAY</code></td><td>flip-bay doors</td><td>2</td><td>15-7/8"</td><td>29-1/8"</td><td>3/4" Baltic birch</td><td>L</td><td>full overlay; open both before flipping; right one carries the paddle switch</td></tr>
 <tr><td><code>LT-FR</code></td><td>laser tray front</td><td>1</td><td>28-7/8"</td><td>8-7/8"</td><td>3/4" Baltic birch</td><td>L</td><td>full overlay</td></tr>
 <tr><td><code>SW-D3-DS</code></td><td>SW-D3 long drawer (bottom) box side</td><td>2</td><td>36"</td><td>8"</td><td>1/2" Baltic birch</td><td>L</td><td></td></tr>
-<tr><td><code>SW-D3-DF</code></td><td>SW-D3 long drawer (bottom) box front/back</td><td>2</td><td>11-1/2"</td><td>8"</td><td>1/2" Baltic birch</td><td>A</td><td></td></tr>
-<tr><td><code>SW-D3-DB</code></td><td>SW-D3 long drawer (bottom) bottom</td><td>1</td><td>35-1/2"</td><td>12"</td><td>1/4" Baltic birch</td><td>A</td><td>in 1/4 groove</td></tr>
-<tr><td><code>SW-D3-FR</code></td><td>SW-D3 long drawer (bottom) front</td><td>1</td><td>13-3/8"</td><td>9-3/8"</td><td>3/4" Baltic birch</td><td>L</td><td>full overlay, 1/8 reveal; 30 deg finger-pull chamfer on top edge</td></tr>
+<tr><td><code>SW-D3-DF</code></td><td>SW-D3 long drawer (bottom) box front/back</td><td>2</td><td>15"</td><td>8"</td><td>1/2" Baltic birch</td><td>A</td><td></td></tr>
+<tr><td><code>SW-D3-DB</code></td><td>SW-D3 long drawer (bottom) bottom</td><td>1</td><td>35-1/2"</td><td>15-1/2"</td><td>1/4" Baltic birch</td><td>A</td><td>in 1/4 groove</td></tr>
+<tr><td><code>SW-D3-FR</code></td><td>SW-D3 long drawer (bottom) front</td><td>1</td><td>16-7/8"</td><td>9-3/8"</td><td>3/4" Baltic birch</td><td>L</td><td>full overlay, 1/8 reveal; 30 deg finger-pull chamfer on top edge</td></tr>
 <tr><td><code>SW-D2-DS</code></td><td>SW-D2 long drawer box side</td><td>2</td><td>36"</td><td>8-1/4"</td><td>1/2" Baltic birch</td><td>L</td><td></td></tr>
-<tr><td><code>SW-D2-DF</code></td><td>SW-D2 long drawer box front/back</td><td>2</td><td>11-1/2"</td><td>8-1/4"</td><td>1/2" Baltic birch</td><td>A</td><td></td></tr>
-<tr><td><code>SW-D2-DB</code></td><td>SW-D2 long drawer bottom</td><td>1</td><td>35-1/2"</td><td>12"</td><td>1/4" Baltic birch</td><td>A</td><td>in 1/4 groove</td></tr>
-<tr><td><code>SW-D2-FR</code></td><td>SW-D2 long drawer front</td><td>1</td><td>13-3/8"</td><td>9-5/8"</td><td>3/4" Baltic birch</td><td>L</td><td>full overlay, 1/8 reveal; 30 deg finger-pull chamfer on top edge</td></tr>
+<tr><td><code>SW-D2-DF</code></td><td>SW-D2 long drawer box front/back</td><td>2</td><td>15"</td><td>8-1/4"</td><td>1/2" Baltic birch</td><td>A</td><td></td></tr>
+<tr><td><code>SW-D2-DB</code></td><td>SW-D2 long drawer bottom</td><td>1</td><td>35-1/2"</td><td>15-1/2"</td><td>1/4" Baltic birch</td><td>A</td><td>in 1/4 groove</td></tr>
+<tr><td><code>SW-D2-FR</code></td><td>SW-D2 long drawer front</td><td>1</td><td>16-7/8"</td><td>9-5/8"</td><td>3/4" Baltic birch</td><td>L</td><td>full overlay, 1/8 reveal; 30 deg finger-pull chamfer on top edge</td></tr>
 <tr><td><code>SW-D1-DS</code></td><td>SW-D1 long drawer (top) box side</td><td>2</td><td>36"</td><td>8-1/2"</td><td>1/2" Baltic birch</td><td>L</td><td></td></tr>
-<tr><td><code>SW-D1-DF</code></td><td>SW-D1 long drawer (top) box front/back</td><td>2</td><td>11-1/2"</td><td>8-1/2"</td><td>1/2" Baltic birch</td><td>A</td><td></td></tr>
-<tr><td><code>SW-D1-DB</code></td><td>SW-D1 long drawer (top) bottom</td><td>1</td><td>35-1/2"</td><td>12"</td><td>1/4" Baltic birch</td><td>A</td><td>in 1/4 groove</td></tr>
-<tr><td><code>SW-D1-FR</code></td><td>SW-D1 long drawer (top) front</td><td>1</td><td>13-3/8"</td><td>9-7/8"</td><td>3/4" Baltic birch</td><td>L</td><td>full overlay, 1/8 reveal; 30 deg finger-pull chamfer on top edge</td></tr>
+<tr><td><code>SW-D1-DF</code></td><td>SW-D1 long drawer (top) box front/back</td><td>2</td><td>15"</td><td>8-1/2"</td><td>1/2" Baltic birch</td><td>A</td><td></td></tr>
+<tr><td><code>SW-D1-DB</code></td><td>SW-D1 long drawer (top) bottom</td><td>1</td><td>35-1/2"</td><td>15-1/2"</td><td>1/4" Baltic birch</td><td>A</td><td>in 1/4 groove</td></tr>
+<tr><td><code>SW-D1-FR</code></td><td>SW-D1 long drawer (top) front</td><td>1</td><td>16-7/8"</td><td>9-7/8"</td><td>3/4" Baltic birch</td><td>L</td><td>full overlay, 1/8 reveal; 30 deg finger-pull chamfer on top edge</td></tr>
 <tr><td><code>CR-BASE</code></td><td>clamp rack base + top</td><td>2</td><td>28"</td><td>17"</td><td>3/4" Baltic birch</td><td>A</td><td></td></tr>
 <tr><td><code>CR-UP</code></td><td>clamp rack uprights</td><td>2</td><td>28"</td><td>17-1/2"</td><td>3/4" Baltic birch</td><td>A</td><td>notched for the bars</td></tr>
 <tr><td><code>CR-BAR</code></td><td>clamp bars</td><td>4</td><td>15-1/2"</td><td>1-1/2"</td><td>hard maple (8/4)</td><td>L</td><td>F-clamps and bar clamps hang here</td></tr>
@@ -369,11 +374,9 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>PL-cross7</code></td><td>1</td><td>61"</td><td>4"</td><td>plinth cross rib y46</td></tr>
 <tr><td><code>PL-cross9</code></td><td>1</td><td>61"</td><td>4"</td><td>plinth cross rib y80</td></tr>
 <tr><td><code>SW-S</code></td><td>2</td><td>45"</td><td>29-1/4"</td><td>SW side</td></tr>
-<tr><td><code>SW-leaf-slot divider</code></td><td>1</td><td>45"</td><td>29-1/4"</td><td>SW leaf-slot divider</td></tr>
 <tr><td><code>SE-S</code></td><td>2</td><td>45"</td><td>20-1/2"</td><td>SE side</td></tr>
 <tr><td><code>SP-LOW</code></td><td>2</td><td>45"</td><td>8-3/4"</td><td>SE/E2 lower side extension (z 4-12.75)</td></tr>
-<tr><td><code>PL-lift6</code></td><td>2</td><td>42"</td><td>4"</td><td>plinth lift bay side rails</td></tr>
-<tr><td><code>LIFT-DK</code></td><td>1</td><td>41"</td><td>28"</td><td>sub-platform deck</td></tr>
+<tr><td><code>PL-flip6</code></td><td>2</td><td>42"</td><td>4"</td><td>plinth flip bay side rails</td></tr>
 <tr><td><code>PLN-F</code></td><td>1</td><td>40"</td><td>34"</td><td>plenum floor</td></tr>
 <tr><td><code>TOP-DBL</code></td><td>1</td><td>40"</td><td>34"</td><td>doubler / plenum lid under dog field</td></tr>
 <tr><td><code>W1-S</code></td><td>2</td><td>40"</td><td>22-1/2"</td><td>W1 side</td></tr>
@@ -382,7 +385,6 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>W2-S</code></td><td>2</td><td>33"</td><td>20"</td><td>W2 side</td></tr>
 <tr><td><code>PLN-SP</code></td><td>4</td><td>33"</td><td>2-1/2"</td><td>spacer frame over W2 (z 24-26.5)</td></tr>
 <tr><td><code>PLN-WS</code></td><td>2</td><td>32-1/2"</td><td>5-1/4"</td><td>plenum short walls</td></tr>
-<tr><td><code>LB-FRONT</code></td><td>1</td><td>32"</td><td>29-1/4"</td><td>lift-bay front panel (removable)</td></tr>
 <tr><td><code>BAY-S</code></td><td>1</td><td>30"</td><td>29-1/4"</td><td>motor bay south wall (y=80)</td></tr>
 <tr><td><code>LT-BASE</code></td><td>1</td><td>30"</td><td>29"</td><td>laser tray base</td></tr>
 <tr><td><code>PL-N2</code></td><td>1</td><td>30"</td><td>4"</td><td>plinth N rail (W of bay)</td></tr>
@@ -396,7 +398,11 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>HOOD-BK</code></td><td>1</td><td>28"</td><td>14"</td><td>hood back</td></tr>
 <tr><td><code>HOOD-FL</code></td><td>2</td><td>28"</td><td>6-1/2"</td><td>hood sloped floor + top</td></tr>
 <tr><td><code>W2-TB</code></td><td>2</td><td>27-1/2"</td><td>33"</td><td>W2 top/bottom</td></tr>
+<tr><td><code>BOX-END</code></td><td>2</td><td>24-1/2"</td><td>3-3/4"</td><td>flush box ends</td></tr>
+<tr><td><code>FLIP-SKIN</code></td><td>2</td><td>24"</td><td>28"</td><td>flip core skins (top and bottom)</td></tr>
+<tr><td><code>BOX-TOP</code></td><td>1</td><td>24"</td><td>26"</td><td>flush box top (the visible face when stowed)</td></tr>
 <tr><td><code>LEAF</code></td><td>2</td><td>24"</td><td>24"</td><td>drop-leaf wings (BB + MDF laminate)</td></tr>
+<tr><td><code>BOX-SIDE</code></td><td>2</td><td>24"</td><td>3-3/4"</td><td>flush box sides</td></tr>
 <tr><td><code>WELL-WL</code></td><td>2</td><td>23-1/2"</td><td>9-1/4"</td><td>laser well walls (E-W)</td></tr>
 <tr><td><code>E2-S</code></td><td>2</td><td>22"</td><td>20-1/2"</td><td>E2 side</td></tr>
 <tr><td><code>WELL-FL</code></td><td>1</td><td>21-7/8"</td><td>14-7/8"</td><td>laser well floor panel (movable)</td></tr>
@@ -408,8 +414,12 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>W1-TB</code></td><td>2</td><td>18-1/2"</td><td>40"</td><td>W1 top/bottom</td></tr>
 <tr><td><code>SP-LID</code></td><td>1</td><td>18"</td><td>4"</td><td>duct leg lid (y 76-80)</td></tr>
 <tr><td><code>CR-FR</code></td><td>1</td><td>17-7/8"</td><td>20-3/8"</td><td>clamp rack front</td></tr>
+<tr><td><code>SW-D1-FR</code></td><td>1</td><td>16-7/8"</td><td>9-7/8"</td><td>SW-D1 long drawer (top) front</td></tr>
+<tr><td><code>SW-D2-FR</code></td><td>1</td><td>16-7/8"</td><td>9-5/8"</td><td>SW-D2 long drawer front</td></tr>
+<tr><td><code>SW-D3-FR</code></td><td>1</td><td>16-7/8"</td><td>9-3/8"</td><td>SW-D3 long drawer (bottom) front</td></tr>
 <tr><td><code>SE-TB</code></td><td>2</td><td>16-1/2"</td><td>45"</td><td>SE top/bottom</td></tr>
 <tr><td><code>SE-rack/bit divider</code></td><td>1</td><td>16-1/2"</td><td>20-1/2"</td><td>SE rack/bit divider</td></tr>
+<tr><td><code>DOOR-BAY</code></td><td>2</td><td>15-7/8"</td><td>29-1/8"</td><td>flip-bay doors</td></tr>
 <tr><td><code>BIT-FR</code></td><td>1</td><td>15-7/8"</td><td>20-3/8"</td><td>bit pull-out front</td></tr>
 <tr><td><code>SW-TB</code></td><td>2</td><td>15-1/2"</td><td>45"</td><td>SW top/bottom</td></tr>
 <tr><td><code>BAY-E</code></td><td>1</td><td>15"</td><td>29-1/4"</td><td>motor bay east wall (x=64)</td></tr>
@@ -421,13 +431,11 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>DOOR-R</code></td><td>1</td><td>14-7/8"</td><td>20-3/8"</td><td>router cabinet door R (gasketed) + paddle switch</td></tr>
 <tr><td><code>GAP-W</code></td><td>1</td><td>14"</td><td>22-1/2"</td><td>service-gap wall (x=41, y 66-80)</td></tr>
 <tr><td><code>PL-S4</code></td><td>1</td><td>14"</td><td>4"</td><td>plinth S rail W</td></tr>
-<tr><td><code>SW-D1-FR</code></td><td>1</td><td>13-3/8"</td><td>9-7/8"</td><td>SW-D1 long drawer (top) front</td></tr>
-<tr><td><code>SW-D2-FR</code></td><td>1</td><td>13-3/8"</td><td>9-5/8"</td><td>SW-D2 long drawer front</td></tr>
-<tr><td><code>SW-D3-FR</code></td><td>1</td><td>13-3/8"</td><td>9-3/8"</td><td>SW-D3 long drawer (bottom) front</td></tr>
 <tr><td><code>VISE-PAD</code></td><td>3</td><td>13"</td><td>12"</td><td>vise mounting pad (3 layers)</td></tr>
 <tr><td><code>BIT-UP</code></td><td>2</td><td>12"</td><td>17-1/2"</td><td>bit pull-out uprights</td></tr>
 <tr><td><code>BIT-BRD</code></td><td>3</td><td>12"</td><td>17-1/2"</td><td>bit boards (drilled 1/4 and 1/2)</td></tr>
 <tr><td><code>BIT-BASE</code></td><td>2</td><td>12"</td><td>14"</td><td>bit pull-out base + top</td></tr>
+<tr><td><code>BEAR-BLK</code></td><td>4</td><td>12"</td><td>8"</td><td>bearing doubler blocks on the bay walls</td></tr>
 <tr><td><code>HOOD-SD</code></td><td>2</td><td>6"</td><td>14"</td><td>hood sides</td></tr>
 <tr><td><code>GAP-S</code></td><td>1</td><td>5"</td><td>29-1/4"</td><td>service-gap closure (y=46, x 41-46)</td></tr>
 <tr><td><code>E-UTIL</code></td><td>1</td><td>4"</td><td>21-1/4"</td><td>utility column cover (east face y 76-80)</td></tr>
@@ -438,9 +446,9 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>W1-D3-DB</code></td><td>1</td><td>35-1/2"</td><td>18-1/2"</td><td>W1-D3 bottom</td></tr>
 <tr><td><code>W1-D2-DB</code></td><td>1</td><td>35-1/2"</td><td>18-1/2"</td><td>W1-D2 bottom</td></tr>
 <tr><td><code>W1-D1-DB</code></td><td>1</td><td>35-1/2"</td><td>18-1/2"</td><td>W1-D1 charging drawer bottom</td></tr>
-<tr><td><code>SW-D3-DB</code></td><td>1</td><td>35-1/2"</td><td>12"</td><td>SW-D3 long drawer (bottom) bottom</td></tr>
-<tr><td><code>SW-D2-DB</code></td><td>1</td><td>35-1/2"</td><td>12"</td><td>SW-D2 long drawer bottom</td></tr>
-<tr><td><code>SW-D1-DB</code></td><td>1</td><td>35-1/2"</td><td>12"</td><td>SW-D1 long drawer (top) bottom</td></tr>
+<tr><td><code>SW-D3-DB</code></td><td>1</td><td>35-1/2"</td><td>15-1/2"</td><td>SW-D3 long drawer (bottom) bottom</td></tr>
+<tr><td><code>SW-D2-DB</code></td><td>1</td><td>35-1/2"</td><td>15-1/2"</td><td>SW-D2 long drawer bottom</td></tr>
+<tr><td><code>SW-D1-DB</code></td><td>1</td><td>35-1/2"</td><td>15-1/2"</td><td>SW-D1 long drawer (top) bottom</td></tr>
 <tr><td><code>E2-BK</code></td><td>1</td><td>30"</td><td>20-1/2"</td><td>E2 back</td></tr>
 <tr><td><code>W2-D2-DB</code></td><td>1</td><td>29-1/2"</td><td>27-1/2"</td><td>W2-D2 bottom</td></tr>
 <tr><td><code>W2-BK</code></td><td>1</td><td>29"</td><td>20"</td><td>W2 back</td></tr>
@@ -456,17 +464,14 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>EDGE-S</code></td><td>1</td><td>72"</td><td>1-1/2"</td><td>maple edge band, south</td></tr>
 <tr><td><code>LIP</code></td><td>1</td><td>69"</td><td>3"</td><td>bridge lip over the rear fence rail</td></tr>
 <tr><td><code>EDGE-N</code></td><td>1</td><td>69"</td><td>1-1/2"</td><td>maple edge band, north (outfeed edge)</td></tr>
-<tr><td><code>HATCH-LG</code></td><td>2</td><td>42-1/2"</td><td>1-1/2"</td><td>hatch ledge strips</td></tr>
 <tr><td><code>BEAM</code></td><td>1</td><td>40"</td><td>3"</td><td>outfeed beam across the motor bay</td></tr>
 <tr><td><code>WELL-LG</code></td><td>2</td><td>37"</td><td>3/4"</td><td>well insert ledge</td></tr>
-<tr><td><code>HATCH-BAR</code></td><td>1</td><td>29"</td><td>2"</td><td>hatch centre bar (removable)</td></tr>
-<tr><td><code>HATCH-LG2</code></td><td>2</td><td>27"</td><td>1-1/2"</td><td>hatch ledge strips (short)</td></tr>
 <tr><td><code>LEAF-EDGE</code></td><td>6</td><td>26"</td><td>1-1/2"</td><td>drop-leaf edging</td></tr>
 <tr><td><code>CR-BAR</code></td><td>4</td><td>15-1/2"</td><td>1-1/2"</td><td>clamp bars</td></tr>
 <tr><td><code>WELL-CL</code></td><td>6</td><td>15"</td><td>3/4"</td><td>well cleats</td></tr>
 <tr><td><code>VISE-JAW</code></td><td>2</td><td>9"</td><td>5"</td><td>vise jaw liners</td></tr>
 <tr><td><code>CRADLE</code></td><td>6</td><td>6"</td><td>3"</td><td>pipe-clamp cradles (dog-hole mounted)</td></tr>
-<tr><td><code>STOP</code></td><td>4</td><td>4"</td><td>3"</td><td>lift stop blocks</td></tr>
+<tr><td><code>REST</code></td><td>4</td><td>4"</td><td>2-1/2"</td><td>rest blocks (platform seats on these, both ways up)</td></tr>
 </table>
 <h4>3/4" MDF</h4>
 <table>
@@ -474,12 +479,6 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>TOP-L1</code></td><td>1</td><td>96"</td><td>48"</td><td>top lower layer, west piece (x 0-48)</td></tr>
 <tr><td><code>TOP-L2</code></td><td>1</td><td>96"</td><td>21"</td><td>top lower layer, east piece (x 48-69)</td></tr>
 <tr><td><code>LEAF-M</code></td><td>2</td><td>24"</td><td>24"</td><td>drop-leaf wings, MDF layer</td></tr>
-</table>
-<h4>2x4 SPF</h4>
-<table>
-<tr><th>ID</th><th>Qty</th><th>Length</th><th>Width</th><th>Part</th></tr>
-<tr><td><code>LIFT-RL</code></td><td>2</td><td>41"</td><td>3-1/2"</td><td>sub-platform rails</td></tr>
-<tr><td><code>LIFT-RB</code></td><td>3</td><td>25"</td><td>3-1/2"</td><td>sub-platform ribs</td></tr>
 </table>
 <h4>1/2" Baltic birch</h4>
 <table>
@@ -494,12 +493,14 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td><code>LT-SIDE</code></td><td>2</td><td>30"</td><td>2"</td><td>laser tray sides</td></tr>
 <tr><td><code>LT-END</code></td><td>2</td><td>28"</td><td>2"</td><td>laser tray ends</td></tr>
 <tr><td><code>W2-D2-DF</code></td><td>2</td><td>27"</td><td>9-1/2"</td><td>W2-D2 box front/back</td></tr>
+<tr><td><code>FLIP-RIB</code></td><td>4</td><td>27"</td><td>1/2"</td><td>flip core ribs (1/2" between the skins)</td></tr>
+<tr><td><code>FLIP-RIBL</code></td><td>2</td><td>24"</td><td>1/2"</td><td>flip core long ribs</td></tr>
 <tr><td><code>W1-D3-DF</code></td><td>2</td><td>18"</td><td>6"</td><td>W1-D3 box front/back</td></tr>
 <tr><td><code>W1-D2-DF</code></td><td>2</td><td>18"</td><td>6"</td><td>W1-D2 box front/back</td></tr>
 <tr><td><code>W1-D1-DF</code></td><td>2</td><td>18"</td><td>6"</td><td>W1-D1 charging drawer box front/back</td></tr>
-<tr><td><code>SW-D1-DF</code></td><td>2</td><td>11-1/2"</td><td>8-1/2"</td><td>SW-D1 long drawer (top) box front/back</td></tr>
-<tr><td><code>SW-D2-DF</code></td><td>2</td><td>11-1/2"</td><td>8-1/4"</td><td>SW-D2 long drawer box front/back</td></tr>
-<tr><td><code>SW-D3-DF</code></td><td>2</td><td>11-1/2"</td><td>8"</td><td>SW-D3 long drawer (bottom) box front/back</td></tr>
+<tr><td><code>SW-D1-DF</code></td><td>2</td><td>15"</td><td>8-1/2"</td><td>SW-D1 long drawer (top) box front/back</td></tr>
+<tr><td><code>SW-D2-DF</code></td><td>2</td><td>15"</td><td>8-1/4"</td><td>SW-D2 long drawer box front/back</td></tr>
+<tr><td><code>SW-D3-DF</code></td><td>2</td><td>15"</td><td>8"</td><td>SW-D3 long drawer (bottom) box front/back</td></tr>
 </table></section>
 <section id='guide'><h2>Build guide</h2><h2>Build guide — step by step</h2>
 <p>Thirteen steps in build order. Each step lists the parts (IDs from <code>03-cut-list.md</code>), the tools you need for that step, the procedure, a check before moving on, and the drawing to have open. The isometric step views are <code>renders/601-step-01.svg</code> through <code>613-step-13.svg</code>; the dimensioned sheets are <code>renders/20-<em></code> to <code>51-</em></code>.</p>
@@ -512,7 +513,7 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <p><strong>Tools:</strong> table saw, miter saw (rip 4" strips, cross-cut), drill, 3/8" bit for the T-nut plates, level.</p>
 <ol>
 <li>Rip 4"-wide strips of 3/4" Baltic birch and cross-cut the ribs to the lengths in the cut list.</li>
-<li>Lay out the frame on the floor where the bench will live: outer rails at 4" and 65" from the west edge, cross ribs at y = 46, 66 and 80; the front rail is split (x 4-18 and 50-65) to leave the lift bay open; two 42" rails run north-south at x = 18 and x = 50 to carry the bay walls.</li>
+<li>Lay out the frame on the floor where the bench will live: outer rails at 4" and 65" from the west edge, cross ribs at y = 46, 66 and 80; the front rail is split (x 4-18 and 50-65) to leave the flip bay open; two 42" rails run north-south at x = 18 and x = 50 to carry the bay walls.</li>
 <li>Glue and screw the ribs into a ladder. Drive T-nut plates for the ten levelers into the rib bottoms at the positions in the step view (corners, mid-rails, and both sides of the bay).</li>
 <li>Screw the toe-kick faces on (west, east, and the two south pieces). Paint black.</li>
 <li>Set the plinth in place and level it in both directions with a 4' level. This is the reference for everything above; take your time.</li>
@@ -521,23 +522,23 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <hr>
 <h3>Step 2 — Carcasses</h3>
 <p><em>Drawing: <code>602-step-02.svg</code>, Sheet 6, 7, 8 (sections).</em></p>
-<p><strong>Parts:</strong> SW-<em>, SE-</em>, W1-<em>, W2-</em>, E2-* sides/tops/bottoms/backs and dividers; SP-WALL, SP-LID, SP-LOW; BAY-S, BAY-E, BAY-NE; GAP-W, GAP-S; LB-FRONT; W-BAND1/2; E-UTIL; E-BACK.</p>
+<p><strong>Parts:</strong> SW-<em>, SE-</em>, W1-<em>, W2-</em>, E2-* sides/tops/bottoms/backs and dividers; SP-WALL, SP-LID, SP-LOW; BAY-S, BAY-E, BAY-NE; GAP-W, GAP-S; W-BAND1/2; E-UTIL; E-BACK.</p>
 <p><strong>Tools:</strong> track saw or table saw, router with a 1/4" straight bit (optional 1/4" dado for backs), drill, countersink, pocket-hole jig, clamps, square.</p>
 <ol>
 <li>Cut all carcass parts. Label each with its ID in pencil on an edge that will be hidden.</li>
 <li>Build the five boxes one at a time on a flat surface: sides full height, top and bottom between the sides, back glued and screwed to the rear edges. Square each box against the back before the glue sets.</li>
 </ol>
 <ul>
-<li><strong>SW</strong> (17 x 45 x 29-1/4, opens south): add the leaf-slot divider 3-1/2" in from the east side, full height.</li>
-<li><strong>SE</strong> (18 x 45 x 20-1/2, opens south and east): its floor sits at z = 12-3/4 (raised over the spine); add the SP-LOW extension below the sides and the rack/bit divider at 29" from the south end.</li>
+<li><strong>SW</strong> (17 x 45 x 29-1/4, opens south). Its east side is the west wall of the flip bay: glue the two BEAR-BLK doubler blocks (Step 10) to it now, centred 22" from the south end and 29-1/4" from the floor, so the bearing bolts have 2-1/4" of material.</li>
+<li><strong>SE</strong> (18 x 45 x 20-1/2, opens south and east): its floor sits at z = 12-3/4 (raised over the spine); add the SP-LOW extension below the sides and the rack/bit divider at 29" from the south end. Its west side is the east wall of the flip bay: doubler blocks as for SW.</li>
 <li><strong>W1</strong> (20 wide x 40 deep x 22-1/2 tall, opens west).</li>
 <li><strong>W2</strong> (29 wide x 33 deep x 20 tall, opens west).</li>
 <li><strong>E2</strong> (30 wide x 22 deep x 20-1/2 tall, opens east): floor at z = 12-3/4; add the two router-box partitions at 6" and 25-1/4" from the south side, making a 20"-wide sealed compartment. Cut the 4" dust hole in the floor of that compartment at x = 52-1/2 (from the west edge of the bench) and a 1" x 4" make-up-air slot low on the north partition.</li>
 </ul>
 <ol>
-<li>Cut the spine wall, motor-bay walls, service-gap walls, band panels and the lift-bay front. Leave them loose; they go on in Step 4.</li>
+<li>Cut the spine wall, motor-bay walls, service-gap walls and band panels. Leave them loose; they go on in Step 4.</li>
 </ol>
-<p><strong>Check:</strong> every box square, backs flush, faces flat. Dry-fit the five boxes on the plinth in their positions (Sheet 1) and confirm the gaps: 5" service gap between W1 and E2, 32" lift bay between SW and SE, 30" x 15" motor bay at the north-centre.</p>
+<p><strong>Check:</strong> every box square, backs flush, faces flat. Dry-fit the five boxes on the plinth in their positions (Sheet 1) and confirm the gaps: 5" service gap between W1 and E2, 32" flip bay between SW and SE, 30" x 15" motor bay at the north-centre.</p>
 <hr>
 <h3>Step 3 — Downdraft plenum, laser well and vise block</h3>
 <p><em>Drawing: <code>603-step-03.svg</code>, Sheet 6, Sheet 7.</em></p>
@@ -555,13 +556,13 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <p><em>Drawing: <code>604-step-04.svg</code>, Sheet 1, Sheets 2-5.</em></p>
 <p><strong>Tools:</strong> drill, clamps, level, 2" screws, helper.</p>
 <ol>
-<li>Set SW and SE on the plinth at the south end, 32" apart, backs to the north. Screw them to the plinth ribs from inside.</li>
-<li>Set W1 north of SW (its south side against SW's north side is the lift-bay north wall for x 1-18), and W2 north of W1. Set E2 north of SE. Screw adjacent boxes to each other through their sides with 1-1/4" screws.</li>
+<li>Set SW and SE on the plinth at the south end, exactly 32" apart and parallel (the flip axle runs between them, so measure at both ends), backs to the north. Screw them to the plinth ribs from inside.</li>
+<li>Set W1 north of SW (its south side is the flip-bay north wall for x 1-18), and W2 north of W1. Set E2 north of SE. Screw adjacent boxes to each other through their sides with 1-1/4" screws.</li>
 <li>Spine: stand SP-WALL at x = 55 between the SE/E2 west sides and the plinth; screw the SP-LID over the leg (y 76-80). The 5 x 8 chase should now run from the south toe kick to the utility corner.</li>
 <li>Motor bay: fit BAY-S (y = 80, x 34-64) and BAY-E (x = 64); add the BAY-NE fillers so the north-east column is closed.</li>
 <li>Service gap: GAP-W (x = 41, y 66-80) and GAP-S (y = 46, x 41-46).</li>
 <li>Set the plenum on W1/W2 with the spacer frame under its north end; the inlet hole faces the service gap. Silicone the plenum floor to the cabinet tops. Set the laser well box on W2 with its west wall at x = 12 and south wall at y = 78. Glue the vise pad under where the top will be, in the NW corner (x 1-13, y 82-95); it hangs on the W2 top and the well's west wall.</li>
-<li>Hang the west band panels, the utility cover and the lift-bay front on hook-on clips so they can come off for service.</li>
+<li>Hang the west band panels and the utility cover on hook-on clips so they can come off for service. The flip bay stays open at the south until its doors go on in Step 12.</li>
 </ol>
 <p><strong>Check:</strong> the whole base is level and its top edges are all at 33-1/4" from the floor (26-1/2" at W1, 24" at W2, plenum top at 32-1/2"). Measure diagonally corner to corner across the base: equal within 1/8".</p>
 <hr>
@@ -572,9 +573,9 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <ol>
 <li>Dry-fit the 4" main in the spine from the south toe kick to the leg, then east to the utility column. Place a wye for each drop at the y positions on Sheet 11 (floor sweep at the south end, miter hood at 30", router at 62", plenum at 70", table saw at 78"). The wye's branch must point toward the ports.</li>
 <li>Add the 2-1/2" vac trunk beside it (above, in the 8" chase) with its two wyes (miter chute at 26", router fence at 64").</li>
-<li>Glue the runs. Fit a blast gate at every branch, mounted where you can reach it: floor sweep behind a flap in the toe kick; miter and chute gates on the lift-bay's east wall; router gate on the box floor; plenum gate in the service gap (reach from the removed W-BAND1 clean-out); saw gate on the bay's south wall.</li>
+<li>Glue the runs. Fit a blast gate at every branch, mounted where you can reach it: floor sweep behind a flap in the toe kick; miter hood and chute gates on the flip bay's east wall, low, with the 4" quick-connect cuff and the 2-1/2" cuff right at the gates; router gate on the box floor; plenum gate in the service gap (reach from the removed W-BAND1 clean-out); saw gate on the bay's south wall.</li>
 <li>Run the plenum riser (4" PVC, two 45s) up the service gap into the plenum's east wall inlet. Silicone it.</li>
-<li>Leave 6' of 4" flex and 4' of 2-1/2" flex coiled in the lift bay for the hood and the saw chute (connected in Step 10). Leave 4' of 4" flex at the bay gate for the CNS port.</li>
+<li>Leave 4' of 4" flex and 3' of 2-1/2" flex coiled in the flip bay for the hood and the saw chute; they connect to the cuffs after each flip (Step 10). Leave 4' of 4" flex at the motor-bay gate for the CNS port.</li>
 <li>Fit the wall flanges at the utility column: 4" at 6" above the floor, 2-1/2" above it.</li>
 </ol>
 <p><strong>Check:</strong> with the collector connected and one gate open at a time, feel strong suction at every drop. No leaks at the plenum (hold a tissue at the seams).</p>
@@ -585,7 +586,7 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <ol>
 <li>Mount the flush inlet in the utility cover (E-UTIL) at 18" above the floor and the main strip on the inside of the column.</li>
 <li>Run the raceway along the spine lid (top of the chase, not inside it) from the column to the south end, and a branch through the service gap to the west.</li>
-<li>Mount tool outlets: a single outlet inside the router box (high, away from the bit) with a paddle switch on the right-hand door front; a single outlet on the lift-bay east wall at 10" height with a paddle switch on the lift-bay front panel; the switched outlet for the charging drawer inside W1; an outlet inside W2 for the laser.</li>
+<li>Mount tool outlets: a single outlet inside the router box (high, away from the bit) with a paddle switch on the right-hand door front; a single outlet on the flip bay's east wall at 12" height, wired <strong>through the seat switch</strong> (Step 10) and a paddle switch on the right-hand bay door; the switched outlet for the charging drawer inside W1; an outlet inside W2 for the laser.</li>
 <li>Mount the flush USB strips: west face under the top overhang at y 50-58; south face at x 56-64; east face at y 68-74. Mount the saw outlet on the north face beside the bay.</li>
 <li>LED strip in the top overhang (after Step 8) with the driver on the main strip and a PIR sensor at the south face.</li>
 <li>Plug everything into the main strip; label the cords.</li>
@@ -594,19 +595,18 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <hr>
 <h3>Step 7 — Laminate and machine the top</h3>
 <p><em>Drawing: <code>607-step-07.svg</code>, Sheet 1, Sheet 9, Sheet 10.</em></p>
-<p><strong>Parts:</strong> TOP-U1, TOP-U2 (3/4" BB), TOP-L1, TOP-L2 (3/4" MDF), TOP-DBL, HATCH-LG, HATCH-LG2, HATCH-BAR.</p>
+<p><strong>Parts:</strong> TOP-U1, TOP-U2 (3/4" BB), TOP-L1, TOP-L2 (3/4" MDF), TOP-DBL.</p>
 <p><strong>Tools:</strong> glue roller, every clamp you own plus cauls, track saw, router with 1/2" spiral, 3/4" and 3/8" straight bits, dog-hole jig with a 3/4" bit, jigsaw, pattern bit, plunge base, straightedge.</p>
 <ol>
 <li>Lay the two MDF pieces on a dead-flat surface (the base is flat: cover it with plastic and use it) with the seam at x = 48. Lay the birch pieces on top with the seam at x = 21, so the seams do not line up. Glue the layers with a roller, screw temporarily from below through the MDF every 8", and clamp the edges. Let it cure overnight; remove the screws.</li>
 <li>Trim the top to 69 x 96 with the track saw.</li>
 <li>Glue the doubler under the dog-field area (x 1-41, y 46-80).</li>
-<li>Lay out from the north-west corner. Cut the hatch (29 x 42-1/2 at x 19-1/2, y 2) with the track saw plunge-cutting and finish the corners with a jigsaw; keep the cut-out, it becomes the two leaves. Cut the laser well opening (22 x 15 at x 12, y 78); keep the cut-out as the insert. Cut the router plate opening: rout the 3/8"-deep rabbet to the plate's outline with a pattern bit against a template, then cut through the inner opening 1" smaller all round.</li>
+<li>Lay out from the north-west corner. Cut the flip hatch (29 x 24-1/2 at x 19-1/2, y 9-3/4) with the track saw plunge-cutting and finish the corners with a jigsaw; keep the cut-out, its birch face becomes the top of the flush box. Rout a 1/2" 45-degree chamfer on the <em>underside</em> of the hatch's north and south edges: the box corners sweep past there. Cut the laser well opening (22 x 15 at x 12, y 78); keep the cut-out as the insert. Cut the router plate opening: rout the 3/8"-deep rabbet to the plate's outline with a pattern bit against a template, then cut through the inner opening 1" smaller all round.</li>
 <li>Rout the dados: two 3/4" x 3/8" for the fence T-tracks at y 49 and y 75 from x 42 to 68; the combo track dado at x 64-1/2 from y 46 to 78 (check the track's width); two outfeed grooves 3/4" x 3/8" x 14" at x 41-5/8 and 52-5/8 from the north edge (verify against your miter slots).</li>
 <li>Drill the 81 dog holes with the jig: 3/4" on 4" centres, x 4-36, y 46-78. Chamfer both ends. Drill through the top and doubler; they open into the plenum.</li>
-<li>Fit the hatch ledge: glue the 1" x 1-1/2" maple strips to the underside of the opening so a 1" lip shows, 1" below the top surface; notch the long strips for the centre bar. Rip the hatch cut-out into two leaves 28-3/4 x 21 and test the fit: they should drop in flush with 1/16" play.</li>
 <li>Fit the well ledge and test the insert.</li>
 </ol>
-<p><strong>Check:</strong> top flat within 1/32" over its length (winding sticks); leaves and insert flush.</p>
+<p><strong>Check:</strong> top flat within 1/32" over its length (winding sticks); insert flush.</p>
 <hr>
 <h3>Step 8 — Fit the top, outfeed lip and edging</h3>
 <p><em>Drawing: <code>608-step-08.svg</code>, Sheet 5, Sheet 8.</em></p>
@@ -634,24 +634,23 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 </ol>
 <p><strong>Check:</strong> plate flush; bit raises and lowers freely through the plate; with the collector on and the box gate open, chips at a test cut go down, not out.</p>
 <hr>
-<h3>Step 10 — Miter-saw lift station</h3>
-<p><em>Drawing: <code>610-step-10.svg</code>, Sheet 7, Sheet 10.</em></p>
-<p><strong>Parts:</strong> LIFT-RL x2, LIFT-RB x3, LIFT-DK, HOOD-*, STOP x4, LEAF x2 + LEAF-M x2 + LEAF-EDGE, the scissor lift, 1/4-20 inserts, 3/8" leveling bolts, UHMW strips, piano hinges, folding brackets.</p>
-<p><strong>Tools:</strong> drill, wrenches, level, clamps, 4' straightedge.</p>
+<h3>Step 10 — Miter-saw flip-top station</h3>
+<p><em>Drawing: <code>610-step-10.svg</code>, Sheet 7 (three states), Sheet 10 (plan and safety).</em></p>
+<p><strong>Parts:</strong> FLIP-SKIN x2, FLIP-RIB x4, FLIP-RIBL x2 (core); BOX-TOP, BOX-SIDE x2, BOX-END x2 (flush box); HOOD-*; BEAR-BLK x4; REST x4; LEAF x2 + LEAF-M x2 + LEAF-EDGE; 1" rod, 2 flange bearings, 4 shaft collars, 2 index plungers, 2 toggle clamps, seat switch, ~70 lb steel plate, 1/4-20 inserts, piano hinges, folding brackets.</p>
+<p><strong>Tools:</strong> drill press or a careful drill with a 1" bit (the axle holes must be true), wrenches, level, 4' straightedge, clamps, a helper for the first flips.</p>
 <ol>
-<li>Build the sub-platform: 2x4 rails and ribs into a 28 x 41 frame, deck screwed on. Drill and insert 1/4-20 inserts for the saw's four mounting holes and for the hood.</li>
-<li>Build the hood: back, two sides, sloped floor and top; cut the 4" port low in the back. Bolt it to the north end of the deck, 6" deep, so it sits 2" behind the saw's rails at full travel (check the DWS779's rail extension).</li>
-<li>Remove the wheels and handle from the scissor lift. Lower it, slide it into the lift bay through the front (the LB-FRONT panel is off), centred at x 34, with the pump pedal facing south. Screw its base to the floor if you can (concrete anchors) or to a plywood pad screwed to the plinth rails.</li>
-<li>Set the sub-platform on the lift; centre it; bolt it through the lift's platform holes. Screw the four leveling bolts into the sub-platform's corners pointing up.</li>
-<li>Glue the four maple stop blocks to the bay walls (two on SW's east side, two on SE's west side) so the leveling bolts meet them when the deck is at 30-1/4" from the floor (34-3/4 minus the saw's 4-1/2" deck). Screw the UHMW guide strips vertically on the bay walls so the sub-platform runs between them with 1/8" play.</li>
-<li>Bolt the saw to the deck with its fence line 15" from the south edge of the sub-platform. Connect the 4" flex to the hood and the 2-1/2" flex to the saw's chute; leave enough slack for the full travel. Plug the saw into the bay outlet with a 30" service loop.</li>
-<li>Raise the lift until the bolts touch the stops. Adjust the bolts until the saw's deck is flush with the top with a straightedge across the hatch in both directions and the fence is parallel to the south edge. Lock the bolt nuts.</li>
-<li>Lower the saw. Fit the centre bar and the two leaves. Set the lift's stroke limit (if it has one) so the pedal cannot overshoot the stops.</li>
-<li>Drop-leaves: laminate each 24 x 24 leaf (BB over MDF), edge with maple, hang on the piano hinges under the top's overhang at y 4-28 on both ends so the leaf's top face is flush with the bench top when raised; fit the folding brackets to the base sides beneath.</li>
-<li>Refit LB-FRONT with its pedal flap and paddle switch.</li>
+<li><strong>Core.</strong> Glue the 1/2" ribs between the two 3/4" skins to make a 28 x 24 x 2" torsion core. The middle rib runs E-W on the axle line and is drilled 1" for the rod before assembly; the end ribs close the box. Bore the two skins at the axle line too, so the rod passes straight through the core with 1/8" of skin bearing on each side of every rib.</li>
+<li><strong>Axle.</strong> Drill the bearing bolt holes in the doubler blocks on both bay walls with the walls clamped together as a pair, or use a jig, so the two bearings are coaxial: 29-1/4" above the floor, 22" from the south face. Bolt the flange bearings on. Slide the rod through one bearing, the core and the other bearing; centre the core; lock it with a shaft collar on each side of the core and one outside each bearing.</li>
+<li><strong>Rest blocks and locks.</strong> Glue and screw the four maple rest blocks to the bay walls with their tops at 28-1/4" (the core's underside when horizontal), 11" north and south of the axle. Spin the core to horizontal both ways and check it seats on all four. Mount the two index plungers on the walls 6" south of the axle so their pins enter 1/2" holes drilled in the core's edges at both the 0 and 180 degree positions. Mount the two toggle clamps on the walls 6" north of the axle so their pads press the core down onto the rest blocks with the platform seated either way (the core is symmetric about the axle, so one setting serves both).</li>
+<li><strong>Seat switch.</strong> Let a plunger limit switch into the top of one rest block so the core's underside depresses it only when fully seated. Wire the flip-bay outlet through it in series with the paddle. Test: the saw has no power until the platform is on the blocks and clamped.</li>
+<li><strong>Flush box.</strong> Build the 26 x 24 x 4-1/2 box (sides, ends, the birch-faced top from the hatch cut-out) and screw it to the core's lower face, centred. One end gets a lift-off lid. It stands 4-1/2" off the core: <strong>this must equal the saw's deck height</strong>; shim or trim to match your measurement.</li>
+<li><strong>Saw and hood.</strong> Flip the platform so the bare face is up (box down). Set the DWS779 on it with its fence line 11" north of the platform's south edge and centred E-W; mark and drill for 1/4-20 inserts; bolt it down. Bolt the hood to the north 6" of the core behind the rails; fit the 4" quick-connect on its port.</li>
+<li><strong>Balance.</strong> Load the flush box with steel plate (start at 60 lb) until the platform, unlocked and held at 90 degrees, needs about one hand to move either way. Screw the plate down so it cannot shift. Fit the lid.</li>
+<li><strong>Set the height.</strong> With the saw up and clamped, lay a straightedge from the bench top across the saw's deck in both directions. Shim between the saw and the core, or plane the rest blocks, until it is flush within 1/32". Flip it, and check the box face the same way.</li>
+<li><strong>Drop-leaves.</strong> Laminate each 24 x 24 leaf (BB over MDF), edge with maple, hang on the piano hinges under the top's overhang at y 4-28 on both ends so the leaf's top face is flush when raised; fit the folding brackets to the base sides beneath.</li>
+<li><strong>Swing check.</strong> Lock the saw's head down, slide and bevel. Open the bay (no doors yet), stand clear, release the plungers and clamps and flip slowly ten times. Nothing may touch the top's edges, the hatch, the walls or the floor at any angle. Then fit the doors (Step 12) and confirm they clear the stowed saw.</li>
 </ol>
-<p><strong>Check:</strong> ten cycles up and down: the deck lands within 1/32" of flush every time, the hood clears the top's edge, the hose never kinks, the cord never snags. Leaves flush. Drop-leaves flush and rigid under a 50 lb push.</p>
-<hr>
+<p><strong>Check:</strong> the platform seats on all four blocks both ways with the plungers in and the clamps closed; the saw deck and the box face are each flush; the seat switch kills the saw when a clamp is opened; the hose and cord reach their cuffs with the saw up.</p>
 <h3>Step 11 — Laser well and tray</h3>
 <p><em>Drawing: <code>611-step-11.svg</code>, Sheet 7.</em></p>
 <p><strong>Parts:</strong> LT-BASE, LT-SIDE x2, LT-END x2, LT-FR, well insert (from Step 7), WELL-FL.</p>
@@ -665,7 +664,7 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <hr>
 <h3>Step 12 — Drawers, pull-outs and fronts</h3>
 <p><em>Drawing: <code>612-step-12.svg</code>, Sheets 2-4.</em></p>
-<p><strong>Parts:</strong> all <em>-DS, </em>-DF, <em>-DB, </em>-FR drawer parts; BIT-<em>, CR-</em>; DOOR-L, DOOR-R; LT-FR.</p>
+<p><strong>Parts:</strong> all <em>-DS, </em>-DF, <em>-DB, </em>-FR drawer parts; BIT-<em>, CR-</em>; DOOR-L, DOOR-R; DOOR-BAY x2; LT-FR.</p>
 <p><strong>Tools:</strong> table saw with a 1/4" dado or a router table for the bottom grooves, pocket-hole jig or a lock-rabbet setup, drill, slide jig, chamfer bit, spacers for reveals.</p>
 <ol>
 <li>Drawer boxes from 1/2" BB: sides, front and back, 1/4" bottom in a groove. Box width = opening minus 1"; depth per the cut list (36" for the SW and W1 drawers, 30" for W2).</li>
@@ -674,6 +673,7 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <li>Clamp rack: two uprights notched for four 1-1/2" maple bars, base and top; on 250 lb slides in the SE cabinet's south opening. Bar spacing: 5", 10", 15", 20" from the bottom so F-clamps of every size hang without touching.</li>
 <li>Fronts: cut each to its opening minus 1/8"; rout the 30-degree finger-pull chamfer along the top edge (3/4" deep); paint the faces charcoal and clear-coat the birch edges. Hang with 1/8" reveals using spacers; fix drawer fronts from inside the boxes with 4 screws each.</li>
 <li>Router doors: full-overlay concealed hinges; the right door carries the paddle switch.</li>
+<li>Flip-bay doors: two 16" doors on 110-degree hinges on the SW and SE sides; the right door carries the miter paddle switch and the flip checklist plate. They must open past 90 degrees so the swinging saw clears them.</li>
 </ol>
 <p><strong>Check:</strong> every front closes with even reveals; pull-outs run fully out and back with no rub.</p>
 <hr>
@@ -704,12 +704,12 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <table>
 <tr><th>#</th><th>Drop</th><th>Trunk</th><th>Gate location</th><th>Notes</th></tr>
 <tr><td>1</td><td>Floor sweep</td><td>4"</td><td>south toe kick, behind a flap</td><td>sweep the shop floor straight into it</td></tr>
-<tr><td>2</td><td>Miter hood</td><td>4"</td><td>lift-bay east wall</td><td>6' of 4" flex to the hood on the sub-platform; rises with the saw</td></tr>
+<tr><td>2</td><td>Miter hood</td><td>4"</td><td>flip-bay east wall</td><td>4' of 4" flex with a quick-connect cuff; plug it onto the hood after each flip</td></tr>
 <tr><td>3</td><td>Router box</td><td>4"</td><td>router-box floor</td><td>box is sealed; 1" x 4" make-up-air slot on the north partition</td></tr>
 <tr><td>4</td><td>Downdraft plenum</td><td>4"</td><td>service gap (reach through the W-BAND1 clean-out)</td><td>81 holes x 0.44 sq in = 36 sq in of open area; at 350 CFM that is ~1,400 fpm through the holes, plenty for sanding</td></tr>
 <tr><td>5</td><td>Table saw</td><td>4"</td><td>motor-bay south wall</td><td>4' of 4" flex to the CNS's own port</td></tr>
 <tr><td>6</td><td>Router fence</td><td>2-1/2"</td><td>behind the flip-lid port in the east edge band</td><td>your fence's hose plugs into the face of the bench</td></tr>
-<tr><td>7</td><td>Miter saw chute</td><td>2-1/2"</td><td>lift-bay east wall</td><td>4' of 2-1/2" flex to the DWS779's port</td></tr>
+<tr><td>7</td><td>Miter saw chute</td><td>2-1/2"</td><td>flip-bay east wall</td><td>3' of 2-1/2" flex to the DWS779's port, connected after the flip</td></tr>
 </table>
 <h3>Rules that make it pull</h3>
 <ol>
@@ -722,7 +722,7 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <li><strong>Static.</strong> Ground the 4" run with a bare copper wire inside if you use PVC and get shocks; not strictly needed on a run this short.</li>
 </ol>
 <h3>The miter hood</h3>
-<p>A 28" wide x 6" deep x 14" tall box on the sub-platform behind the saw, open toward the blade, with a floor sloped to a 4" port low at the back. Height 14" puts its top about 9-1/2" above the bench top when raised. It rides with the saw so the hose never has to be reconnected. Add a strip of 1/8" brush or rubber flap across the top edge if you want to catch the high spray from a slider.</p>
+<p>A 28" wide x 6" deep x 14" tall box on the flip core behind the saw, open toward the blade, with a floor sloped to a 4" port low at the back. Height 14" puts its top about 9-1/2" above the bench top when the saw is up. It flips with the saw; the hose has a quick-connect cuff that you push on after the platform is locked. Add a strip of 1/8" brush or rubber flap across the top edge if you want to catch the high spray from a slider.</p>
 <h3>Optional automation</h3>
 <p>An iVac-style tool sensor on the router and miter outlets can start the collector and open a motorised gate. The wiring is on the main strip; the gates replace the manual ones at drops 2 and 3. Do this later if the manual routine bothers you.</p></section>
 <section id='electrical'><h2>Electrical</h2><h2>Electrical</h2>
@@ -737,15 +737,15 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <ul>
 <li><strong>Main strip:</strong> a metal 12-outlet, 15 A surge strip with a lit switch mounted inside the utility column. Its switch is the bench master.</li>
 <li><strong>Raceway:</strong> 1" surface raceway on top of the spine lid (never inside the dust chase) to the south end, and through the service gap to the west cabinets.</li>
-<li><strong>Branch strips:</strong> metal 6-outlet strips inside W1 (charging drawer, LED driver), in the lift bay (miter), and behind the east face (router box, east USB strip).</li>
+<li><strong>Branch strips:</strong> metal 6-outlet strips inside W1 (charging drawer, LED driver), in the flip bay (miter), and behind the east face (router box, east USB strip).</li>
 </ul>
 <h3>Outlets and switches</h3>
 <table>
 <tr><th>Where</th><th>What</th><th>Notes</th></tr>
 <tr><td>Router box (inside, high on the north partition)</td><td>single outlet</td><td>router plugs in here; cord through a grommet</td></tr>
 <tr><td>Right-hand router door front</td><td>paddle safety switch</td><td>switches the router outlet</td></tr>
-<tr><td>Lift-bay east wall, 10" up</td><td>single outlet</td><td>miter saw; 30" service loop follows the lift</td></tr>
-<tr><td>Lift-bay front panel</td><td>paddle safety switch</td><td>switches the miter outlet</td></tr>
+<tr><td>Flip-bay east wall, 12" up</td><td>single outlet <strong>through the seat switch</strong></td><td>miter saw; plug in after the platform is seated; no power unless seated and clamped</td></tr>
+<tr><td>Right-hand flip-bay door</td><td>paddle safety switch</td><td>switches the miter outlet (in series with the seat switch)</td></tr>
 <tr><td>W1 top drawer</td><td>switched outlet in the drawer back</td><td>charging drawer; 1" vent slots front and back</td></tr>
 <tr><td>W2 (inside, north wall)</td><td>single outlet</td><td>laser</td></tr>
 <tr><td>West face, y 50-58, under the overhang</td><td>flush strip, 2 outlets + USB-A/C</td><td>hand tools, phone</td></tr>
@@ -784,13 +784,23 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <li>The router box is sealed and ducted; open its gate on the spine (inside the box floor) before routing.</li>
 </ul>
 <h3>Miter station (south)</h3>
+<p>The saw lives on a two-sided platform that pivots on a steel axle inside the base. One face carries the DWS779, the other a hollow birch-faced box the same height as the saw's deck, so whichever side is up sits flush with the top.</p>
+<p><strong>To bring the saw up</strong></p>
 <ol>
-<li>Lift the two hatch leaves out (finger holes at the outer ends) and slide them into the slot beside the lift bay; lift out the centre bar and drop it in with them.</li>
-<li>Pump the foot pedal until the sub-platform meets the stops. The saw's deck is now flush with the top and the hood is behind the blade.</li>
-<li>Raise the drop-leaves on both ends; the folding brackets lock. You now have 46" of support each side and 96" of flat top to the north.</li>
-<li>Open the miter hood gate (4") and the chute gate (2-1/2"); switch the saw on with the paddle on the front panel.</li>
-<li>Done: switch off, close gates, open the release valve on the lift (slow), the saw sinks below the top; refit the bar and leaves; drop the wings.</li>
+<li>Open both bay doors fully. Check the 30" in front of the bench is clear.</li>
+<li>Release the two toggle clamps, then pull the two index plungers.</li>
+<li>With a hand on each side of the platform, rotate it half a turn: the saw comes up through the hatch as the box goes down. It is balanced by the steel in the box, so it moves at walking pace and stops where you leave it.</li>
+<li>Let the platform settle onto the four rest blocks; the plungers click in on their own. Close the toggle clamps.</li>
+<li>Push the 4" cuff onto the hood and the 2-1/2" hose onto the saw's chute; plug the saw in. The seat switch will not pass power until the platform is seated and clamped.</li>
+<li>Raise the drop-leaves on both ends (the brackets lock). Open the miter-hood and chute gates. Cut.</li>
 </ol>
+<p><strong>To stow it</strong></p>
+<ol>
+<li>Switch off at the paddle. Lock the saw's head down, lock the slide, lock the bevel, close the guard. Unplug and pull the two hoses.</li>
+<li>Drop the wings. Release the clamps, pull the plungers, rotate the platform back: the saw swings out through the open doors and under; the box comes up flush. Plungers click, clamps on.</li>
+<li>Close the doors. The top is flat.</li>
+</ol>
+<p><strong>What keeps it safe:</strong> the load sits on the rest blocks, never on the pins; the plungers locate; the toggle clamps hold it down against vibration; the seat switch means the saw cannot run unless all of that is true; the counterweight means a released platform does not fall. Do not flip with the head unlocked.</p>
 <p>Long stock: the north half of the bench takes anything up to 8' to the left or right when you angle it across the top; for 12' stock use a roller stand beyond a drop-leaf.</p>
 <h3>Laser well (top, north-west)</h3>
 <ul>
@@ -802,8 +812,7 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <table>
 <tr><th>Face</th><th>Opening</th><th>Contents</th></tr>
 <tr><td>South</td><td>SW-D1/D2/D3, 13-1/2" x 36" long drawers</td><td>straightedges, levels, your router fence, track-saw rail, long clamps</td></tr>
-<tr><td>South</td><td>leaf slot</td><td>the two hatch leaves and the centre bar</td></tr>
-<tr><td>South</td><td>lift-bay panel</td><td>the lift; pedal behind the flap</td></tr>
+<tr><td>South</td><td>flip-bay doors</td><td>the platform, saw stowed underneath; flip checklist on the door</td></tr>
 <tr><td>South</td><td>clamp rack pull-out</td><td>F-clamps and bar clamps on four bars</td></tr>
 <tr><td>East</td><td>bit pull-out</td><td>router bits, collets, wrenches</td></tr>
 <tr><td>East</td><td>router doors</td><td>the lift and router; push blocks and featherboards on the side compartments</td></tr>

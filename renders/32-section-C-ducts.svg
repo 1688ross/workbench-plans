@@ -5,7 +5,7 @@
 <text x='950.0' y='508.0' font-size='9' fill='#999' text-anchor='end' font-weight='normal' >workbench-plans  |  generated from tools/model.py  |  inches</text>
 <rect x='88.0' y='412.0' width='532.0' height='28.0' rx='0' fill='#333' stroke='#111' stroke-width='1' />
 <rect x='67.0' y='207.2' width='315.0' height='232.8' rx='0' fill='#f5f3ff' stroke='#6d28d9' stroke-width='0.6' stroke-dasharray='4 3'/>
-<text x='221.0' y='300.0' font-size='8' fill='#4c1d95' text-anchor='middle' font-weight='normal' >lift bay (beyond)</text>
+<text x='221.0' y='300.0' font-size='8' fill='#4c1d95' text-anchor='middle' font-weight='normal' >flip bay (beyond)</text>
 <rect x='67.0' y='356.0' width='553.0' height='56.0' rx='0' fill='#ffedd5' stroke='#c2410c' stroke-width='1' />
 <rect x='74.0' y='380.5' width='539.0' height='28.0' rx='0' fill='#fdba74' stroke='#c2410c' stroke-width='1' />
 <text x='340.0' y='398.0' font-size='8' fill='#7c2d12' text-anchor='middle' font-weight='normal' >4&quot; main trunk</text>

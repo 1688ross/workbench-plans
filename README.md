@@ -1,6 +1,6 @@
 # workbench-plans
 
-Complete plans for a purpose-built woodworking workbench island: outfeed for a SawStop 10" Contractor Saw with the 36" extension, router lift station, a miter station whose saw rises on a scissor lift, a 3/4" dog-hole clamping station over a downdraft plenum, a laser-engraver well, built-in dust ducting for two collectors, built-in power with USB, and a lot of storage. Footprint 69" x 96", top at 34-3/4".
+Complete plans for a purpose-built woodworking workbench island: outfeed for a SawStop 10" Contractor Saw with the 36" extension, router lift station, a miter station whose saw flips up out of the base on a two-sided platform, a 3/4" dog-hole clamping station over a downdraft plenum, a laser-engraver well, built-in dust ducting for two collectors, built-in power with USB, and a lot of storage. Footprint 69" x 96", top at 34-3/4".
 
 **Start here:** open [`index.html`](index.html) for the whole set on one page, or read the documents in order below.
 
@@ -23,8 +23,8 @@ Complete plans for a purpose-built woodworking workbench island: outfeed for a S
 |---|---|
 | `10-12-final-look-*.svg` | Isometric final look: stowed, in use, and from the router side |
 | `20-plan.svg`, `21-24-elevation-*.svg` | Sheet 1 plan; Sheets 2-5 elevations of all four faces |
-| `30-32-section-*.svg` | Sections through the router station, the lift bay, and the duct spine |
-| `40-router-station.svg`, `41-miter-hatch.svg` | Station details and the scissor-lift specification |
+| `30-32-section-*.svg` | Sections through the router station, the flip bay (stowed, mid-swing, up), and the duct spine |
+| `40-router-station.svg`, `41-miter-hatch.svg` | Router station detail; flip-top platform and its safety system |
 | `50-dust-routing.svg`, `51-electrical.svg` | Routing plans |
 | `cuts/*.svg` | Nested cut diagrams per material (12 sheets 3/4" BB, 2 of 1/2", 2 of 1/4", 2 MDF, maple boards) |
 | `601-613-step-*.svg` | One isometric view per build step, new parts highlighted |

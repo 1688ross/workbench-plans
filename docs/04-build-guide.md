@@ -16,7 +16,7 @@ General shop tools used throughout: table saw with a good 80T blade for plywood,
 **Tools:** table saw, miter saw (rip 4" strips, cross-cut), drill, 3/8" bit for the T-nut plates, level.
 
 1. Rip 4"-wide strips of 3/4" Baltic birch and cross-cut the ribs to the lengths in the cut list.
-2. Lay out the frame on the floor where the bench will live: outer rails at 4" and 65" from the west edge, cross ribs at y = 46, 66 and 80; the front rail is split (x 4-18 and 50-65) to leave the lift bay open; two 42" rails run north-south at x = 18 and x = 50 to carry the bay walls.
+2. Lay out the frame on the floor where the bench will live: outer rails at 4" and 65" from the west edge, cross ribs at y = 46, 66 and 80; the front rail is split (x 4-18 and 50-65) to leave the flip bay open; two 42" rails run north-south at x = 18 and x = 50 to carry the bay walls.
 3. Glue and screw the ribs into a ladder. Drive T-nut plates for the ten levelers into the rib bottoms at the positions in the step view (corners, mid-rails, and both sides of the bay).
 4. Screw the toe-kick faces on (west, east, and the two south pieces). Paint black.
 5. Set the plinth in place and level it in both directions with a 4' level. This is the reference for everything above; take your time.
@@ -28,20 +28,20 @@ General shop tools used throughout: table saw with a good 80T blade for plywood,
 ## Step 2 — Carcasses
 *Drawing: `602-step-02.svg`, Sheet 6, 7, 8 (sections).*
 
-**Parts:** SW-*, SE-*, W1-*, W2-*, E2-* sides/tops/bottoms/backs and dividers; SP-WALL, SP-LID, SP-LOW; BAY-S, BAY-E, BAY-NE; GAP-W, GAP-S; LB-FRONT; W-BAND1/2; E-UTIL; E-BACK.
+**Parts:** SW-*, SE-*, W1-*, W2-*, E2-* sides/tops/bottoms/backs and dividers; SP-WALL, SP-LID, SP-LOW; BAY-S, BAY-E, BAY-NE; GAP-W, GAP-S; W-BAND1/2; E-UTIL; E-BACK.
 
 **Tools:** track saw or table saw, router with a 1/4" straight bit (optional 1/4" dado for backs), drill, countersink, pocket-hole jig, clamps, square.
 
 1. Cut all carcass parts. Label each with its ID in pencil on an edge that will be hidden.
 2. Build the five boxes one at a time on a flat surface: sides full height, top and bottom between the sides, back glued and screwed to the rear edges. Square each box against the back before the glue sets.
-   - **SW** (17 x 45 x 29-1/4, opens south): add the leaf-slot divider 3-1/2" in from the east side, full height.
-   - **SE** (18 x 45 x 20-1/2, opens south and east): its floor sits at z = 12-3/4 (raised over the spine); add the SP-LOW extension below the sides and the rack/bit divider at 29" from the south end.
+   - **SW** (17 x 45 x 29-1/4, opens south). Its east side is the west wall of the flip bay: glue the two BEAR-BLK doubler blocks (Step 10) to it now, centred 22" from the south end and 29-1/4" from the floor, so the bearing bolts have 2-1/4" of material.
+   - **SE** (18 x 45 x 20-1/2, opens south and east): its floor sits at z = 12-3/4 (raised over the spine); add the SP-LOW extension below the sides and the rack/bit divider at 29" from the south end. Its west side is the east wall of the flip bay: doubler blocks as for SW.
    - **W1** (20 wide x 40 deep x 22-1/2 tall, opens west).
    - **W2** (29 wide x 33 deep x 20 tall, opens west).
    - **E2** (30 wide x 22 deep x 20-1/2 tall, opens east): floor at z = 12-3/4; add the two router-box partitions at 6" and 25-1/4" from the south side, making a 20"-wide sealed compartment. Cut the 4" dust hole in the floor of that compartment at x = 52-1/2 (from the west edge of the bench) and a 1" x 4" make-up-air slot low on the north partition.
-3. Cut the spine wall, motor-bay walls, service-gap walls, band panels and the lift-bay front. Leave them loose; they go on in Step 4.
+3. Cut the spine wall, motor-bay walls, service-gap walls and band panels. Leave them loose; they go on in Step 4.
 
-**Check:** every box square, backs flush, faces flat. Dry-fit the five boxes on the plinth in their positions (Sheet 1) and confirm the gaps: 5" service gap between W1 and E2, 32" lift bay between SW and SE, 30" x 15" motor bay at the north-centre.
+**Check:** every box square, backs flush, faces flat. Dry-fit the five boxes on the plinth in their positions (Sheet 1) and confirm the gaps: 5" service gap between W1 and E2, 32" flip bay between SW and SE, 30" x 15" motor bay at the north-centre.
 
 ---
 
@@ -66,13 +66,13 @@ General shop tools used throughout: table saw with a good 80T blade for plywood,
 
 **Tools:** drill, clamps, level, 2" screws, helper.
 
-1. Set SW and SE on the plinth at the south end, 32" apart, backs to the north. Screw them to the plinth ribs from inside.
-2. Set W1 north of SW (its south side against SW's north side is the lift-bay north wall for x 1-18), and W2 north of W1. Set E2 north of SE. Screw adjacent boxes to each other through their sides with 1-1/4" screws.
+1. Set SW and SE on the plinth at the south end, exactly 32" apart and parallel (the flip axle runs between them, so measure at both ends), backs to the north. Screw them to the plinth ribs from inside.
+2. Set W1 north of SW (its south side is the flip-bay north wall for x 1-18), and W2 north of W1. Set E2 north of SE. Screw adjacent boxes to each other through their sides with 1-1/4" screws.
 3. Spine: stand SP-WALL at x = 55 between the SE/E2 west sides and the plinth; screw the SP-LID over the leg (y 76-80). The 5 x 8 chase should now run from the south toe kick to the utility corner.
 4. Motor bay: fit BAY-S (y = 80, x 34-64) and BAY-E (x = 64); add the BAY-NE fillers so the north-east column is closed.
 5. Service gap: GAP-W (x = 41, y 66-80) and GAP-S (y = 46, x 41-46).
 6. Set the plenum on W1/W2 with the spacer frame under its north end; the inlet hole faces the service gap. Silicone the plenum floor to the cabinet tops. Set the laser well box on W2 with its west wall at x = 12 and south wall at y = 78. Glue the vise pad under where the top will be, in the NW corner (x 1-13, y 82-95); it hangs on the W2 top and the well's west wall.
-7. Hang the west band panels, the utility cover and the lift-bay front on hook-on clips so they can come off for service.
+7. Hang the west band panels and the utility cover on hook-on clips so they can come off for service. The flip bay stays open at the south until its doors go on in Step 12.
 
 **Check:** the whole base is level and its top edges are all at 33-1/4" from the floor (26-1/2" at W1, 24" at W2, plenum top at 32-1/2"). Measure diagonally corner to corner across the base: equal within 1/8".
 
@@ -87,9 +87,9 @@ General shop tools used throughout: table saw with a good 80T blade for plywood,
 
 1. Dry-fit the 4" main in the spine from the south toe kick to the leg, then east to the utility column. Place a wye for each drop at the y positions on Sheet 11 (floor sweep at the south end, miter hood at 30", router at 62", plenum at 70", table saw at 78"). The wye's branch must point toward the ports.
 2. Add the 2-1/2" vac trunk beside it (above, in the 8" chase) with its two wyes (miter chute at 26", router fence at 64").
-3. Glue the runs. Fit a blast gate at every branch, mounted where you can reach it: floor sweep behind a flap in the toe kick; miter and chute gates on the lift-bay's east wall; router gate on the box floor; plenum gate in the service gap (reach from the removed W-BAND1 clean-out); saw gate on the bay's south wall.
+3. Glue the runs. Fit a blast gate at every branch, mounted where you can reach it: floor sweep behind a flap in the toe kick; miter hood and chute gates on the flip bay's east wall, low, with the 4" quick-connect cuff and the 2-1/2" cuff right at the gates; router gate on the box floor; plenum gate in the service gap (reach from the removed W-BAND1 clean-out); saw gate on the bay's south wall.
 4. Run the plenum riser (4" PVC, two 45s) up the service gap into the plenum's east wall inlet. Silicone it.
-5. Leave 6' of 4" flex and 4' of 2-1/2" flex coiled in the lift bay for the hood and the saw chute (connected in Step 10). Leave 4' of 4" flex at the bay gate for the CNS port.
+5. Leave 4' of 4" flex and 3' of 2-1/2" flex coiled in the flip bay for the hood and the saw chute; they connect to the cuffs after each flip (Step 10). Leave 4' of 4" flex at the motor-bay gate for the CNS port.
 6. Fit the wall flanges at the utility column: 4" at 6" above the floor, 2-1/2" above it.
 
 **Check:** with the collector connected and one gate open at a time, feel strong suction at every drop. No leaks at the plenum (hold a tissue at the seams).
@@ -103,7 +103,7 @@ General shop tools used throughout: table saw with a good 80T blade for plywood,
 
 1. Mount the flush inlet in the utility cover (E-UTIL) at 18" above the floor and the main strip on the inside of the column.
 2. Run the raceway along the spine lid (top of the chase, not inside it) from the column to the south end, and a branch through the service gap to the west.
-3. Mount tool outlets: a single outlet inside the router box (high, away from the bit) with a paddle switch on the right-hand door front; a single outlet on the lift-bay east wall at 10" height with a paddle switch on the lift-bay front panel; the switched outlet for the charging drawer inside W1; an outlet inside W2 for the laser.
+3. Mount tool outlets: a single outlet inside the router box (high, away from the bit) with a paddle switch on the right-hand door front; a single outlet on the flip bay's east wall at 12" height, wired **through the seat switch** (Step 10) and a paddle switch on the right-hand bay door; the switched outlet for the charging drawer inside W1; an outlet inside W2 for the laser.
 4. Mount the flush USB strips: west face under the top overhang at y 50-58; south face at x 56-64; east face at y 68-74. Mount the saw outlet on the north face beside the bay.
 5. LED strip in the top overhang (after Step 8) with the driver on the main strip and a PIR sensor at the south face.
 6. Plug everything into the main strip; label the cords.
@@ -115,20 +115,19 @@ General shop tools used throughout: table saw with a good 80T blade for plywood,
 ## Step 7 — Laminate and machine the top
 *Drawing: `607-step-07.svg`, Sheet 1, Sheet 9, Sheet 10.*
 
-**Parts:** TOP-U1, TOP-U2 (3/4" BB), TOP-L1, TOP-L2 (3/4" MDF), TOP-DBL, HATCH-LG, HATCH-LG2, HATCH-BAR.
+**Parts:** TOP-U1, TOP-U2 (3/4" BB), TOP-L1, TOP-L2 (3/4" MDF), TOP-DBL.
 
 **Tools:** glue roller, every clamp you own plus cauls, track saw, router with 1/2" spiral, 3/4" and 3/8" straight bits, dog-hole jig with a 3/4" bit, jigsaw, pattern bit, plunge base, straightedge.
 
 1. Lay the two MDF pieces on a dead-flat surface (the base is flat: cover it with plastic and use it) with the seam at x = 48. Lay the birch pieces on top with the seam at x = 21, so the seams do not line up. Glue the layers with a roller, screw temporarily from below through the MDF every 8", and clamp the edges. Let it cure overnight; remove the screws.
 2. Trim the top to 69 x 96 with the track saw.
 3. Glue the doubler under the dog-field area (x 1-41, y 46-80).
-4. Lay out from the north-west corner. Cut the hatch (29 x 42-1/2 at x 19-1/2, y 2) with the track saw plunge-cutting and finish the corners with a jigsaw; keep the cut-out, it becomes the two leaves. Cut the laser well opening (22 x 15 at x 12, y 78); keep the cut-out as the insert. Cut the router plate opening: rout the 3/8"-deep rabbet to the plate's outline with a pattern bit against a template, then cut through the inner opening 1" smaller all round.
+4. Lay out from the north-west corner. Cut the flip hatch (29 x 24-1/2 at x 19-1/2, y 9-3/4) with the track saw plunge-cutting and finish the corners with a jigsaw; keep the cut-out, its birch face becomes the top of the flush box. Rout a 1/2" 45-degree chamfer on the *underside* of the hatch's north and south edges: the box corners sweep past there. Cut the laser well opening (22 x 15 at x 12, y 78); keep the cut-out as the insert. Cut the router plate opening: rout the 3/8"-deep rabbet to the plate's outline with a pattern bit against a template, then cut through the inner opening 1" smaller all round.
 5. Rout the dados: two 3/4" x 3/8" for the fence T-tracks at y 49 and y 75 from x 42 to 68; the combo track dado at x 64-1/2 from y 46 to 78 (check the track's width); two outfeed grooves 3/4" x 3/8" x 14" at x 41-5/8 and 52-5/8 from the north edge (verify against your miter slots).
 6. Drill the 81 dog holes with the jig: 3/4" on 4" centres, x 4-36, y 46-78. Chamfer both ends. Drill through the top and doubler; they open into the plenum.
-7. Fit the hatch ledge: glue the 1" x 1-1/2" maple strips to the underside of the opening so a 1" lip shows, 1" below the top surface; notch the long strips for the centre bar. Rip the hatch cut-out into two leaves 28-3/4 x 21 and test the fit: they should drop in flush with 1/16" play.
-8. Fit the well ledge and test the insert.
+7. Fit the well ledge and test the insert.
 
-**Check:** top flat within 1/32" over its length (winding sticks); leaves and insert flush.
+**Check:** top flat within 1/32" over its length (winding sticks); insert flush.
 
 ---
 
@@ -165,27 +164,25 @@ General shop tools used throughout: table saw with a good 80T blade for plywood,
 
 ---
 
-## Step 10 — Miter-saw lift station
-*Drawing: `610-step-10.svg`, Sheet 7, Sheet 10.*
+## Step 10 — Miter-saw flip-top station
+*Drawing: `610-step-10.svg`, Sheet 7 (three states), Sheet 10 (plan and safety).*
 
-**Parts:** LIFT-RL x2, LIFT-RB x3, LIFT-DK, HOOD-*, STOP x4, LEAF x2 + LEAF-M x2 + LEAF-EDGE, the scissor lift, 1/4-20 inserts, 3/8" leveling bolts, UHMW strips, piano hinges, folding brackets.
+**Parts:** FLIP-SKIN x2, FLIP-RIB x4, FLIP-RIBL x2 (core); BOX-TOP, BOX-SIDE x2, BOX-END x2 (flush box); HOOD-*; BEAR-BLK x4; REST x4; LEAF x2 + LEAF-M x2 + LEAF-EDGE; 1" rod, 2 flange bearings, 4 shaft collars, 2 index plungers, 2 toggle clamps, seat switch, ~70 lb steel plate, 1/4-20 inserts, piano hinges, folding brackets.
 
-**Tools:** drill, wrenches, level, clamps, 4' straightedge.
+**Tools:** drill press or a careful drill with a 1" bit (the axle holes must be true), wrenches, level, 4' straightedge, clamps, a helper for the first flips.
 
-1. Build the sub-platform: 2x4 rails and ribs into a 28 x 41 frame, deck screwed on. Drill and insert 1/4-20 inserts for the saw's four mounting holes and for the hood.
-2. Build the hood: back, two sides, sloped floor and top; cut the 4" port low in the back. Bolt it to the north end of the deck, 6" deep, so it sits 2" behind the saw's rails at full travel (check the DWS779's rail extension).
-3. Remove the wheels and handle from the scissor lift. Lower it, slide it into the lift bay through the front (the LB-FRONT panel is off), centred at x 34, with the pump pedal facing south. Screw its base to the floor if you can (concrete anchors) or to a plywood pad screwed to the plinth rails.
-4. Set the sub-platform on the lift; centre it; bolt it through the lift's platform holes. Screw the four leveling bolts into the sub-platform's corners pointing up.
-5. Glue the four maple stop blocks to the bay walls (two on SW's east side, two on SE's west side) so the leveling bolts meet them when the deck is at 30-1/4" from the floor (34-3/4 minus the saw's 4-1/2" deck). Screw the UHMW guide strips vertically on the bay walls so the sub-platform runs between them with 1/8" play.
-6. Bolt the saw to the deck with its fence line 15" from the south edge of the sub-platform. Connect the 4" flex to the hood and the 2-1/2" flex to the saw's chute; leave enough slack for the full travel. Plug the saw into the bay outlet with a 30" service loop.
-7. Raise the lift until the bolts touch the stops. Adjust the bolts until the saw's deck is flush with the top with a straightedge across the hatch in both directions and the fence is parallel to the south edge. Lock the bolt nuts.
-8. Lower the saw. Fit the centre bar and the two leaves. Set the lift's stroke limit (if it has one) so the pedal cannot overshoot the stops.
-9. Drop-leaves: laminate each 24 x 24 leaf (BB over MDF), edge with maple, hang on the piano hinges under the top's overhang at y 4-28 on both ends so the leaf's top face is flush with the bench top when raised; fit the folding brackets to the base sides beneath.
-10. Refit LB-FRONT with its pedal flap and paddle switch.
+1. **Core.** Glue the 1/2" ribs between the two 3/4" skins to make a 28 x 24 x 2" torsion core. The middle rib runs E-W on the axle line and is drilled 1" for the rod before assembly; the end ribs close the box. Bore the two skins at the axle line too, so the rod passes straight through the core with 1/8" of skin bearing on each side of every rib.
+2. **Axle.** Drill the bearing bolt holes in the doubler blocks on both bay walls with the walls clamped together as a pair, or use a jig, so the two bearings are coaxial: 29-1/4" above the floor, 22" from the south face. Bolt the flange bearings on. Slide the rod through one bearing, the core and the other bearing; centre the core; lock it with a shaft collar on each side of the core and one outside each bearing.
+3. **Rest blocks and locks.** Glue and screw the four maple rest blocks to the bay walls with their tops at 28-1/4" (the core's underside when horizontal), 11" north and south of the axle. Spin the core to horizontal both ways and check it seats on all four. Mount the two index plungers on the walls 6" south of the axle so their pins enter 1/2" holes drilled in the core's edges at both the 0 and 180 degree positions. Mount the two toggle clamps on the walls 6" north of the axle so their pads press the core down onto the rest blocks with the platform seated either way (the core is symmetric about the axle, so one setting serves both).
+4. **Seat switch.** Let a plunger limit switch into the top of one rest block so the core's underside depresses it only when fully seated. Wire the flip-bay outlet through it in series with the paddle. Test: the saw has no power until the platform is on the blocks and clamped.
+5. **Flush box.** Build the 26 x 24 x 4-1/2 box (sides, ends, the birch-faced top from the hatch cut-out) and screw it to the core's lower face, centred. One end gets a lift-off lid. It stands 4-1/2" off the core: **this must equal the saw's deck height**; shim or trim to match your measurement.
+6. **Saw and hood.** Flip the platform so the bare face is up (box down). Set the DWS779 on it with its fence line 11" north of the platform's south edge and centred E-W; mark and drill for 1/4-20 inserts; bolt it down. Bolt the hood to the north 6" of the core behind the rails; fit the 4" quick-connect on its port.
+7. **Balance.** Load the flush box with steel plate (start at 60 lb) until the platform, unlocked and held at 90 degrees, needs about one hand to move either way. Screw the plate down so it cannot shift. Fit the lid.
+8. **Set the height.** With the saw up and clamped, lay a straightedge from the bench top across the saw's deck in both directions. Shim between the saw and the core, or plane the rest blocks, until it is flush within 1/32". Flip it, and check the box face the same way.
+9. **Drop-leaves.** Laminate each 24 x 24 leaf (BB over MDF), edge with maple, hang on the piano hinges under the top's overhang at y 4-28 on both ends so the leaf's top face is flush when raised; fit the folding brackets to the base sides beneath.
+10. **Swing check.** Lock the saw's head down, slide and bevel. Open the bay (no doors yet), stand clear, release the plungers and clamps and flip slowly ten times. Nothing may touch the top's edges, the hatch, the walls or the floor at any angle. Then fit the doors (Step 12) and confirm they clear the stowed saw.
 
-**Check:** ten cycles up and down: the deck lands within 1/32" of flush every time, the hood clears the top's edge, the hose never kinks, the cord never snags. Leaves flush. Drop-leaves flush and rigid under a 50 lb push.
-
----
+**Check:** the platform seats on all four blocks both ways with the plungers in and the clamps closed; the saw deck and the box face are each flush; the seat switch kills the saw when a clamp is opened; the hose and cord reach their cuffs with the saw up.
 
 ## Step 11 — Laser well and tray
 *Drawing: `611-step-11.svg`, Sheet 7.*
@@ -205,7 +202,7 @@ General shop tools used throughout: table saw with a good 80T blade for plywood,
 ## Step 12 — Drawers, pull-outs and fronts
 *Drawing: `612-step-12.svg`, Sheets 2-4.*
 
-**Parts:** all *-DS, *-DF, *-DB, *-FR drawer parts; BIT-*, CR-*; DOOR-L, DOOR-R; LT-FR.
+**Parts:** all *-DS, *-DF, *-DB, *-FR drawer parts; BIT-*, CR-*; DOOR-L, DOOR-R; DOOR-BAY x2; LT-FR.
 
 **Tools:** table saw with a 1/4" dado or a router table for the bottom grooves, pocket-hole jig or a lock-rabbet setup, drill, slide jig, chamfer bit, spacers for reveals.
 
@@ -215,6 +212,7 @@ General shop tools used throughout: table saw with a good 80T blade for plywood,
 4. Clamp rack: two uprights notched for four 1-1/2" maple bars, base and top; on 250 lb slides in the SE cabinet's south opening. Bar spacing: 5", 10", 15", 20" from the bottom so F-clamps of every size hang without touching.
 5. Fronts: cut each to its opening minus 1/8"; rout the 30-degree finger-pull chamfer along the top edge (3/4" deep); paint the faces charcoal and clear-coat the birch edges. Hang with 1/8" reveals using spacers; fix drawer fronts from inside the boxes with 4 screws each.
 6. Router doors: full-overlay concealed hinges; the right door carries the paddle switch.
+7. Flip-bay doors: two 16" doors on 110-degree hinges on the SW and SE sides; the right door carries the miter paddle switch and the flip checklist plate. They must open past 90 degrees so the swinging saw clears them.
 
 **Check:** every front closes with even reveals; pull-outs run fully out and back with no rub.
 

@@ -76,11 +76,11 @@ def plan():
     v.rect(h["x0"], h["x1"], h["y0"], h["y1"], fill="#f5f3ff", stroke="#6d28d9", sw=1.4)
     v.line(h["x0"], (h["y0"] + h["y1"]) / 2, h["x1"], (h["y0"] + h["y1"]) / 2, stroke="#6d28d9", sw=1)
     v.rect(LIFT_BAY["x0"], LIFT_BAY["x1"], LIFT_BAY["y0"], LIFT_BAY["y1"], fill="none", stroke="#6d28d9", sw=0.8, extra=GHOST)
-    v.label(34, 34, "MITER HATCH 29 x 42-1/2 (two lift-off leaves)", size=9, fill="#4c1d95")
-    v.label(34, 12, "DWS779 rises on a scissor lift", size=9, fill="#4c1d95"); v.label(34, 8.5, "fence line E-W, operator south", size=8, fill="#4c1d95")
+    v.label(34, 30, "FLIP HATCH 29 x 24-1/2", size=9, fill="#4c1d95"); v.label(34, 26.5, "two-sided platform on a 1\" E-W axle at y = 22", size=8, fill="#4c1d95")
+    v.line(HATCH["x0"] - 2, FLIP["axle_y"], HATCH["x1"] + 2, FLIP["axle_y"], stroke="#4c1d95", sw=1.2, extra="stroke-dasharray='8 3 2 3'")
+    v.label(34, 14, "DWS779 up / flush box up", size=9, fill="#4c1d95"); v.label(34, 5.5, "fence line E-W, operator south; doors below open to flip", size=8, fill="#4c1d95")
     v.rect(MITER_HOOD["x0"], MITER_HOOD["x1"], MITER_HOOD["y0"], MITER_HOOD["y1"], fill="none", stroke="#6d28d9", sw=1, extra=GHOST)
-    v.label(34, 40.8, "hood (rides with the lift)", size=8, fill="#4c1d95")
-    v.rect(LEAF_SLOT["x0"], LEAF_SLOT["x1"], LEAF_SLOT["y0"], LEAF_SLOT["y1"], fill="#ede9fe", stroke="#6d28d9", sw=0.6, extra=GHOST)
+    v.label(34, 36.5, "hood on the platform's north end (quick-connect hose)", size=8, fill="#4c1d95")
     # drop leaves (extended, ghost)
     for (x0, x1) in ((-DROP_LEAF["len"], 0), (TOP["x1"], TOP["x1"] + DROP_LEAF["len"])):
         v.rect(x0, x1, DROP_LEAF["y0"], DROP_LEAF["y1"], fill="#f5f3ff", stroke="#6d28d9", sw=0.8, extra=GHOST)
@@ -93,7 +93,7 @@ def plan():
     # dimensions
     v.dim_h(0, 69, -12, "69\"", size=11); v.dim_v(-20, 0, 96, "96\"", size=11)
     v.dim_h(0, SAW["blade_x"], 100.5, "47-1/8\" to blade", size=9)
-    v.dim_h(h["x0"], h["x1"], -3, "29\"", size=9); v.dim_v(76, h["y0"], h["y1"], "42-1/2\"", size=9)
+    v.dim_h(h["x0"], h["x1"], -3, "29\"", size=9); v.dim_v(76, h["y0"], h["y1"], "24-1/2\"", size=9)
     v.dim_v(76, MOTOR_BAY["y0"], MOTOR_BAY["y1"], "15\"", size=9); v.dim_h(MOTOR_BAY["x0"], MOTOR_BAY["x1"], 97.5, "30\" bay", size=9)
     v.dim_h(lw["x0"], lw["x1"], 76, "22\"", size=9); v.dim_v(9, lw["y0"], lw["y1"], "15\"", size=9)
     v.dim_v(-5, DOG_GRID["y0"], DOG_GRID["y1"], "32\"", size=9)
@@ -136,12 +136,12 @@ def elevation(name, face):
     if face == "N": v.rect(tlo, thi, TOP_HEIGHT - BRIDGE_LIP["t"], TOP_HEIGHT, fill="#c9a86a", stroke="#7a5c2e", sw=0.6)
     # face-specific extras
     if face == "S":
-        v.rect(U(LEAF_SLOT["x0"]), U(LEAF_SLOT["x1"]), PLINTH_H, TOP_UNDER, fill="#111", stroke="#333")
-        v.rect(U(22), U(32), PLINTH_H, PLINTH_H + 8, fill="#3a3d43", stroke="#111"); v.text(U(27), 7.5, "pedal flap", size=7.5, fill="#c9ccd1", anchor="middle")
+        v.rect(U(40), U(44), 27, 29, fill="#dc2626", stroke="#7f1d1d", rx=2); v.text(U(42), 25, "miter paddle", size=7, fill="#c9ccd1", anchor="middle")
+        v.text(U(34), 9, "doors open for the flip; saw hangs inside when stowed", size=7.5, fill="#c9ccd1", anchor="middle")
         # saw ghost raised
         v.rect(U(22), U(46), TOP_HEIGHT, TOP_HEIGHT + 4, fill="#e9d5ff", stroke="#6d28d9", sw=0.8, extra=GHOST)
         v.rect(U(27), U(41), TOP_HEIGHT + 4, TOP_HEIGHT + MITER_SAW["h_locked"], fill="#e9d5ff", stroke="#6d28d9", sw=0.8, extra=GHOST)
-        v.text(U(34), TOP_HEIGHT + 12, "DWS779 raised (ghost)", size=8.5, fill="#4c1d95", anchor="middle")
+        v.text(U(34), TOP_HEIGHT + 12, "DWS779 flipped up (ghost)", size=8.5, fill="#4c1d95", anchor="middle")
         for (x0, x1) in ((-DROP_LEAF["len"], 0), (69, 69 + DROP_LEAF["len"])):
             v.rect(U(x0), U(x1), TOP_UNDER, TOP_HEIGHT, fill="#f5f3ff", stroke="#6d28d9", sw=0.8, extra=GHOST)
         v.text(U(-12), TOP_HEIGHT + 3, "drop-leaf up", size=8, fill="#4c1d95", anchor="middle"); v.text(U(81), TOP_HEIGHT + 3, "drop-leaf up", size=8, fill="#4c1d95", anchor="middle")
@@ -225,55 +225,51 @@ def section_A():
     v.line(-14, 0, 84, 0, stroke="#999", sw=1); v.text(-4, -10, "< WEST", size=9, fill="#666"); v.text(73, -10, "EAST >", size=9, fill="#666")
     s.save(os.path.join(OUT, "30-section-A-router.svg"))
 
-def lift_station(v, x_off, raised, label):
-    """draws a N-S section of the lift bay at u = y + x_off, lowered or raised"""
-    lb = LIFT_BAY; sp = SUB_PLATFORM; ms = MITER_SAW; lt = LIFT_TABLE
+def flip_station(v, x_off, state, label):
+    """N-S section of the flip bay at u = y + x_off. state: 'stowed' | 'up' | 'mid'"""
+    import math
+    lb = LIFT_BAY; ms = MITER_SAW; F = FLIP
     def U(y): return x_off + y
-    plat_z = (lt["high"] if raised else lt["low"])
-    # bay walls (N side = W1 south side) and top
+    ay, az = F["axle_y"], F["axle_z"]
     v.rect(U(lb["y1"]), U(lb["y1"] + PLY), 4, TOP_UNDER, fill=PLYC, stroke="#333")
-    v.rect(U(lb["y0"] - PLY), U(lb["y0"]), 4, TOP_UNDER, fill=DARK, stroke="#111")   # removable front panel
     v.rect(U(0), U(HATCH["y0"]), TOP_UNDER, TOP_HEIGHT, fill=PLYC, stroke="#333"); v.rect(U(HATCH["y1"]), U(96), TOP_UNDER, TOP_HEIGHT, fill=PLYC, stroke="#333")
     v.rect(U(-EDGE_BAND), U(0), TOP_UNDER, TOP_HEIGHT, fill=MAPLE, stroke="#7a5c2e")
-    # ledge
-    v.rect(U(HATCH["y0"]), U(HATCH["y0"] + HATCH["ledge"]), TOP_UNDER - 1.0, TOP_UNDER, fill=MAPLE, stroke="#7a5c2e")
-    v.rect(U(HATCH["y1"] - HATCH["ledge"]), U(HATCH["y1"]), TOP_UNDER - 1.0, TOP_UNDER, fill=MAPLE, stroke="#7a5c2e")
-    # scissor lift (schematic)
-    v.rect(U(12), U(34), 0, 2.5, fill=STEEL, stroke="#444"); v.rect(U(9), U(37), plat_z - 1.5, plat_z, fill=STEEL, stroke="#444")
-    for (a, b) in ((U(12), U(34)), (U(34), U(12))):
-        v.line(a, 2.5, b, plat_z - 1.5, stroke="#444", sw=2)
-    v.text(U(23), plat_z / 2 + 1, "scissor lift table", size=7, fill="#333", anchor="middle")
-    # sub platform + saw + hood
-    v.rect(U(sp["y0"]), U(sp["y1"]), plat_z, plat_z + sp["t"], fill=PLYC, stroke="#333")
-    saw0 = plat_z + sp["t"]
-    v.rect(U(4), U(4 + ms["d"]), saw0, saw0 + ms["deck"], fill="#e9d5ff", stroke="#6d28d9")           # base/deck
-    v.rect(U(14), U(20), saw0 + ms["deck"], saw0 + ms["deck"] + 5, fill="#c4b5fd", stroke="#6d28d9")  # fence
-    v.rect(U(8), U(30), saw0 + ms["deck"] + 5, saw0 + ms["h_locked"], fill="#ddd6fe", stroke="#6d28d9")  # head
-    v.text(U(19), saw0 + ms["h_locked"] - 4, "DWS779", size=8, fill="#4c1d95", anchor="middle")
-    hood = MITER_HOOD
-    v.rect(U(hood["y0"]), U(hood["y1"]), saw0, saw0 + hood["h"], fill="#7c3aed", stroke="#4c1d95")
-    v.text(U(41), saw0 + hood["h"] + 2, "hood", size=7, fill="#4c1d95", anchor="middle")
-    v.line(U(44), saw0 + 3, U(48), 9, stroke=ACC, sw=3, extra="stroke-dasharray='3 2'")
-    if raised:
-        v.rect(U(HATCH["y0"] + 1), U(HATCH["y0"] + 4), plat_z + sp["t"] - 3, plat_z + sp["t"], fill=MAPLE, stroke="#7a5c2e")  # stop blocks
-        v.text(U(23), TOP_HEIGHT + ms["h_locked"] + 4, label, size=9, fill="#111", anchor="middle", weight="bold")
-        v.line(U(-4), TOP_HEIGHT, U(50), TOP_HEIGHT, stroke="#6d28d9", sw=0.8, extra=GHOST)
-        v.text(U(48), TOP_HEIGHT + 1.2, "deck flush at 34-3/4", size=7, fill="#4c1d95", anchor="end")
-    else:
-        # leaves in place
-        v.rect(U(HATCH["y0"]), U(HATCH["y1"]), TOP_UNDER, TOP_HEIGHT, fill="#f5f3ff", stroke="#6d28d9", sw=1)
-        v.line(U((HATCH["y0"] + HATCH["y1"]) / 2), TOP_UNDER, U((HATCH["y0"] + HATCH["y1"]) / 2), TOP_HEIGHT, stroke="#6d28d9")
-        v.text(U(23), TOP_HEIGHT + 8, label, size=9, fill="#111", anchor="middle", weight="bold")
-        v.text(U(23), TOP_HEIGHT + 2.2, "two lift-off leaves on the ledge + centre bar", size=7.5, fill="#4c1d95", anchor="middle")
-    v.dim_v(U(-6), 0, plat_z, dim(plat_z), size=8)
+    # underside chamfers at hatch ends
+    v.poly([(U(HATCH["y0"]), TOP_UNDER), (U(HATCH["y0"] - 0.5), TOP_UNDER), (U(HATCH["y0"]), TOP_UNDER + 0.5)], fill="#fbfbfa", stroke="#333", sw=0.5)
+    v.poly([(U(HATCH["y1"]), TOP_UNDER), (U(HATCH["y1"] + 0.5), TOP_UNDER), (U(HATCH["y1"]), TOP_UNDER + 0.5)], fill="#fbfbfa", stroke="#333", sw=0.5)
+    # rest blocks
+    for yy in (ay - 11, ay + 11): v.rect(U(yy - 1.25), U(yy + 1.25), az - 1 - 1.5, az - 1, fill=MAPLE, stroke="#7a5c2e")
+    # doors (open = not drawn; closed = drawn on the south face)
+    if state != "mid": v.rect(U(lb["y0"] - PLY), U(lb["y0"]), 4, TOP_UNDER, fill=DARK, stroke="#111")
+    ang = {"stowed": math.pi, "up": 0.0, "mid": math.radians(115)}[state]
+    def R(dy, dz):   # rotate about the axle; positive angle tips the top toward the south (-y)
+        return (U(ay + dy * math.cos(ang) - dz * math.sin(ang)), az + dy * math.sin(ang) + dz * math.cos(ang))
+    def quad(dy0, dy1, dz0, dz1, **kw): v.poly([R(dy0, dz0), R(dy1, dz0), R(dy1, dz1), R(dy0, dz1)], **kw)
+    hl = F["core_len"] / 2
+    quad(-hl, hl, -1, 1, fill=PLYC, stroke="#333")                                           # core
+    quad(-hl, hl, -1 - F["box_h"], -1, fill="#f5f3ff", stroke="#6d28d9")                     # flush box
+    quad(-hl + 2, hl - 2, -1 - F["box_h"] + 0.75, -1 - 0.75, fill="#cbd5e1", stroke="#475569", sw=0.6)   # counterweight plate
+    quad(-hl + 1, -hl + 1 + ms["base_d"], 1, 1 + ms["deck"], fill="#e9d5ff", stroke="#6d28d9")            # saw base/deck
+    quad(-hl + 9, -hl + 12, 1 + ms["deck"], 1 + ms["deck"] + 5, fill="#c4b5fd", stroke="#6d28d9")         # fence
+    quad(-hl + 3, -hl + 19, 1 + ms["deck"] + 5, 1 + ms["h_locked"], fill="#ddd6fe", stroke="#6d28d9")     # head
+    quad(hl - 2, hl + 8, 1 + 8, 1 + 10, fill="#9aa0a8", stroke="#444")                                    # rails
+    quad(hl - 6, hl, 1, 1 + MITER_HOOD["h"], fill="#7c3aed", stroke="#4c1d95")                            # hood
+    cx, cy = R(0, 0); v.circle(ay if False else 0, 0, 0, fill="none", stroke="none")
+    v.s.circle(v.X(U(ay)), v.Y(az), 4, "#fff", "#111", 1.5)                                              # axle
+    if state == "mid":
+        v.s.add(f"<circle cx='{v.X(U(ay)):.1f}' cy='{v.Y(az):.1f}' r='{F['swing_radius'] * v.k:.1f}' fill='none' stroke='#dc2626' stroke-width='1' stroke-dasharray='5 4'/>")
+        v.text(U(ay), az + F["swing_radius"] + 2, "swing radius 25-1/2\": clears the top edge and the floor; passes through the open doors", size=7.5, fill="#b91c1c", anchor="middle")
+    v.text(U(23), TOP_HEIGHT + ms["h_locked"] + 6, label, size=9, fill="#111", anchor="middle", weight="bold")
+    if state == "up": v.text(U(ay), TOP_HEIGHT + 2.2, "saw deck flush at 34-3/4; core face 4-1/2 below", size=7.5, fill="#4c1d95", anchor="middle")
+    if state == "stowed": v.text(U(ay), TOP_HEIGHT + 2.2, "flush box up; saw hangs inside, 6-3/4 off the floor", size=7.5, fill="#4c1d95", anchor="middle")
 
 def section_B():
-    k = 5.6; s = sheet("SHEET 7  -  SECTION B-B  (north-south at x = 30, through the lift bay, plenum, W2 and laser well; looking east)", "Left: miter saw stowed, hatch leaves in, top fully flat. Right: lift raised until the sub-platform meets the four stop blocks; saw deck flush with the top.", 1400, 520)
-    v = View(s, k, 60, 450)
-    # full section lowered (left) with W1/W2/well
-    lift_station(v, 0, False, "STOWED")
-    lift_station(v, 100, True, "RAISED (hood and 4\" flex hose rise with the saw)")
-    # W1 + plenum + W2 + well on the left instance only
+    k = 5.6; s = sheet("SHEET 7  -  SECTION B-B  (north-south at x = 30, through the flip bay, plenum, W2 and laser well; looking east)",
+                       "Left: saw stowed, flush box up, top flat. Middle: mid-swing with the doors open, saw passing through the front. Right: saw up, seated on the rest blocks. Same axle, same platform.", 1900, 560)
+    v = View(s, k, 60, 480)
+    flip_station(v, 0, "stowed", "STOWED")
+    flip_station(v, 105, "mid", "MID-SWING (doors open)")
+    flip_station(v, 210, "up", "SAW UP")
     for x_off in (0,):
         def U(y): return x_off + y
         c = CABS["W1"]; v.rect(U(c["y0"]), U(c["y1"]), c["z0"], c["z1"], fill="#fff", stroke="#333", sw=0.6)
@@ -287,24 +283,24 @@ def section_B():
         c = CABS["W2"]; v.rect(U(c["y0"]), U(c["y1"]), c["z0"], c["z1"], fill="#fff", stroke="#333", sw=0.6)
         v.rect(U(c["y0"]), U(c["y1"]), c["z1"] - PLY, c["z1"], fill=PLYC, stroke="#333")
         v.rect(U(67), U(94), 15.5, 18.5, fill="#dbeafe", stroke="#1e40af"); v.text(U(80.5), 12.5, "laser on pull-out tray (stored)", size=7.5, fill="#1e40af", anchor="middle")
-        v.rect(U(66), U(80), 24, 26.5, fill=PLYC, stroke="#333")   # spacer
+        v.rect(U(66), U(80), 24, 26.5, fill=PLYC, stroke="#333")
         lw = LASER_WELL
         v.rect(U(lw["y0"] - PLY), U(lw["y0"]), 24, TOP_UNDER, fill=PLYC, stroke="#333"); v.rect(U(lw["y1"]), U(lw["y1"] + PLY), 24, TOP_UNDER, fill=PLYC, stroke="#333")
         v.rect(U(lw["y0"]), U(lw["y1"]), TOP_UNDER, TOP_HEIGHT, fill="#fef3c7", stroke="#92400e", sw=1)
         for d in lw["cleats"]:
             v.rect(U(lw["y0"]), U(lw["y0"] + 0.75), TOP_HEIGHT - d - 0.75, TOP_HEIGHT - d, fill=MAPLE, stroke="#7a5c2e"); v.rect(U(lw["y1"] - 0.75), U(lw["y1"]), TOP_HEIGHT - d - 0.75, TOP_HEIGHT - d, fill=MAPLE, stroke="#7a5c2e")
-        v.text(U(85.5), 29, "laser well: insert flush, or floor on cleats at 2 / 4-1/2 / 7", size=7, fill="#78350f", anchor="middle")
+        v.text(U(85.5), 29, "laser well: insert flush, or floor on cleats", size=7, fill="#78350f", anchor="middle")
         v.rect(U(FACE_VISE["block"]["y0"]), U(95), 24, TOP_UNDER, fill="#fde68a", stroke="#92400e", sw=0.6, extra=GHOST); v.text(U(88.5), 25.5, "vise pad", size=6.5, fill="#92400e", anchor="middle")
         v.rect(U(BASE["y0"] + TOE_RECESS), U(BASE["y1"]), 0, PLINTH_H, fill="#333", stroke="#111")
-    v.line(-6, 0, 200, 0, stroke="#999", sw=1); v.text(0, -10, "< SOUTH (miter operator)", size=9, fill="#666"); v.text(96, -10, "NORTH (saw) >", size=9, fill="#666", anchor="end")
-    v.dim_h(0, 96, -6, "96\"", size=10)
+    v.line(-6, 0, 300, 0, stroke="#999", sw=1); v.text(0, -10, "< SOUTH (miter operator)", size=9, fill="#666"); v.text(96, -10, "NORTH (saw) >", size=9, fill="#666", anchor="end")
+    v.dim_h(0, 96, -6, "96\"", size=10); v.dim_v(-6, 0, FLIP["axle_z"], "29-1/4\" axle", size=8)
     s.save(os.path.join(OUT, "31-section-B-lift.svg"))
 
 def section_C():
     k = 7.0; s = sheet("SHEET 8  -  SECTION C-C  (north-south at x = 52, through the spine duct, SE cabinet, router cabinet, duct leg and motor bay; looking east)", "The 4\" main and 2-1/2\" vac trunks run side by side in the spine at floor level. Every drop is a 45-degree wye with a blast gate. The table saw hose exits into the motor bay.", 60 + 130 * k, 520)
     v = View(s, k, 60, 440)
     v.rect(BASE["y0"] + TOE_RECESS, MOTOR_BAY["y0"], 0, PLINTH_H, fill="#333", stroke="#111")
-    v.rect(LIFT_BAY["y0"], LIFT_BAY["y1"], 0, TOP_UNDER, fill="#f5f3ff", stroke="#6d28d9", sw=0.6, extra=GHOST); v.text(23, 20, "lift bay (beyond)", size=8, fill="#4c1d95", anchor="middle")
+    v.rect(LIFT_BAY["y0"], LIFT_BAY["y1"], 0, TOP_UNDER, fill="#f5f3ff", stroke="#6d28d9", sw=0.6, extra=GHOST); v.text(23, 20, "flip bay (beyond)", size=8, fill="#4c1d95", anchor="middle")
     # spine
     v.rect(SPINE["y0"], SPINE["y1"], SPINE["z0"], SPINE["z1"], fill="#ffedd5", stroke=ACC, sw=1)
     v.rect(SPINE["y0"] + 1, SPINE["y1"] - 1, 4.5, 8.5, fill="#fdba74", stroke=ACC); v.text(40, 6, "4\" main trunk", size=8, fill="#7c2d12", anchor="middle")
@@ -364,35 +360,42 @@ def router_detail():
     s.save(os.path.join(OUT, "40-router-station.svg"))
 
 def hatch_detail():
-    k = 9.0; s = sheet("SHEET 10  -  MITER HATCH AND SUB-PLATFORM (plan) and lift specification", "The sub-platform is a 2x4 torsion frame with a 3/4 BB deck; the saw and the hood bolt to it. Four leveling bolts in its corners land on maple stop blocks so the deck returns to exactly 34-3/4 every time.", 1150, 640)
-    v = View(s, k, 60, 540)
-    h = HATCH; sp = SUB_PLATFORM; lb = LIFT_BAY
+    k = 9.0; s = sheet("SHEET 10  -  FLIP-TOP PLATFORM (plan) and the safety system", "Two-sided platform: 2\" core (two 3/4 BB skins on 1/2 BB ribs) with the saw bolted to one face and a 4-1/2\" hollow flush box on the other. A 1\" steel axle in flange bearings on the bay walls. Both faces sit the same distance from the axle, so either way up is flush.", 1180, 660)
+    v = View(s, k, 60, 560)
+    h = HATCH; lb = LIFT_BAY; F = FLIP
     v.rect(10, 58, 0, 48, fill=PLYC, stroke="#333")
-    v.rect(lb["x0"], lb["x1"], lb["y0"], lb["y1"], fill="none", stroke="#6d28d9", sw=0.8, extra=GHOST); v.text(lb["x1"] + 0.5, lb["y1"] - 1.5, "lift bay walls", size=7.5, fill="#4c1d95")
+    v.rect(lb["x0"], lb["x1"], lb["y0"], lb["y1"], fill="none", stroke="#6d28d9", sw=0.8, extra=GHOST); v.text(lb["x1"] + 0.5, lb["y1"] - 1.5, "bay walls (bearing blocks here)", size=7.5, fill="#4c1d95")
     v.rect(h["x0"], h["x1"], h["y0"], h["y1"], fill="#f5f3ff", stroke="#6d28d9", sw=1.4)
-    v.rect(h["x0"] + 1, h["x1"] - 1, h["y0"] + 1, h["y1"] - 1, fill="none", stroke="#7a5c2e", sw=0.8); v.text(h["x0"] + 1.2, h["y1"] - 2.2, "1\" maple ledge, 1\" below top", size=7, fill="#7a5c2e")
-    mid = (h["y0"] + h["y1"]) / 2
-    v.rect(h["x0"], h["x1"], mid - 1, mid + 1, fill=MAPLE, stroke="#7a5c2e"); v.text(h["x1"] + 0.5, mid - 0.4, "removable centre bar", size=7.5, fill="#7a5c2e")
-    v.rect(sp["x0"], sp["x1"], sp["y0"], sp["y1"], fill="none", stroke="#111", sw=1, extra=GHOST); v.text(sp["x0"] + 0.5, sp["y0"] + 0.7, "sub-platform 28 x 41", size=7.5, fill="#111")
-    v.rect(22.5, 45.5, 4.5, 4.5 + MITER_SAW["d"], fill="#e9d5ff", stroke="#6d28d9"); v.text(34, 20, "DWS779 footprint 24-1/2 x 32", size=8.5, fill="#4c1d95", anchor="middle")
-    v.line(22.5, 16, 45.5, 16, stroke="#4c1d95", sw=2); v.text(34, 17, "fence line", size=7, fill="#4c1d95", anchor="middle")
-    v.rect(MITER_HOOD["x0"], MITER_HOOD["x1"], MITER_HOOD["y0"], MITER_HOOD["y1"], fill="#7c3aed", stroke="#4c1d95"); v.text(34, 40.5, "hood 28 x 6 x 14 tall, 4\" port low at the back", size=7.5, fill="#fff", anchor="middle")
-    v.rect(20.5, 47.5, 12, 30, fill="none", stroke=STEEL, sw=1.2, extra=GHOST); v.text(34, 31, "lift platform 27-1/2 x 17-3/4 (ghost)", size=7, fill="#444", anchor="middle")
-    for (x, y) in ((sp["x0"] + 1, sp["y0"] + 1), (sp["x1"] - 1, sp["y0"] + 1), (sp["x0"] + 1, sp["y1"] - 1), (sp["x1"] - 1, sp["y1"] - 1)):
-        v.circle(x, y, 0.4, fill="#111", stroke="none")
-    v.text(sp["x1"] + 0.5, sp["y0"] + 0.4, "leveling bolt x4", size=7, fill="#111")
-    v.rect(LEAF_SLOT["x0"], LEAF_SLOT["x1"], LEAF_SLOT["y0"], LEAF_SLOT["y1"], fill="#ede9fe", stroke="#6d28d9", sw=0.6); v.text(LEAF_SLOT["x0"] - 0.5, 20, "leaf slot 3-1/2 wide", size=7, fill="#4c1d95", anchor="end")
-    v.dim_h(h["x0"], h["x1"], -3, "29\"", size=9); v.dim_v(h["x1"] + 8, h["y0"], h["y1"], "42-1/2\"", size=9)
-    v.dim_h(sp["x0"], sp["x1"], -6.5, "28\"", size=8)
-    # spec table
-    tx, ty = 640, 110
-    s.text(tx, ty, "Scissor lift table requirements", 12, weight="bold")
-    rows = [("Capacity", ">= 500 lb (load is about 95 lb)"), ("Lowered height", f"<= {dim(TOP_UNDER - MITER_SAW['h_locked'] - SUB_PLATFORM['t'] - 0.5)} so the locked saw clears the top"),
-            ("Raised height", f">= {dim(SAW_DECK_Z - SUB_PLATFORM['t'])} (deck at 34-3/4 with a 2\" sub-platform)"), ("Platform", ">= 27 x 17 in."),
-            ("Type", "foot-pump hydraulic, stationary; remove wheels/handle"), ("Stop", "4 maple blocks + leveling bolts; UHMW guides"),
-            ("Verify", "DWS779 locked height and deck height before buying")]
+    v.line(lb["x0"] - 3, F["axle_y"], lb["x1"] + 3, F["axle_y"], stroke="#111", sw=1.5, extra="stroke-dasharray='8 3 2 3'"); v.text(lb["x1"] + 3.5, F["axle_y"] - 0.4, "1\" axle, flange bearings x2", size=7.5, fill="#111")
+    cx = (h["x0"] + h["x1"]) / 2
+    v.rect(cx - F["core_w"] / 2, cx + F["core_w"] / 2, F["axle_y"] - F["core_len"] / 2, F["axle_y"] + F["core_len"] / 2, fill="none", stroke="#111", sw=1, extra=GHOST); v.text(cx - 13.5, F["axle_y"] - 11.5, "core 28 x 24", size=7.5, fill="#111")
+    v.rect(cx - MITER_SAW["w"] / 2, cx + MITER_SAW["w"] / 2, F["axle_y"] - 11, F["axle_y"] - 11 + MITER_SAW["base_d"], fill="#e9d5ff", stroke="#6d28d9"); v.text(cx, F["axle_y"] - 4, "DWS779 base 24-1/2 x 22", size=8.5, fill="#4c1d95", anchor="middle")
+    v.line(cx - 12, F["axle_y"] - 4 + 3, cx + 12, F["axle_y"] - 4 + 3, stroke="#4c1d95", sw=2); v.text(cx, F["axle_y"], "fence line", size=7, fill="#4c1d95", anchor="middle")
+    v.rect(cx - 10, cx + 10, F["axle_y"] + 11, F["axle_y"] + 20, fill="none", stroke="#9aa0a8", sw=1, extra=GHOST); v.text(cx, F["axle_y"] + 18, "rails overhang the top (up) / point out the doors (stowed)", size=7, fill="#555", anchor="middle")
+    v.rect(MITER_HOOD["x0"], MITER_HOOD["x1"], MITER_HOOD["y0"], MITER_HOOD["y1"], fill="#7c3aed", stroke="#4c1d95"); v.text(cx, MITER_HOOD["y0"] + 2, "hood 28 x 6 x 14, quick-connect 4\"", size=7.5, fill="#fff", anchor="middle")
+    for (x, y) in ((lb["x0"] + 1.25, F["axle_y"] - 11), (lb["x1"] - 1.25, F["axle_y"] - 11), (lb["x0"] + 1.25, F["axle_y"] + 11), (lb["x1"] - 1.25, F["axle_y"] + 11)):
+        v.rect(x - 1.25, x + 1.25, y - 2, y + 2, fill=MAPLE, stroke="#7a5c2e")
+    v.text(lb["x0"] - 0.5, F["axle_y"] + 13.5, "rest blocks x4", size=7.5, fill="#7a5c2e", anchor="end")
+    for (x, y) in ((lb["x0"] + 1, F["axle_y"] - 6), (lb["x1"] - 1, F["axle_y"] - 6)):
+        v.circle(x, y, 0.6, fill="#dc2626", stroke="#7f1d1d")
+    for (x, y) in ((lb["x0"] + 1, F["axle_y"] + 6), (lb["x1"] - 1, F["axle_y"] + 6)):
+        v.rect(x - 1.5, x + 1.5, y - 1, y + 1, fill="#fbbf24", stroke="#713f12")
+    v.text(lb["x0"] - 0.5, F["axle_y"] - 6.4, "index plungers", size=7.5, fill="#7f1d1d", anchor="end"); v.text(lb["x0"] - 0.5, F["axle_y"] + 5.6, "toggle clamps", size=7.5, fill="#713f12", anchor="end")
+    v.dim_h(h["x0"], h["x1"], -3, "29\"", size=9); v.dim_v(h["x1"] + 12, h["y0"], h["y1"], "24-1/2\"", size=9)
+    tx, ty = 640, 100
+    s.text(tx, ty, "How it stays safe", 12, weight="bold")
+    rows = [("Load path", "The platform seats on four maple rest blocks (both ways up); the axle only locates it."),
+            ("Locate", "Two 1/2\" spring index plungers snap into the bay walls at 0 and 180 deg."),
+            ("Clamp", "Two 500 lb hold-down toggle clamps pull the core onto the rest blocks. No rattle, no lift-off."),
+            ("Interlock", "A plunger seat switch under one rest block is in series with the paddle: no power unless seated and clamped."),
+            ("Balance", f"~{F['counterweight_lb']} lb of steel plate in the flush box brings the saw side to within ~13 ft-lb of balance."),
+            ("Swing", "Doors open first; the saw swings out through the front. Keep 30\" clear. Two hands on the platform edges."),
+            ("Saw", "Head locked down, slide locked, bevel locked, blade guard closed before every flip. Checklist plate on the door."),
+            ("Axle", "1\" cold-rolled rod, two 1\" flange bearings on 1-1/2\" doubler blocks, shaft collars with set screws."),
+            ("Hose / cord", "4\" quick-connect cuff and a plug on the bay wall; connect after the plungers click in.")]
     for i, (a, b) in enumerate(rows):
-        s.text(tx, ty + 22 + i * 18, a, 10, "#333", weight="bold"); s.text(tx + 110, ty + 22 + i * 18, b, 10, "#333")
+        s.text(tx, ty + 22 + i * 22, a, 10, "#333", weight="bold"); s.text(tx + 80, ty + 22 + i * 22, b, 9.5, "#333")
+    s.text(tx, ty + 22 + len(rows) * 22 + 8, "Verify before building: DWS779 locked-down height (21-1/2 assumed), deck height (4-1/2 assumed), base depth (22 assumed).", 9.5, "#b91c1c")
     s.save(os.path.join(OUT, "41-miter-hatch.svg"))
 
 def dust_plan():
@@ -409,7 +412,7 @@ def dust_plan():
     v.line(54.2, 2, 54.2, 79.5, stroke="#fbbf24", sw=5); v.line(54.2, 79.5, 69, 79.5, stroke="#fbbf24", sw=5)
     v.label(60, 74, "4\" main", size=9, fill="#7c2d12"); v.label(60, 82.5, "2-1/2\" vac", size=8, fill="#78350f")
     # drops
-    drops = [("floor sweep gate, south toe kick", (52.5, 2), (52.5, -3), 4), ("miter hood: 4\" flex hose rises with the lift", (52.5, 30), (34, 41), 4),
+    drops = [("floor sweep gate, south toe kick", (52.5, 2), (52.5, -3), 4), ("miter hood: 4\" quick-connect flex on the bay wall", (52.5, 30), (34, 41), 4),
              ("router box: 4\" from box floor", (52.5, 62), (57, 62), 4), ("downdraft plenum: 4\" riser in the service gap", (52.5, 70), (43.5, 70), 4),
              ("table saw: 4\" gate on bay wall, hose to CNS port", (55, 78), (49, 84), 4), ("router fence: 2-1/2\" flip-lid port, east apron", (54.2, 64), (68, 64), 2.5),
              ("miter saw chute: 2-1/2\" flex", (54.2, 26), (34, 20), 2.5)]
@@ -449,7 +452,7 @@ def wiring_plan():
     # raceway along the spine top (z 12) then branches
     wire([(60, 78), (57.5, 78), (57.5, 4)]); v.label(57.5, 40, "raceway on spine lid", size=7.5, fill="#1d4ed8")
     wire([(57.5, 64), (62, 64)]); v.rect(60.5, 63, 62, 66, fill="#fde68a", stroke="#713f12"); v.label(58, 59.5, "router outlet + paddle switch", size=8, fill="#713f12")
-    wire([(57.5, 24), (40, 24)]); v.rect(38, 42, 22, 26, fill="#fde68a", stroke="#713f12"); v.label(28, 24, "miter outlet (cord loop rises with lift) + paddle", size=8, fill="#713f12")
+    wire([(57.5, 24), (40, 24)]); v.rect(38, 42, 22, 26, fill="#fde68a", stroke="#713f12"); v.label(28, 24, "miter outlet + seat-switch interlock + paddle", size=8, fill="#713f12")
     wire([(57.5, 74), (43.5, 74), (43.5, 56), (5, 56)]); v.rect(1, 4, 54, 58, fill="#fde68a", stroke="#713f12"); v.label(-7, 56, "charging drawer, switched", size=8, fill="#713f12")
     wire([(43.5, 66), (5, 66), (5, 90)]); v.rect(1, 4, 88, 92, fill="#fde68a", stroke="#713f12"); v.label(-7, 90, "laser outlet (W2)", size=8, fill="#713f12")
     wire([(5, 66), (1, 66)]); v.rect(-2, 0, 50, 58, fill="#fef08a", stroke="#713f12"); v.label(-10, 52, "flush strip + USB, west", size=8, fill="#713f12")
@@ -463,7 +466,7 @@ def wiring_plan():
     tx, ty = 560, 640
     s.text(tx, ty, "Rules", 12, weight="bold")
     rules = ["Everything stays 120 V / 20 A. Never run the router and the miter saw at the same time (each ~15 A).", "Main strip has the red master switch; paddle switches at router and miter are the tool switches.",
-             "Cords are strapped to the raceway, never loose in the dust chase; use 12 AWG for the feed, 14 AWG branch strips.", "The miter cord makes a service loop with 30\" of slack for the lift travel.",
+             "Cords are strapped to the raceway, never loose in the dust chase; use 12 AWG for the feed, 14 AWG branch strips.", "The miter outlet runs through the seat switch: no power unless the platform is seated and clamped.",
              "Charging drawer: switched outlet, 1\" vent slots front and back.", "Metal strips and boxes; screw the strips to plywood, not to the duct."]
     for i, r in enumerate(rules): s.text(tx, ty + 20 + i * 16, "- " + r, 9.5, "#333")
     s.save(os.path.join(OUT, "51-electrical.svg"))

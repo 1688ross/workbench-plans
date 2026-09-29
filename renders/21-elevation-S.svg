@@ -5,29 +5,31 @@
 <text x='986.0' y='468.0' font-size='9' fill='#999' text-anchor='end' font-weight='normal' >workbench-plans  |  generated from tools/model.py  |  inches</text>
 <rect x='260.0' y='376.0' width='366.0' height='24.0' rx='0' fill='#111' stroke='none' stroke-width='1' />
 <rect x='242.0' y='200.5' width='402.0' height='175.5' rx='0' fill='#2f3136' stroke='#111' stroke-width='1' />
-<rect x='242.4' y='319.4' width='80.2' height='56.2' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.5' />
-<line x1='254.0' y1='326.2' x2='311.0' y2='326.2' stroke='#8f949c' stroke-width='1.2' />
-<text x='282.5' y='351.1' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >SW-D3 long drawer (bottom)</text>
-<rect x='242.4' y='260.9' width='80.2' height='57.8' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.5' />
-<line x1='254.0' y1='267.7' x2='311.0' y2='267.7' stroke='#8f949c' stroke-width='1.2' />
-<text x='282.5' y='293.4' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >SW-D2 long drawer</text>
-<rect x='242.4' y='200.9' width='80.2' height='59.2' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.5' />
-<line x1='254.0' y1='207.7' x2='311.0' y2='207.7' stroke='#8f949c' stroke-width='1.2' />
-<text x='282.5' y='234.1' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >SW-D1 long drawer (top)</text>
-<rect x='323.4' y='200.9' width='20.2' height='174.8' rx='0' fill='#111' stroke='#15161a' stroke-width='0.5' />
-<text x='333.5' y='291.9' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >hatch-leaf slot</text>
-<rect x='344.4' y='200.9' width='191.2' height='174.8' rx='0' fill='#33363c' stroke='#15161a' stroke-width='0.5' />
-<text x='440.0' y='291.9' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >lift bay panel </text>
+<rect x='242.4' y='319.4' width='101.2' height='56.2' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.5' />
+<line x1='254.0' y1='326.2' x2='332.0' y2='326.2' stroke='#8f949c' stroke-width='1.2' />
+<text x='293.0' y='351.1' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >SW-D3 long drawer (bottom)</text>
+<rect x='242.4' y='260.9' width='101.2' height='57.8' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.5' />
+<line x1='254.0' y1='267.7' x2='332.0' y2='267.7' stroke='#8f949c' stroke-width='1.2' />
+<text x='293.0' y='293.4' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >SW-D2 long drawer</text>
+<rect x='242.4' y='200.9' width='101.2' height='59.2' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.5' />
+<line x1='254.0' y1='207.7' x2='332.0' y2='207.7' stroke='#8f949c' stroke-width='1.2' />
+<text x='293.0' y='234.1' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >SW-D1 long drawer (top)</text>
+<rect x='344.4' y='200.9' width='95.2' height='174.8' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.5' />
+<line x1='356.0' y1='207.7' x2='428.0' y2='207.7' stroke='#8f949c' stroke-width='1.2' />
+<text x='392.0' y='291.9' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >flip-bay door L</text>
+<rect x='440.4' y='200.9' width='95.2' height='174.8' rx='0' fill='#25272b' stroke='#15161a' stroke-width='0.5' />
+<line x1='452.0' y1='207.7' x2='524.0' y2='207.7' stroke='#8f949c' stroke-width='1.2' />
+<text x='488.0' y='291.9' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >flip-bay door R + paddle switch</text>
 <rect x='536.4' y='200.9' width='107.2' height='122.2' rx='0' fill='#2b2d31' stroke='#15161a' stroke-width='0.5' />
 <line x1='548.0' y1='207.7' x2='632.0' y2='207.7' stroke='#8f949c' stroke-width='1.2' />
 <text x='590.0' y='265.6' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >clamp rack pull-out</text>
 <rect x='236.0' y='191.5' width='414.0' height='9.0' rx='0' fill='#e2c48f' stroke='#7a5c2e' stroke-width='1' />
-<rect x='323.0' y='200.5' width='21.0' height='175.5' rx='0' fill='#111' stroke='#333' stroke-width='1' />
-<rect x='368.0' y='328.0' width='60.0' height='48.0' rx='0' fill='#3a3d43' stroke='#111' stroke-width='1' />
-<text x='398.0' y='355.0' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >pedal flap</text>
+<rect x='476.0' y='226.0' width='24.0' height='12.0' rx='2' fill='#dc2626' stroke='#7f1d1d' stroke-width='1' />
+<text x='488.0' y='250.0' font-size='7' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >miter paddle</text>
+<text x='440.0' y='346.0' font-size='7.5' fill='#c9ccd1' text-anchor='middle' font-weight='normal' >doors open for the flip; saw hangs inside when stowed</text>
 <rect x='368.0' y='167.5' width='144.0' height='24.0' rx='0' fill='#e9d5ff' stroke='#6d28d9' stroke-width='0.8' stroke-dasharray='4 3'/>
 <rect x='398.0' y='62.5' width='84.0' height='105.0' rx='0' fill='#e9d5ff' stroke='#6d28d9' stroke-width='0.8' stroke-dasharray='4 3'/>
-<text x='440.0' y='119.5' font-size='8.5' fill='#4c1d95' text-anchor='middle' font-weight='normal' >DWS779 raised (ghost)</text>
+<text x='440.0' y='119.5' font-size='8.5' fill='#4c1d95' text-anchor='middle' font-weight='normal' >DWS779 flipped up (ghost)</text>
 <rect x='92.0' y='191.5' width='144.0' height='9.0' rx='0' fill='#f5f3ff' stroke='#6d28d9' stroke-width='0.8' stroke-dasharray='4 3'/>
 <rect x='650.0' y='191.5' width='144.0' height='9.0' rx='0' fill='#f5f3ff' stroke='#6d28d9' stroke-width='0.8' stroke-dasharray='4 3'/>
 <text x='164.0' y='173.5' font-size='8' fill='#4c1d95' text-anchor='middle' font-weight='normal' >drop-leaf up</text>
