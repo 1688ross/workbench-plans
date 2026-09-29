@@ -17,13 +17,22 @@ code{background:rgba(127,127,127,.15);padding:1px 4px;border-radius:4px;font-siz
 .grid{display:grid;grid-template-columns:1fr;gap:12px}@media(min-width:900px){.grid{grid-template-columns:1fr 1fr}}
 .hero{display:grid;gap:12px}main{min-width:0}section{min-width:0}.note{background:rgba(180,83,9,.08);border-left:4px solid var(--acc);padding:10px 14px;border-radius:6px}
 a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;text-align:center}
+.navlabel{font:600 13px var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:6px 4px 6px 0;align-self:center}
+.zoom{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;border-radius:4px}.zoom:focus-visible{outline:3px solid var(--acc);outline-offset:2px}.zoom img{width:100%;height:auto;display:block}
+.totop{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--acc);color:#fff;padding:10px 14px;border-radius:999px;font:600 14px var(--display);text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.25);opacity:0;pointer-events:none;transition:opacity .2s;z-index:3}.totop.show{opacity:1;pointer-events:auto}
+.lightbox{position:fixed;inset:0;background:rgba(20,22,26,.92);z-index:10;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px)}
+.lb-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 16px;color:#e6e3dc;font:600 15px var(--display)}
+.lb-bar button{background:var(--acc);color:#fff;border:0;border-radius:6px;padding:8px 14px;font:600 15px var(--display);cursor:pointer}.lb-bar button:focus-visible{outline:3px solid #fff}
+.lb-body{flex:1;overflow:auto;padding:0 16px 16px;display:flex;align-items:flex-start;justify-content:center}.lb-body img{background:#fbfbfa;max-width:none;width:max(100%,1100px);height:auto;border-radius:6px}
+@media(max-width:700px){.lb-body img{width:1100px}}
+@media (prefers-reduced-motion: reduce){.totop{transition:none}}
 </style></head><body>
-<header><h1>Workbench Plans</h1><p>A 69&quot; x 96&quot; island at SawStop height: outfeed, router lift, rising miter saw, downdraft clamping station, laser well, built-in ducting and power.</p></header>
-<nav><a href='#look'>Final look</a><a href='#decisions'>Design decisions</a><a href='#materials'>Materials & hardware</a><a href='#cutlist'>Cut list</a><a href='#guide'>Build guide</a><a href='#dust'>Dust collection</a><a href='#electrical'>Electrical</a><a href='#stations'>Using the stations</a><a href='#drawings'>Drawings</a><a href='#cuts'>Cut diagrams</a><a href='#steps'>Step views</a></nav><main>
+<header id='top'><h1>Workbench Plans</h1><p>A 69&quot; x 96&quot; island at SawStop height: outfeed, router lift, rising miter saw, downdraft clamping station, laser well, built-in ducting and power.</p></header>
+<nav aria-label='Sections'><span class='navlabel'>Jump to</span><a href='#look'>Final look</a><a href='#decisions'>Design decisions</a><a href='#materials'>Materials & hardware</a><a href='#cutlist'>Cut list</a><a href='#guide'>Build guide</a><a href='#dust'>Dust collection</a><a href='#electrical'>Electrical</a><a href='#stations'>Using the stations</a><a href='#drawings'>Drawings</a><a href='#cuts'>Cut diagrams</a><a href='#steps'>Step views</a></nav><main>
 <section id='look'><h2>Final look</h2><div class='hero'>
-<figure class='fig'><img src='renders/10-final-look-sw.svg' alt='10-final-look-sw.svg'><figcaption>10-final-look-sw.svg</figcaption></figure>
-<figure class='fig'><img src='renders/11-final-look-in-use.svg' alt='11-final-look-in-use.svg'><figcaption>11-final-look-in-use.svg</figcaption></figure>
-<figure class='fig'><img src='renders/12-final-look-ne.svg' alt='12-final-look-ne.svg'><figcaption>12-final-look-ne.svg</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/10-final-look-sw.svg' aria-label='Enlarge 10-final-look-sw.svg'><img src='renders/10-final-look-sw.svg' alt='10-final-look-sw.svg'></button><figcaption>10-final-look-sw.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/11-final-look-in-use.svg' aria-label='Enlarge 11-final-look-in-use.svg'><img src='renders/11-final-look-in-use.svg' alt='11-final-look-in-use.svg'></button><figcaption>11-final-look-in-use.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/12-final-look-ne.svg' aria-label='Enlarge 12-final-look-ne.svg'><img src='renders/12-final-look-ne.svg' alt='12-final-look-ne.svg'></button><figcaption>12-final-look-ne.svg &middot; tap to enlarge</figcaption></figure>
 </div><p class='note'>These are dimensionally accurate line renders generated from the same model as the cut list. Materials are indicated by colour: maple-edged birch top, charcoal fronts, purple = miter station, orange = 4&quot; duct, amber = 2-1/2&quot; vac line, yellow = electrical.</p></section>
 <section id='decisions'><h2>Design decisions</h2><h2>Design decisions — stage 2</h2>
 <p>This records what changed after your answers (transcribed in <code>answers-raw.txt</code>) and why. The stage-1 brief is kept as history in <code>00-design-brief.md</code>.</p>
@@ -803,40 +812,56 @@ a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;te
 <tr><td>West</td><td>W2</td><td>laser on its tray; deep drawer for sanding supplies and dog-hole accessories</td></tr>
 </table></section>
 <section id='drawings'><h2>Dimensioned sheets</h2><div class='grid'>
-<figure class='fig'><a href='renders/20-plan.svg'><img src='renders/20-plan.svg' alt='20-plan.svg' loading='lazy'></a><figcaption>20-plan.svg</figcaption></figure>
-<figure class='fig'><a href='renders/21-elevation-S.svg'><img src='renders/21-elevation-S.svg' alt='21-elevation-S.svg' loading='lazy'></a><figcaption>21-elevation-S.svg</figcaption></figure>
-<figure class='fig'><a href='renders/22-elevation-E.svg'><img src='renders/22-elevation-E.svg' alt='22-elevation-E.svg' loading='lazy'></a><figcaption>22-elevation-E.svg</figcaption></figure>
-<figure class='fig'><a href='renders/23-elevation-W.svg'><img src='renders/23-elevation-W.svg' alt='23-elevation-W.svg' loading='lazy'></a><figcaption>23-elevation-W.svg</figcaption></figure>
-<figure class='fig'><a href='renders/24-elevation-N.svg'><img src='renders/24-elevation-N.svg' alt='24-elevation-N.svg' loading='lazy'></a><figcaption>24-elevation-N.svg</figcaption></figure>
-<figure class='fig'><a href='renders/30-section-A-router.svg'><img src='renders/30-section-A-router.svg' alt='30-section-A-router.svg' loading='lazy'></a><figcaption>30-section-A-router.svg</figcaption></figure>
-<figure class='fig'><a href='renders/31-section-B-lift.svg'><img src='renders/31-section-B-lift.svg' alt='31-section-B-lift.svg' loading='lazy'></a><figcaption>31-section-B-lift.svg</figcaption></figure>
-<figure class='fig'><a href='renders/32-section-C-ducts.svg'><img src='renders/32-section-C-ducts.svg' alt='32-section-C-ducts.svg' loading='lazy'></a><figcaption>32-section-C-ducts.svg</figcaption></figure>
-<figure class='fig'><a href='renders/40-router-station.svg'><img src='renders/40-router-station.svg' alt='40-router-station.svg' loading='lazy'></a><figcaption>40-router-station.svg</figcaption></figure>
-<figure class='fig'><a href='renders/41-miter-hatch.svg'><img src='renders/41-miter-hatch.svg' alt='41-miter-hatch.svg' loading='lazy'></a><figcaption>41-miter-hatch.svg</figcaption></figure>
-<figure class='fig'><a href='renders/50-dust-routing.svg'><img src='renders/50-dust-routing.svg' alt='50-dust-routing.svg' loading='lazy'></a><figcaption>50-dust-routing.svg</figcaption></figure>
-<figure class='fig'><a href='renders/51-electrical.svg'><img src='renders/51-electrical.svg' alt='51-electrical.svg' loading='lazy'></a><figcaption>51-electrical.svg</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/20-plan.svg' aria-label='Enlarge 20-plan.svg'><img src='renders/20-plan.svg' alt='20-plan.svg' loading='lazy'></button><figcaption>20-plan.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/21-elevation-S.svg' aria-label='Enlarge 21-elevation-S.svg'><img src='renders/21-elevation-S.svg' alt='21-elevation-S.svg' loading='lazy'></button><figcaption>21-elevation-S.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/22-elevation-E.svg' aria-label='Enlarge 22-elevation-E.svg'><img src='renders/22-elevation-E.svg' alt='22-elevation-E.svg' loading='lazy'></button><figcaption>22-elevation-E.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/23-elevation-W.svg' aria-label='Enlarge 23-elevation-W.svg'><img src='renders/23-elevation-W.svg' alt='23-elevation-W.svg' loading='lazy'></button><figcaption>23-elevation-W.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/24-elevation-N.svg' aria-label='Enlarge 24-elevation-N.svg'><img src='renders/24-elevation-N.svg' alt='24-elevation-N.svg' loading='lazy'></button><figcaption>24-elevation-N.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/30-section-A-router.svg' aria-label='Enlarge 30-section-A-router.svg'><img src='renders/30-section-A-router.svg' alt='30-section-A-router.svg' loading='lazy'></button><figcaption>30-section-A-router.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/31-section-B-lift.svg' aria-label='Enlarge 31-section-B-lift.svg'><img src='renders/31-section-B-lift.svg' alt='31-section-B-lift.svg' loading='lazy'></button><figcaption>31-section-B-lift.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/32-section-C-ducts.svg' aria-label='Enlarge 32-section-C-ducts.svg'><img src='renders/32-section-C-ducts.svg' alt='32-section-C-ducts.svg' loading='lazy'></button><figcaption>32-section-C-ducts.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/40-router-station.svg' aria-label='Enlarge 40-router-station.svg'><img src='renders/40-router-station.svg' alt='40-router-station.svg' loading='lazy'></button><figcaption>40-router-station.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/41-miter-hatch.svg' aria-label='Enlarge 41-miter-hatch.svg'><img src='renders/41-miter-hatch.svg' alt='41-miter-hatch.svg' loading='lazy'></button><figcaption>41-miter-hatch.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/50-dust-routing.svg' aria-label='Enlarge 50-dust-routing.svg'><img src='renders/50-dust-routing.svg' alt='50-dust-routing.svg' loading='lazy'></button><figcaption>50-dust-routing.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/51-electrical.svg' aria-label='Enlarge 51-electrical.svg'><img src='renders/51-electrical.svg' alt='51-electrical.svg' loading='lazy'></button><figcaption>51-electrical.svg &middot; tap to enlarge</figcaption></figure>
 </div></section>
 <section id='cuts'><h2>Cut diagrams</h2><div class='grid'>
-<figure class='fig'><a href='renders/cuts/BB34-sheets-1.svg'><img src='renders/cuts/BB34-sheets-1.svg' alt='cuts/BB34-sheets-1.svg' loading='lazy'></a><figcaption>cuts/BB34-sheets-1.svg</figcaption></figure>
-<figure class='fig'><a href='renders/cuts/BB34-sheets-2.svg'><img src='renders/cuts/BB34-sheets-2.svg' alt='cuts/BB34-sheets-2.svg' loading='lazy'></a><figcaption>cuts/BB34-sheets-2.svg</figcaption></figure>
-<figure class='fig'><a href='renders/cuts/BB12-sheets-1.svg'><img src='renders/cuts/BB12-sheets-1.svg' alt='cuts/BB12-sheets-1.svg' loading='lazy'></a><figcaption>cuts/BB12-sheets-1.svg</figcaption></figure>
-<figure class='fig'><a href='renders/cuts/BB14-sheets-1.svg'><img src='renders/cuts/BB14-sheets-1.svg' alt='cuts/BB14-sheets-1.svg' loading='lazy'></a><figcaption>cuts/BB14-sheets-1.svg</figcaption></figure>
-<figure class='fig'><a href='renders/cuts/MDF34-sheets-1.svg'><img src='renders/cuts/MDF34-sheets-1.svg' alt='cuts/MDF34-sheets-1.svg' loading='lazy'></a><figcaption>cuts/MDF34-sheets-1.svg</figcaption></figure>
-<figure class='fig'><a href='renders/cuts/MAPLE-boards.svg'><img src='renders/cuts/MAPLE-boards.svg' alt='cuts/MAPLE-boards.svg' loading='lazy'></a><figcaption>cuts/MAPLE-boards.svg</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/cuts/BB34-sheets-1.svg' aria-label='Enlarge cuts/BB34-sheets-1.svg'><img src='renders/cuts/BB34-sheets-1.svg' alt='cuts/BB34-sheets-1.svg' loading='lazy'></button><figcaption>cuts/BB34-sheets-1.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/cuts/BB34-sheets-2.svg' aria-label='Enlarge cuts/BB34-sheets-2.svg'><img src='renders/cuts/BB34-sheets-2.svg' alt='cuts/BB34-sheets-2.svg' loading='lazy'></button><figcaption>cuts/BB34-sheets-2.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/cuts/BB12-sheets-1.svg' aria-label='Enlarge cuts/BB12-sheets-1.svg'><img src='renders/cuts/BB12-sheets-1.svg' alt='cuts/BB12-sheets-1.svg' loading='lazy'></button><figcaption>cuts/BB12-sheets-1.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/cuts/BB14-sheets-1.svg' aria-label='Enlarge cuts/BB14-sheets-1.svg'><img src='renders/cuts/BB14-sheets-1.svg' alt='cuts/BB14-sheets-1.svg' loading='lazy'></button><figcaption>cuts/BB14-sheets-1.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/cuts/MDF34-sheets-1.svg' aria-label='Enlarge cuts/MDF34-sheets-1.svg'><img src='renders/cuts/MDF34-sheets-1.svg' alt='cuts/MDF34-sheets-1.svg' loading='lazy'></button><figcaption>cuts/MDF34-sheets-1.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/cuts/MAPLE-boards.svg' aria-label='Enlarge cuts/MAPLE-boards.svg'><img src='renders/cuts/MAPLE-boards.svg' alt='cuts/MAPLE-boards.svg' loading='lazy'></button><figcaption>cuts/MAPLE-boards.svg &middot; tap to enlarge</figcaption></figure>
 </div></section>
 <section id='steps'><h2>Build steps</h2><div class='grid'>
-<figure class='fig'><a href='renders/601-step-01.svg'><img src='renders/601-step-01.svg' alt='601-step-01.svg' loading='lazy'></a><figcaption>601-step-01.svg</figcaption></figure>
-<figure class='fig'><a href='renders/602-step-02.svg'><img src='renders/602-step-02.svg' alt='602-step-02.svg' loading='lazy'></a><figcaption>602-step-02.svg</figcaption></figure>
-<figure class='fig'><a href='renders/603-step-03.svg'><img src='renders/603-step-03.svg' alt='603-step-03.svg' loading='lazy'></a><figcaption>603-step-03.svg</figcaption></figure>
-<figure class='fig'><a href='renders/604-step-04.svg'><img src='renders/604-step-04.svg' alt='604-step-04.svg' loading='lazy'></a><figcaption>604-step-04.svg</figcaption></figure>
-<figure class='fig'><a href='renders/605-step-05.svg'><img src='renders/605-step-05.svg' alt='605-step-05.svg' loading='lazy'></a><figcaption>605-step-05.svg</figcaption></figure>
-<figure class='fig'><a href='renders/606-step-06.svg'><img src='renders/606-step-06.svg' alt='606-step-06.svg' loading='lazy'></a><figcaption>606-step-06.svg</figcaption></figure>
-<figure class='fig'><a href='renders/607-step-07.svg'><img src='renders/607-step-07.svg' alt='607-step-07.svg' loading='lazy'></a><figcaption>607-step-07.svg</figcaption></figure>
-<figure class='fig'><a href='renders/608-step-08.svg'><img src='renders/608-step-08.svg' alt='608-step-08.svg' loading='lazy'></a><figcaption>608-step-08.svg</figcaption></figure>
-<figure class='fig'><a href='renders/609-step-09.svg'><img src='renders/609-step-09.svg' alt='609-step-09.svg' loading='lazy'></a><figcaption>609-step-09.svg</figcaption></figure>
-<figure class='fig'><a href='renders/610-step-10.svg'><img src='renders/610-step-10.svg' alt='610-step-10.svg' loading='lazy'></a><figcaption>610-step-10.svg</figcaption></figure>
-<figure class='fig'><a href='renders/611-step-11.svg'><img src='renders/611-step-11.svg' alt='611-step-11.svg' loading='lazy'></a><figcaption>611-step-11.svg</figcaption></figure>
-<figure class='fig'><a href='renders/612-step-12.svg'><img src='renders/612-step-12.svg' alt='612-step-12.svg' loading='lazy'></a><figcaption>612-step-12.svg</figcaption></figure>
-<figure class='fig'><a href='renders/613-step-13.svg'><img src='renders/613-step-13.svg' alt='613-step-13.svg' loading='lazy'></a><figcaption>613-step-13.svg</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/601-step-01.svg' aria-label='Enlarge 601-step-01.svg'><img src='renders/601-step-01.svg' alt='601-step-01.svg' loading='lazy'></button><figcaption>601-step-01.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/602-step-02.svg' aria-label='Enlarge 602-step-02.svg'><img src='renders/602-step-02.svg' alt='602-step-02.svg' loading='lazy'></button><figcaption>602-step-02.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/603-step-03.svg' aria-label='Enlarge 603-step-03.svg'><img src='renders/603-step-03.svg' alt='603-step-03.svg' loading='lazy'></button><figcaption>603-step-03.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/604-step-04.svg' aria-label='Enlarge 604-step-04.svg'><img src='renders/604-step-04.svg' alt='604-step-04.svg' loading='lazy'></button><figcaption>604-step-04.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/605-step-05.svg' aria-label='Enlarge 605-step-05.svg'><img src='renders/605-step-05.svg' alt='605-step-05.svg' loading='lazy'></button><figcaption>605-step-05.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/606-step-06.svg' aria-label='Enlarge 606-step-06.svg'><img src='renders/606-step-06.svg' alt='606-step-06.svg' loading='lazy'></button><figcaption>606-step-06.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/607-step-07.svg' aria-label='Enlarge 607-step-07.svg'><img src='renders/607-step-07.svg' alt='607-step-07.svg' loading='lazy'></button><figcaption>607-step-07.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/608-step-08.svg' aria-label='Enlarge 608-step-08.svg'><img src='renders/608-step-08.svg' alt='608-step-08.svg' loading='lazy'></button><figcaption>608-step-08.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/609-step-09.svg' aria-label='Enlarge 609-step-09.svg'><img src='renders/609-step-09.svg' alt='609-step-09.svg' loading='lazy'></button><figcaption>609-step-09.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/610-step-10.svg' aria-label='Enlarge 610-step-10.svg'><img src='renders/610-step-10.svg' alt='610-step-10.svg' loading='lazy'></button><figcaption>610-step-10.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/611-step-11.svg' aria-label='Enlarge 611-step-11.svg'><img src='renders/611-step-11.svg' alt='611-step-11.svg' loading='lazy'></button><figcaption>611-step-11.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/612-step-12.svg' aria-label='Enlarge 612-step-12.svg'><img src='renders/612-step-12.svg' alt='612-step-12.svg' loading='lazy'></button><figcaption>612-step-12.svg &middot; tap to enlarge</figcaption></figure>
+<figure class='fig'><button class='zoom' type='button' data-src='renders/613-step-13.svg' aria-label='Enlarge 613-step-13.svg'><img src='renders/613-step-13.svg' alt='613-step-13.svg' loading='lazy'></button><figcaption>613-step-13.svg &middot; tap to enlarge</figcaption></figure>
 </div></section>
-</main><footer>Generated from tools/model.py. Every dimension on a drawing is the same number in the cut list.</footer></body></html>
+</main><footer>Generated from tools/model.py. Every dimension on a drawing is the same number in the cut list.</footer>
+<a class='totop' href='#top' aria-label='Back to top'>&uarr; Top</a>
+<div class='lightbox' id='lightbox' hidden><div class='lb-bar'><span id='lb-name'></span><button type='button' id='lb-close'>Close &times;</button></div><div class='lb-body'><img id='lb-img' alt=''></div></div>
+<script>
+(function(){
+  var lb=document.getElementById('lightbox'),img=document.getElementById('lb-img'),name=document.getElementById('lb-name');
+  function open(src){img.src=src;name.textContent=src.replace('renders/','');lb.hidden=false;document.body.style.overflow='hidden';}
+  function close(){lb.hidden=true;img.src='';document.body.style.overflow='';}
+  document.querySelectorAll('.zoom').forEach(function(b){b.addEventListener('click',function(){open(b.getAttribute('data-src'));});});
+  document.getElementById('lb-close').addEventListener('click',close);
+  lb.addEventListener('click',function(e){if(e.target===lb||e.target.classList.contains('lb-body'))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!lb.hidden)close();});
+  var top=document.querySelector('.totop');
+  function onScroll(){top.classList.toggle('show',window.scrollY>600);}
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+})();
+</script></body></html>

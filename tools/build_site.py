@@ -67,6 +67,15 @@ code{background:rgba(127,127,127,.15);padding:1px 4px;border-radius:4px;font-siz
 .grid{display:grid;grid-template-columns:1fr;gap:12px}@media(min-width:900px){.grid{grid-template-columns:1fr 1fr}}
 .hero{display:grid;gap:12px}main{min-width:0}section{min-width:0}.note{background:rgba(180,83,9,.08);border-left:4px solid var(--acc);padding:10px 14px;border-radius:6px}
 a{color:var(--acc)}footer{color:var(--muted);font-size:13px;padding:24px 16px;text-align:center}
+.navlabel{font:600 13px var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:6px 4px 6px 0;align-self:center}
+.zoom{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;border-radius:4px}.zoom:focus-visible{outline:3px solid var(--acc);outline-offset:2px}.zoom img{width:100%;height:auto;display:block}
+.totop{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--acc);color:#fff;padding:10px 14px;border-radius:999px;font:600 14px var(--display);text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.25);opacity:0;pointer-events:none;transition:opacity .2s;z-index:3}.totop.show{opacity:1;pointer-events:auto}
+.lightbox{position:fixed;inset:0;background:rgba(20,22,26,.92);z-index:10;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px)}
+.lb-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 16px;color:#e6e3dc;font:600 15px var(--display)}
+.lb-bar button{background:var(--acc);color:#fff;border:0;border-radius:6px;padding:8px 14px;font:600 15px var(--display);cursor:pointer}.lb-bar button:focus-visible{outline:3px solid #fff}
+.lb-body{flex:1;overflow:auto;padding:0 16px 16px;display:flex;align-items:flex-start;justify-content:center}.lb-body img{background:#fbfbfa;max-width:none;width:max(100%,1100px);height:auto;border-radius:6px}
+@media(max-width:700px){.lb-body img{width:1100px}}
+@media (prefers-reduced-motion: reduce){.totop{transition:none}}
 """
 
 FONTS = "<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono&display=swap'>"
@@ -74,19 +83,35 @@ FONTS = "<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=B
 def main(out="index.html", standalone=True):
     head = f"<title>Workbench Plans</title>{FONTS}<style>{CSS}</style>"
     parts = [(f"<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>{head}</head><body>" if standalone else head)]
-    parts.append("<header><h1>Workbench Plans</h1><p>A 69&quot; x 96&quot; island at SawStop height: outfeed, router lift, rising miter saw, downdraft clamping station, laser well, built-in ducting and power.</p></header>")
-    parts.append("<nav>" + "".join(f"<a href='#{k}'>{t}</a>" for k, t, _ in [("look", "Final look", "")] + DOCS + [("drawings", "Drawings", ""), ("cuts", "Cut diagrams", ""), ("steps", "Step views", "")]) + "</nav><main>")
+    parts.append("<header id='top'><h1>Workbench Plans</h1><p>A 69&quot; x 96&quot; island at SawStop height: outfeed, router lift, rising miter saw, downdraft clamping station, laser well, built-in ducting and power.</p></header>")
+    parts.append("<nav aria-label='Sections'><span class='navlabel'>Jump to</span>" + "".join(f"<a href='#{k}'>{t}</a>" for k, t, _ in [("look", "Final look", "")] + DOCS + [("drawings", "Drawings", ""), ("cuts", "Cut diagrams", ""), ("steps", "Step views", "")]) + "</nav><main>")
     parts.append("<section id='look'><h2>Final look</h2><div class='hero'>")
-    for f in DRAWINGS[0][1]: parts.append(f"<figure class='fig'><img src='renders/{f}' alt='{f}'><figcaption>{f}</figcaption></figure>")
+    for f in DRAWINGS[0][1]: parts.append(f"<figure class='fig'><button class='zoom' type='button' data-src='renders/{f}' aria-label='Enlarge {f}'><img src='renders/{f}' alt='{f}'></button><figcaption>{f} &middot; tap to enlarge</figcaption></figure>")
     parts.append("</div><p class='note'>These are dimensionally accurate line renders generated from the same model as the cut list. Materials are indicated by colour: maple-edged birch top, charcoal fronts, purple = miter station, orange = 4&quot; duct, amber = 2-1/2&quot; vac line, yellow = electrical.</p></section>")
     for key, title, path in DOCS:
         md = open(os.path.join(ROOT, path)).read()
         parts.append(f"<section id='{key}'><h2>{title}</h2>{md_to_html(md)}</section>")
     for key, (title, files) in zip(("drawings", "cuts", "steps"), DRAWINGS[1:]):
         parts.append(f"<section id='{key}'><h2>{title}</h2><div class='grid'>")
-        for f in files: parts.append(f"<figure class='fig'><a href='renders/{f}'><img src='renders/{f}' alt='{f}' loading='lazy'></a><figcaption>{f}</figcaption></figure>")
+        for f in files: parts.append(f"<figure class='fig'><button class='zoom' type='button' data-src='renders/{f}' aria-label='Enlarge {f}'><img src='renders/{f}' alt='{f}' loading='lazy'></button><figcaption>{f} &middot; tap to enlarge</figcaption></figure>")
         parts.append("</div></section>")
-    parts.append("</main><footer>Generated from tools/model.py. Every dimension on a drawing is the same number in the cut list.</footer>" + ("</body></html>" if standalone else ""))
+    parts.append("</main><footer>Generated from tools/model.py. Every dimension on a drawing is the same number in the cut list.</footer>")
+    parts.append("<a class='totop' href='#top' aria-label='Back to top'>&uarr; Top</a>")
+    parts.append("<div class='lightbox' id='lightbox' hidden><div class='lb-bar'><span id='lb-name'></span><button type='button' id='lb-close'>Close &times;</button></div><div class='lb-body'><img id='lb-img' alt=''></div></div>")
+    parts.append("""<script>
+(function(){
+  var lb=document.getElementById('lightbox'),img=document.getElementById('lb-img'),name=document.getElementById('lb-name');
+  function open(src){img.src=src;name.textContent=src.replace('renders/','');lb.hidden=false;document.body.style.overflow='hidden';}
+  function close(){lb.hidden=true;img.src='';document.body.style.overflow='';}
+  document.querySelectorAll('.zoom').forEach(function(b){b.addEventListener('click',function(){open(b.getAttribute('data-src'));});});
+  document.getElementById('lb-close').addEventListener('click',close);
+  lb.addEventListener('click',function(e){if(e.target===lb||e.target.classList.contains('lb-body'))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!lb.hidden)close();});
+  var top=document.querySelector('.totop');
+  function onScroll(){top.classList.toggle('show',window.scrollY>600);}
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+})();
+</script>""" + ("</body></html>" if standalone else ""))
     open(out if os.path.isabs(out) else os.path.join(ROOT, out), "w").write("\n".join(parts))
     print(out, "written")
 
