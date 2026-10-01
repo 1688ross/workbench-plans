@@ -211,7 +211,7 @@ def hero_views():
     S = build_scene(hero=True)
     render(S, os.path.join(OUT, "10-final-look-sw.svg"), "FINAL LOOK  -  from the south-west, everything stowed",
            "Charcoal Baltic-birch fronts with routed finger pulls, maple-edged 1-1/2\" top at 34-3/4\". Miter saw hangs upside down under its flush box; only the router plate, T-track, dog field and vise show.",
-           notes=["West face (left): face vise, dog field, hand-tool drawers, laser tray.  South face (right): long drawers, leaf slot, lift-bay panel with pedal flap, clamp-rack pull-out.",
+           notes=["West face (left): face vise, dog field, hand-tool drawers, laser tray.  South face (right): long drawers, two flip-bay doors with the miter paddle, clamp-rack pull-out.",
                   "Drop-leaf wings hang flat against both ends. LED strip under the top overhang. The table saw sits against the far (north) edge."], hide_internal=True)
     S2 = build_scene(hero=True, saw_up=True, leaves_up=True, well_open=True)
     render(S2, os.path.join(OUT, "11-final-look-in-use.svg"), "FINAL LOOK  -  in use: miter saw flipped up, drop-leaves up, laser well open",

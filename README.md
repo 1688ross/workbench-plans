@@ -2,7 +2,7 @@
 
 Complete plans for a purpose-built woodworking workbench island: outfeed for a SawStop 10" Contractor Saw with the 36" extension, router lift station, a miter station whose saw flips up out of the base on a two-sided platform, a 3/4" dog-hole clamping station over a downdraft plenum, a laser-engraver well, built-in dust ducting for two collectors, built-in power with USB, and a lot of storage. Footprint 69" x 96", top at 34-3/4".
 
-**Start here:** open [`index.html`](index.html) for the whole set on one page, or read the documents in order below.
+**Start here:** [`workbench-plans.pdf`](workbench-plans.pdf) is the whole set as one landscape PDF (72 pages). [`index.html`](index.html) is the same set as a web page. Or read the documents in order below.
 
 ## Documents
 
@@ -34,7 +34,8 @@ Complete plans for a purpose-built woodworking workbench island: outfeed for a S
 Everything is generated from one geometry file, so a changed dimension propagates to every drawing, the cut list and the sheet count:
 
 ```
-python3 tools/build_all.py
+python3 tools/build_all.py                    # drawings, cut list, index.html
+python3 tools/build_pdf.py [--chromium PATH]  # workbench-plans.pdf (needs Playwright + Chromium)
 ```
 
 `tools/model.py` holds the geometry (inches; x = east, y = north toward the saw, z = up). `tools/parts.py` derives every part. `tools/cutlist.py` nests parts onto sheets. `tools/render_*.py` draw the SVGs; `tools/build_docs.py` writes the cut list; `tools/build_site.py` writes `index.html`. No dependencies beyond Python 3.
